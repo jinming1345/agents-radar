@@ -28,7 +28,7 @@ const provider: LlmProvider = createProvider();
 // any given time; the rest queue and run as slots free up.
 // ---------------------------------------------------------------------------
 
-const LLM_CONCURRENCY = 5;
+const LLM_CONCURRENCY = Number(process.env["LLM_CONCURRENCY"]) || 5;
 let llmSlots = LLM_CONCURRENCY;
 const llmQueue: Array<() => void> = [];
 
@@ -134,7 +134,7 @@ export function reportLlmHealth(): void {
 }
 
 /** A rate limit clears in seconds, so a short ladder is enough: 5 s, 10 s, 20 s. */
-const MAX_RETRIES_429 = 3;
+const MAX_RETRIES_429 = Number(process.env["LLM_MAX_RETRIES_429"]) || 3;
 /**
  * Connection failures get a much longer ladder than 429s. A rate limit is the
  * provider pushing back on *us*; an unreachable endpoint is a network outage
