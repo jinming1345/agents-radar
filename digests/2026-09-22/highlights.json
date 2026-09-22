@@ -1,134 +1,134 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code：10个高影响问题待处理",
-      "OpenAI Codex：配额追踪合并4个PR",
-      "Gemini CLI：新版本支持模型",
-      "GitHub Copilot CLI：沙盒化活跃PR",
-      "Pi：实验性代理模式上线",
-      "Qwen Code：24小时内获600+星标"
+      "Claude Code 进入稳定阶段",
+      "OpenAI Codex 活跃度高",
+      "Gemini CLI 夜间构建活跃",
+      "OpenCode v1.18 保持活跃状态",
+      "Pi v0.87 持续开发中",
+      "上下文压缩挑战依然存在"
     ],
     "ai-agents": [
-      "OpenClaw v2026.7.35：发布扩展稳定版",
-      "24小时新增500个问题：稳定性担忧",
-      "PR #155311：降低QA总线媒体开销",
-      "Hermes Agent：内存泄漏修复中",
-      "IronClaw：会话状态损坏报告",
-      "QwenPaw：新增RAG集成"
+      "OpenClaw 发布 v2026.7.35 LTS",
+      "OpenClaw 修复网关崩溃问题",
+      "Hermes Agent 开发持续进行",
+      "IronClaw 在生态中保持活跃",
+      "QwenPaw 更新频率极高",
+      "ZeroClaw 项目增长活跃"
     ],
     "ai-infra": [
-      "vLLM：发现严重长上下文回归问题",
-      "SGLang：Blackwell上13个不稳定的CI测试",
-      "llama.cpp：GPU驻留MoE缓存即将上线",
-      "Ollama：123个开放问题，快速上升",
-      "LiteLLM：企业使用安全重点",
-      "Unsloth：7B模型性能提升"
+      "vLLM 达到 v0.30.0 稳定性",
+      "SGLang 优化 DeepSeek-V4.1",
+      "llama.cpp 增加 GDN 支持",
+      "Ollama 专注于工具调用",
+      "LiteLLM 瞄准成本合规",
+      "Unsloth 提升训练稳定性"
     ],
     "ai-trending": [
-      "BuilderIO/agent-native：新增600+星标",
-      "affaan-m/ECC：优化表现最佳",
-      "Project NOMAD：自托管AI激增",
-      "thedotmack/claude-mem：RAG工具流行",
-      "OpenStock：离线优先的LLM平台",
-      "CodaX-X：注重隐私的AI栈"
-    ],
-    "ai-web": [
-      "Anthropic：生物分子建模提速4倍",
-      "Claude Science：开源优化",
-      "OpenAI Academy：新增数学与AI路径",
-      "Adaptyv Bio：$1M Claude信用竞赛",
-      "OpenAI：数学与AI咨询小组",
-      "数据团队指南：聚焦企业采用"
+      "BuilderIO agent-native 获 607 颗星",
+      "Coder 增加安全代理沙箱",
+      "Cloudflare quiche 增加 32 颗星",
+      "Cua 平台扩展计算机使用能力",
+      "Codex-X 在代理类别中流行",
+      "重心转向代理自主性"
     ],
     "ai-hn": [
-      "Grok 4.7：性能与透明度之争",
-      "Qwen Image 2.1：视觉细节显著提升",
-      "Heretic：无限制模型引发争议",
-      "CI/CD瓶颈：AI采纳痛点",
-      "AI伦理：‘惧怕公司，而非AI’讨论",
-      "斯坦福神经科学突破分享"
+      "Grok 4.7 引发激烈辩论",
+      "Qwen Image 2.1 获开源赞誉",
+      "AI 编程导致 CI 瓶颈",
+      "用户热议自托管模型伦理",
+      "AI 代理的安全风险受关注",
+      "Anthropic 服务稳定性遭质疑"
     ],
     "ai-ph": [
-      "Mycel：从过往交付物生成AI模板",
-      "Soar90™：30-60-90天入职计划",
-      "Answers by Context.dev：JSON模式输出",
-      "Awnsy：离线优先AI工具上线",
-      "Epismo OS：跨工具持久化功能",
-      "Morsa Signals：开发流程自动化"
+      "Mycel 发布内容工作流工具",
+      "Soar90 简化员工入职",
+      "Answers by Context.dev 发布",
+      "Awnsy 带来离线优先 AI",
+      "Epismo OS 助力跨工具持久化",
+      "Minicart 优化电子商务 AI"
+    ],
+    "ai-arxiv": [
+      "LoRA 超网络提升端侧 AI",
+      "Pinocchio 简化不确定性检查",
+      "关键状态 RL 提升代理成功率",
+      "RRSI 提出递归自我改进",
+      "视觉触觉机器人技术势头强劲",
+      "流程化 AI 的新基准"
     ],
     "ai-community": [
-      "浏览器原生AI代理演示：零延迟",
-      "阻止AI发布破损代码：防护模式",
-      "评估LLMs：200x宣称两次误判",
-      "构建Bivack：AWS Lambda微VM沙盒",
-      "代理信任：生产环境避免幻觉",
-      "评估实验室：需可复现测试"
+      "Model Context Protocol 获关注",
+      "可观测性是企业首要考量",
+      "浏览器端代理需求上升",
+      "代理评估需真实测试环境",
+      "Bivack 提供 AWS Lambda 沙箱",
+      "成本计量困扰代理开发"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code: 10 high-impact issues open",
-      "OpenAI Codex: 4 PRs merged on quota tracking",
-      "Gemini CLI: New release with model support",
-      "GitHub Copilot CLI: Active PRs on sandboxing",
-      "Pi: Experimental agent mode launched",
-      "Qwen Code: 600+ stars in 24 hours"
+      "Claude Code enters stable phase",
+      "OpenAI Codex sees high activity",
+      "Gemini CLI nightly builds active",
+      "OpenCode v1.18 maintains active status",
+      "Pi v0.87 continues development",
+      "Context compaction challenges persist"
     ],
     "ai-agents": [
-      "OpenClaw v2026.7.35: extended-stable release issued",
-      "500 new issues in 24 hours: stability concerns",
-      "PR #155311: reduced QA bus media overhead",
-      "Hermes Agent: memory leak fixes in progress",
-      "IronClaw: session state corruption reported",
-      "QwenPaw: new RAG integration added"
+      "OpenClaw shipping v2026.7.35 LTS",
+      "OpenClaw addressing gateway crashes",
+      "Hermes Agent development ongoing",
+      "IronClaw active in ecosystem",
+      "QwenPaw reaches high update volume",
+      "ZeroClaw projects see active growth"
     ],
     "ai-infra": [
-      "vLLM: critical long-context regression found",
-      "SGLang: 13 flaky CI tests on Blackwell",
-      "llama.cpp: GPU-resident MoE cache near launch",
-      "Ollama: 123 open issues, rising fast",
-      "LiteLLM: security focus for enterprise use",
-      "Unsloth: performance gains for 7B models"
+      "vLLM reaches v0.30.0 stability",
+      "SGLang optimizes DeepSeek-V4.1",
+      "llama.cpp adds GDN support",
+      "Ollama focuses on tool-calling",
+      "LiteLLM targets cost compliance",
+      "Unsloth updates training stability"
     ],
     "ai-trending": [
-      "BuilderIO/agent-native: 600+ new stars",
-      "affaan-m/ECC: top performer in optimization",
-      "Project NOMAD: self-hosted AI surge",
-      "thedotmack/claude-mem: RAG tool trending",
-      "OpenStock: offline-first LLM platform",
-      "CodaX-X: privacy-focused AI stack"
-    ],
-    "ai-web": [
-      "Anthropic: 4x speedup in biomolecular modeling",
-      "Claude Science: open-sourced optimizations",
-      "OpenAI Academy: new math & AI paths",
-      "Adaptyv Bio: $1M Claude credit competition",
-      "OpenAI: Advisory Group on Math & AI",
-      "Data team guide: enterprise adoption focus"
+      "BuilderIO agent-native gains 607 stars",
+      "Coder adds secure agent sandboxes",
+      "Cloudflare quiche gains 32 stars",
+      "Cua platform scales computer-use",
+      "Codex-X trends in agent category",
+      "Focus shifts to agentic autonomy"
     ],
     "ai-hn": [
-      "Grok 4.7: debate over performance vs. opacity",
-      "Qwen Image 2.1: visual detail leap shown",
-      "Heretic: unrestricted model sparks debate",
-      "CI/CD bottlenecks: AI adoption pain point",
-      "AI ethics: 'fear companies, not AI' thread",
-      "Stanford neuroscience breakthrough shared"
+      "Grok 4.7 triggers intense debate",
+      "Qwen Image 2.1 wins open-source praise",
+      "AI coding creates CI bottlenecks",
+      "Users debate self-hosted model ethics",
+      "Security risks in AI agents highlighted",
+      "Anthropic service stability questioned"
     ],
     "ai-ph": [
-      "Mycel: AI templates from past deliverables",
-      "Soar90™: 30-60-90 day onboarding plans",
-      "Answers by Context.dev: JSON schema output",
-      "Awnsy: offline-first AI tool launched",
-      "Epismo OS: cross-tool persistence feature",
-      "Morsa Signals: developer workflow automation"
+      "Mycel debuts for content workflows",
+      "Soar90 eases employee onboarding",
+      "Answers by Context.dev launches",
+      "Awnsy brings offline-first AI",
+      "Epismo OS aids cross-tool persistence",
+      "Minicart optimizes e-commerce AI"
+    ],
+    "ai-arxiv": [
+      "LoRA hypernetworks boost on-device AI",
+      "Pinocchio simplifies uncertainty checks",
+      "Critical-State RL improves agent success",
+      "RRSI proposes recursive self-improvement",
+      "Visuo-tactile robotics gains momentum",
+      "New benchmarks for process-based AI"
     ],
     "ai-community": [
-      "Browser-native AI agent demo: zero latency",
-      "Stop AI shipping broken code: guardrail pattern",
-      "Benchmarking LLMs: 200x claim misjudged twice",
-      "Building Bivack: AWS Lambda microVM sandbox",
-      "Agent trust: avoiding hallucinations in prod",
-      "Evaluation labs: reproducible testing needed"
+      "Model Context Protocol gains traction",
+      "Observability is top enterprise concern",
+      "Browser-based agent demand rises",
+      "Agent evaluations require real test envs",
+      "Bivack offers AWS Lambda sandboxing",
+      "Cost measurement challenges agents"
     ]
   }
 }

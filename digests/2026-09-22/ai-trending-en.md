@@ -1,85 +1,55 @@
 # AI Open Source Trends 2026-09-22
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-09-22 01:06 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-09-22 06:53 UTC
 
 ---
 
-# **AI Open Source Trends Report – 2026-09-22**
+## AI Open Source Trends Report (2026-09-22)
 
----
+### 1. Today's Highlights
+The open-source ecosystem is currently dominated by a transition from "AI experimentation" to "Agentic autonomy." Today's trending data shows a massive influx of interest in **computer-use agents** and **optimized memory layers** that allow agents to persist across sessions. Developers are moving away from monolithic LLM wrappers toward highly specific "skills," "memory," and "infrastructure" layers, reflecting a maturation of the AI stack where reducing token consumption and improving long-term reliability are becoming as critical as raw model performance.
 
-## **1. Today's Highlights**
+### 2. Top Projects by Category
 
-The AI open-source ecosystem is witnessing explosive momentum in **agent-native frameworks**, **local-first LLM deployment**, and **persistent memory systems**. Notably, *BuilderIO/agent-native* and *affaan-m/ECC* are surging with over 600 new stars each, signaling strong community interest in agent orchestration and performance optimization. The rise of self-hosted AI infrastructure—evident in *Project NOMAD*, *OpenStock*, and *CodaX-X*—reflects a growing demand for privacy-preserving, offline-capable AI tools. Meanwhile, the proliferation of RAG-focused projects like *thedotmack/claude-mem* and *infiniflow/ragflow* underscores the critical role of context management in real-world agent applications.
-
----
-
-## **2. Top Projects by Category**
-
-### 🔧 AI Infrastructure
+#### 🔧 AI Infrastructure
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [ollama/ollama](https://github.com/ollama/ollama) | Go | 181,404 | A lightweight local LLM runtime supporting Qwen, GLM, DeepSeek, Gemma, and more. Enables instant model deployment on-device—key for privacy-focused workflows. |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | Python | 166,486 | The de facto standard for building, training, and deploying state-of-the-art models across text, vision, audio, and multimodal tasks. Continues to be the backbone of the AI stack. |
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | Python | 152,742 | User-friendly interface for local LLMs, supporting Ollama, OpenAI API, and custom models. Offers a full-stack alternative to cloud-based AI platforms. |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | Python | 146,825 | The dominant agent engineering platform enabling developers to build agentic workflows, RAG pipelines, and tool integrations at scale. |
-| [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Rust | 1,437 (+167) | A novel solution for long-term memory in coding agents, facilitating handoffs between vendors and enabling persistent reasoning across sessions. |
+| [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) | TS | 0 (+607) | A comprehensive framework for building agentic applications. It provides the core abstractions necessary for modern, autonomous software development. |
+| [coder/coder](https://github.com/coder/coder) | Go | 0 (+460) | Provides secure, isolated development environments specifically designed for AI agents. It addresses the critical need for safe sandbox execution in agentic workflows. |
+| [cloudflare/quiche](https://github.com/cloudflare/quiche) | Rust | 0 (+32) | A high-performance implementation of QUIC and HTTP/3. It is increasingly relevant as the backbone for low-latency, real-time AI agent communications. |
 
-### 🤖 AI Agents / Workflows
+#### 🤖 AI Agents / Workflows
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 264,759 | The agent harness performance system optimized for Claude Code, Codex, Opencode, and Cursor. Now a go-to toolkit for high-performance agent development. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Python | 247,780 | An evolving, self-improving agent that learns from user interactions. Represents a shift toward personal, adaptive AI assistants. |
-| [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Python | 187,483 | A vision-driven agent framework aiming to democratize autonomous AI. Still widely adopted despite maturity concerns. |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | TypeScript | 182,986 | Web data API for scalable search, scraping, and interaction—critical for agents needing live information access. |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | Python | 47,064 | Lightweight, extensible, multi-model agent with memory, tools, and multi-channel support. One-line install makes it accessible for rapid prototyping. |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | Python | 48,462 | Ultra-lightweight, self-hosted personal agent with WebUI, MCP, and multi-agent workflows—ideal for edge computing and privacy-focused use cases. |
+| [trycua/cua](https://github.com/trycua/cua) | HTML | 0 (+609) | An innovative platform for scaling computer-use 2.0 via open-source drivers and cross-OS fleets. It is a critical tool for those building agents that interact with desktop environments. |
+| [yynxxxxx/Codex-X](https://github.com/yynxxxxx/Codex-X) | Rust | 0 (+50) | A robust desktop/CLI manager for Codex and other providers, focusing on MCP integration. It simplifies the complex orchestration of local AI skills and session management. |
+| [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Rust | 0 (+167) | A specialized solution for long-term memory in coding CLIs. It facilitates vendor-agnostic handoffs between different AI agents. |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Python | 115,831 (+0) | Enables LLMs to interact directly with the web via browser automation. It remains a foundational project for task-oriented agentic workflows. |
 
-### 📦 AI Applications
+#### 📦 AI Applications
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [zchoi/Awesome-Embodied-Robotics-and-Agent](https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent) | — | 1,891 | Curated list of embodied AI research using LLMs. Reflects growing convergence between robotics and language models. |
-| [Hmbown/Codewhale](https://github.com/Hmbown/Codewhale) | Rust | 41,023 | Open-source coding agent for terminal, built in Rust—high-performance, community-driven, ideal for CLI workflows. |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | TypeScript | 52,055 | AI productivity studio with 300+ assistants and unified access to frontier LLMs—positioning itself as a next-gen AI workspace. |
-| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Python | 55,785 | Turns documents or topics into native PowerPoint decks with animations, charts, and audio narration—powerful for business automation. |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | Python | 65,445 | LLM-powered multi-market stock analysis system with real-time news, decision dashboards, and automated alerts—shows vertical AI adoption. |
+| [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | TS | 0 (+844) | An open-source alternative for real-time market data and insights. Its rapid growth highlights the demand for transparent, free financial tooling. |
+| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | TS | 0 (+394) | An offline-first knowledge server incorporating local AI for self-reliant education. It is perfectly positioned for users prioritizing sovereignty and zero-internet connectivity. |
+| [zhouxiaoka/autoclip](https://github.com/zhouxiaoka/autoclip) | Python | 0 (+250) | An AI-powered tool for intelligent highlight extraction from video. It reflects the growing trend of automating creative content production workflows. |
 
-### 🧠 LLMs / Training
+#### 🔍 RAG / Knowledge
 | Project | Lang | Stars (total / today) | Summary |
 | :--- | :--- | ---: | :--- |
-| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | Python | 62,034 | Train a 64M-parameter LLM from scratch in just 2 hours—demonstrates rising accessibility of small-scale LLM training. |
-| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | Rust | 8,692 | Modular, scalable LLM application framework in Rust—signals growing interest in performant, low-level AI tooling. |
-| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | Python | 4,616 | Learn LLM inference on Apple Silicon—ideal for developers targeting edge devices and M-series Macs. |
-| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Jupyter Notebook | 105,360 | Step-by-step implementation of a ChatGPT-like LLM in PyTorch—essential educational resource for aspiring AI engineers. |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | TS | 94,434 (+0) | Captures, compresses, and persists context across sessions for multiple coding agents. It is vital for maintaining long-term project state in AI development. |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Python | 73,430 (+0) | Optimizes token usage by compressing logs and RAG chunks before they reach the LLM. It offers a massive reduction in costs for agentic loop operations. |
 
-### 🔍 RAG / Knowledge
-| Project | Lang | Stars (total / today) | Summary |
-| :--- | :--- | ---: | :--- |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Go | 91,113 | Leading open-source RAG engine combining retrieval with agent capabilities—fused architecture enables smarter context handling. |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | TypeScript | 94,416 | Persistent context layer that compresses agent session history and injects relevant info across sessions—now a must-have for long-running agents. |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Python | 65,791 | Drop-in memory layer for agents—built for production use, supports context persistence and retrieval across sessions. |
-| [Cognee/cognee](https://github.com/topoteretes/cognee) | Python | 30,891 | Self-hosted AI memory platform with knowledge graph engine—enables true long-term memory without vector stores. |
-| [lancedb/lancedb](https://github.com/lancedb/lancedb) | Rust | 11,493 | Developer-friendly embedded retrieval library for multimodal AI—designed to simplify RAG pipeline construction. |
+### 3. Trend Signal Analysis
+The most striking signal in today’s data is the **"Agentization of the Terminal."** We are seeing a move away from simple chat interfaces toward command-line-driven, persistent agent environments. Projects like `agent-native` and `Codex-X` suggest that the next wave of AI development is not browser-based, but rather deeply embedded into the developer’s local workflow through MCP (Model Context Protocol) and secure sandboxing.
+
+Furthermore, there is a clear **"Token Efficiency Pivot."** With projects like `headroom` and `caveman` (the latter cutting token usage by 65%), the community is focusing on the economic realities of scaling agents. Engineering around "expensive" context windows by using compression and targeted retrieval is becoming more popular than merely scaling up model size.
+
+Finally, the trend toward **offline-first and self-hosted AI**—seen in `project-nomad` and `AnythingLLM`—indicates a significant pushback against purely cloud-dependent AI. Developers are increasingly valuing the ability to "own" their intelligence and knowledge graphs, leveraging local vector stores and RAG pipelines to ensure their data remains private and performant without relying on the latency of external APIs.
+
+### 4. Community Hot Spots
+*   **Agentic Memory:** Look closely at tools like `mem0` and `claude-mem`. Persistent memory is the "missing link" for turning a basic chatbot into a functional, multi-day coding partner.
+*   **Computer-Use Drivers:** The `trycua/cua` project signals that "Computer Use" (controlling OS elements) is the new frontier for agents, moving beyond simple API calling into full screen/mouse/keyboard control.
+*   **Token Compression:** Any tool that reduces the context window footprint (like `headroom`) is seeing high engagement; watch for libraries that integrate seamlessly with existing RAG stacks to lower operational costs.
 
 ---
-
-## **3. Trend Signal Analysis**
-
-Today’s data reveals a clear pivot toward **agent-centric, self-hosted, and memory-aware AI systems**. The surge in projects like *affaan-m/ECC*, *thedotmack/claude-mem*, and *nanobot* indicates that developers are no longer satisfied with one-off AI interactions—they want **persistent, intelligent agents** that remember, adapt, and act autonomously. This trend aligns with recent LLM releases emphasizing agent capabilities (e.g., Anthropic’s Agent Mode, OpenAI’s function calling evolution), but now driven by open-source communities pushing for **offline-first, privacy-preserving alternatives**.
-
-A notable technical shift is the emergence of **Rust-based agent tooling** (*Hmbown/Codewhale*, *0xPlaygrounds/rig*) and **modular frameworks** (*rig*, *agent-native*)—suggesting a move toward performance, reliability, and composability. These projects reflect a maturing ecosystem where developers are prioritizing **infrastructure robustness** over novelty.
-
-Additionally, the popularity of *minimind* and *tiny-llm* signals a grassroots movement toward **accessible LLM training and inference**, especially on consumer hardware. This democratization complements the broader trend of **local-first AI**, where users retain control over their data and models—driven by concerns around vendor lock-in and compliance.
-
----
-
-## **4. Community Hot Spots**
-
-- **[affaan-m/ECC](https://github.com/affaan-m/ECC)** – The performance-optimized agent harness is becoming the de facto standard for high-efficiency coding agents; essential for anyone building or tuning agent workflows.
-- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** – Fusing RAG with agent logic sets a new benchmark for contextual AI; ideal for teams building production-grade knowledge systems.
-- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** – Persistent memory is no longer optional—it’s foundational. This project is critical for any long-running agent application.
-- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** – With training in under 2 hours, this project lowers the barrier to entry for custom LLM development—perfect for experimentation and edge deployment.
-- **[huggingface/transformers](https://github.com/huggingface/transformers)** – Still the core infrastructure. Developers building anything AI-related should consider integrating it early—its ecosystem is unmatched.
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/jinming1345/agents-radar).*
