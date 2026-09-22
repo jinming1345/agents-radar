@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic Claude生物分子建模提速4倍",
+    "impact": 5,
+    "why": "通过AI实现底层算法优化，大幅降低科研门槛，直接改变计算生物学领域的计算范式与成本结构。",
+    "audience": "科研AI开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenClaw进入系统稳定性攻坚期",
+    "impact": 4,
+    "why": "OpenClaw遭遇大规模架构压力，Gateway性能瓶颈和崩溃问题影响所有依赖该生态的Agent开发者。",
+    "audience": "Agent开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "AI Agent开发呈现递归自我改进趋势",
+    "impact": 4,
+    "why": "RRSI等研究标志着Agent开始具备自主优化工具与提示词的能力，是迈向完全自动化开发的新范式。",
+    "audience": "研究者与Agent开发者",
+    "report": "ai-arxiv"
+  },
+  {
+    "title": "vLLM与SGLang竞逐DeepSeek-V4.1原生支持",
+    "impact": 3,
+    "why": "作为行业推理引擎基石，两者的架构升级直接决定了主流前沿模型在生产环境下的落地效率。",
+    "audience": "基础设施工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "Agent开发面临CI/CD基础设施瓶颈",
+    "impact": 3,
+    "why": "Linear等团队反馈AI编码导致CI/CD严重拥堵，反映了从实验到生产环境适配的普遍性工程痛点。",
+    "audience": "全栈/DevOps工程师",
+    "report": "ai-hn"
+  }
+]

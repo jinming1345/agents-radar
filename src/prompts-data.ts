@@ -874,3 +874,39 @@ ${lobstersText}
 语言要求：中文，简洁专业，保留所有原文链接。
 `;
 }
+
+// ---------------------------------------------------------------------------
+// Top picks prompt — the 5 most impactful items of the day, with an impact
+// score and a one-line "why it matters", for the notification card header.
+// ---------------------------------------------------------------------------
+
+export interface TopPick {
+  title: string;
+  impact: number; // 1–5
+  why: string;
+  audience: string;
+  report: string;
+}
+
+export function buildTopPicksPrompt(reportContents: Record<string, string>, count: number = 5): string {
+  const sections = Object.entries(reportContents)
+    .map(([id, content]) => `## [${id}]\n\n${content.slice(0, 3000)}`)
+    .join("\n\n---\n\n");
+
+  return `你是一位资深 AI 行业分析师。以下是今日 AI 生态各报告的摘要，每个报告用 ID 标注。
+
+${sections}
+
+---
+
+从中挑出今天最值得知道的 ${count} 件事，按影响力从高到低排序。判断影响力的标准：会不会改变开发者的选型、会不会影响大量用户、是不是新范式而非小修小补、社区讨论热度。
+
+只返回合法的 JSON 数组，不要 markdown 代码块，不要解释。格式：
+[{"title":"标题（≤20字，含项目名/版本号）","impact":4,"why":"一句话说明为什么重要、影响多大（≤50字）","audience":"受影响的人群（≤10字，如：Agent开发者）","report":"ai-cli"}]
+
+规则：
+- impact 为 1–5 的整数：5=行业级变化，4=多数开发者需要知道，3=某个细分领域重要，2=值得一看，1=小更新
+- 全部用中文，标题里的项目名保留英文
+- report 必须是上面 [方括号] 里的报告 ID
+- 跳过"生成失败"或无内容的报告`;
+}

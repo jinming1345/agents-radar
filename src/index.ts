@@ -31,7 +31,13 @@ import {
   buildSkillsPrompt,
   buildJsonTranslationPrompt,
 } from "./prompts.ts";
-import { buildTrendingPrompt, buildHighlightsPrompt, type ReportHighlights } from "./prompts-data.ts";
+import {
+  buildTrendingPrompt,
+  buildHighlightsPrompt,
+  buildTopPicksPrompt,
+  type ReportHighlights,
+  type TopPick,
+} from "./prompts-data.ts";
 import {
   callLlm,
   translateToZh,
@@ -664,6 +670,19 @@ async function main(): Promise<void> {
 
   const highlightsPath = saveFile(JSON.stringify(highlights, null, 2), dateStr, "highlights.json");
   console.log(`  Saved ${highlightsPath}`);
+
+  // Top picks for the notification card: one extra call, best-effort — a
+  // failure only drops the "今日头条" section, never the run.
+  console.log("  Generating top picks...");
+  let topPicks: TopPick[] = [];
+  try {
+    topPicks = parseLlmJson<TopPick[]>(await callLlm(buildTopPicksPrompt(enReports), 2048));
+    if (!Array.isArray(topPicks)) topPicks = [];
+  } catch (err) {
+    console.error(`  [top] failed: ${err}`);
+  }
+  const topPath = saveFile(JSON.stringify(topPicks, null, 2), dateStr, "top.json");
+  console.log(`  Saved ${topPath} (${topPicks.length} picks)`);
 
   // 6. Create GitHub issues for CLI + OpenClaw (zh + en)
   if (digestRepo) {
