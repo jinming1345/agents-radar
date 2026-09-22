@@ -84,9 +84,9 @@ jobs:
           LLM_PROVIDER: openai
           OPENAI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
-          OPENAI_MODEL: gemini-3.6-flash
-          # Gemini free tier: 20 req/min. Keep in-flight calls low and retry longer.
-          LLM_CONCURRENCY: 2
+          OPENAI_MODEL: gemini-3.1-flash-lite
+          # Gemini free tier: 3.6-flash is capped at 20 req/day; flash-lite is ~15 req/min.
+          LLM_CONCURRENCY: 1
           LLM_MAX_RETRIES_429: 6
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
