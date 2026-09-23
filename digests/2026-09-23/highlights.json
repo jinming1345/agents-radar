@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布稳定版v2.1.280",
+      "OpenAI Codex v0.156.0进入高活跃Alpha阶段",
+      "Gemini CLI nightly v0.62.0活跃度激增",
+      "Copilot CLI稳定版v1.0.89-0维持现状",
+      "Qwen Code v0.24.5-preview PR数量高涨",
+      "生态系统转向基于守护进程的工作流管理"
+    ],
+    "ai-agents": [
+      "OpenClaw面临严重的稳定性回归问题",
+      "OpenClaw 2026.9.5版本正在大规模维护",
+      "基础设施团队解决关键数据库争用问题",
+      "Hermes Agent报告正在进行稳定性测试",
+      "维护人员修复CI中的生命周期争用问题",
+      "工具使用追踪可靠性改进持续进行"
+    ],
+    "ai-infra": [
+      "vLLM凭借SM100架构支持保持领先",
+      "SGLang与vLLM竞逐AMD/ROCm性能",
+      "SGLang推出新的MXFP4量化支持",
+      "LiteLLM稳定版v1.102.0活跃度高",
+      "Ollama仍是本地视觉模型的关键",
+      "Unsloth v0.1.814-beta修复高危漏洞"
+    ],
+    "ai-trending": [
+      "Google ax运行时今日获2305颗星",
+      "agent-substrate快速增长获得245颗星",
+      "treg工具简化OpenRouter代理连接",
+      "univer将AI引入办公生产力套件",
+      "项目增长转向代理编排",
+      "开发者优先考虑新工具的Token效率"
+    ],
+    "ai-web": [
+      "OpenAI发布GPT-6模型Sol和Luna",
+      "GPT-6的新提示词缓存优化已发布",
+      "OpenAI转向第三方安全评估",
+      "Anthropic保持低频更新周期",
+      "Anthropic为未来模型迭代做准备",
+      "OpenAI的发布标志着前沿模型的大转型"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol和Luna引发社区极大兴趣",
+      "Claude Opus 5.5引发激烈的用户基准测试",
+      "GPT-6 Astra成功破解Enigma密码",
+      "用户讨论GPT-6的推理能力",
+      "关于Opus 5.5定价合理性的争论",
+      "HN社区担忧代理安全漏洞"
+    ],
+    "ai-arxiv": [
+      "LoRA生成超网络实现端侧微调",
+      "复杂KDA增强线性RNN状态建模",
+      "解释感知PTQ提升推理路径聚焦度",
+      "新研究聚焦自主代理生命周期",
+      "研究探讨递归式AI自我提升",
+      "高风险AI行为审计方法出现"
+    ],
+    "ai-community": [
+      "QA老手记录向AI驱动工作流的转型",
+      "Go语言实现低成本RAG的新指南",
+      "代理测试运行减少90%的案例研究",
+      "关于防止LLM API密钥泄露的开发者建议",
+      "社区转向专门的代理模式",
+      "Vibecoding与生产需求间的矛盾加剧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits stable v2.1.280 release",
+      "OpenAI Codex v0.156.0 enters high-activity alpha",
+      "Gemini CLI nightly v0.62.0 sees surge in activity",
+      "Copilot CLI stable v1.0.89-0 maintains status",
+      "Qwen Code v0.24.5-preview shows high PR volume",
+      "Ecosystem shifts to daemon-based workflow management"
+    ],
+    "ai-agents": [
+      "OpenClaw faces major stability regression issues",
+      "OpenClaw 2026.9.5 build under heavy maintenance",
+      "Infrastructure teams tackle critical database contention",
+      "Hermes Agent reports ongoing stability testing",
+      "Maintainers fix lifecycle contention in CI",
+      "Tool usage tracking reliability improvements ongoing"
+    ],
+    "ai-infra": [
+      "vLLM secures lead with SM100 architecture support",
+      "SGLang and vLLM race for AMD/ROCm performance",
+      "SGLang pushes new MXFP4 quantization support",
+      "LiteLLM stable v1.102.0 sees high activity",
+      "Ollama remains key for local vision-based models",
+      "Unsloth v0.1.814-beta addresses high-severity issues"
+    ],
+    "ai-trending": [
+      "Google's ax runtime gains 2305 stars today",
+      "agent-substrate hits 245 stars in rapid growth",
+      "treg tool simplifies OpenRouter agent connections",
+      "univer brings AI into office productivity suites",
+      "Project growth pivots to agentic orchestration",
+      "Developers prioritize token efficiency in new tools"
+    ],
+    "ai-web": [
+      "OpenAI debuts GPT-6 models Sol and Luna",
+      "New prompt caching optimizations for GPT-6 launched",
+      "OpenAI shifts to third-party safety assessments",
+      "Anthropic maintains low-frequency update cycle",
+      "Anthropic prepares for future model iteration",
+      "OpenAI launch signals major frontier model pivot"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna drive massive community interest",
+      "Claude Opus 5.5 triggers intense user benchmarking",
+      "GPT-6 Astra successfully breaks Enigma code",
+      "Users debate reasoning capabilities in GPT-6",
+      "Discourse split on Opus 5.5 pricing justification",
+      "HN community worried about agent security flaws"
+    ],
+    "ai-arxiv": [
+      "LoRA-generating hypernetworks enable on-device tuning",
+      "Complex KDA enhances linear RNN state modeling",
+      "Explanation-Aware PTQ improves reasoning path focus",
+      "New research focuses on autonomous agent life-cycles",
+      "Study explores recursive AI self-improvement",
+      "Methods emerge for auditing high-stakes AI behavior"
+    ],
+    "ai-community": [
+      "QA veteran documents pivot to AI-driven workflows",
+      "New guide for cheap RAG in Go without vector DBs",
+      "Case study on cutting agent test runs by 90%",
+      "Developer advice on stopping LLM API key leaks",
+      "Community shifts to specialized agentic patterns",
+      "Tension grows between vibecoding and production needs"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI发布GPT-6 Sol与Luna",
+    "impact": 5,
+    "why": "作为行业标杆的新旗舰模型，其分化模型架构及提示词缓存技术将重新定义推理与成本效率标准。",
+    "audience": "全体AI开发者与企业",
+    "report": "ai-web"
+  },
+  {
+    "title": "Google开源Agent运行时ax",
+    "impact": 5,
+    "why": "ax作为新的Agent编排运行时标准，有望统一行业内Agent执行任务的方式，具有平台级影响。",
+    "audience": "Agent架构师",
+    "report": "ai-trending"
+  },
+  {
+    "title": "Anthropic发布Claude Opus 5.5",
+    "impact": 4,
+    "why": "作为GPT-6的直接竞品，其基准性能提升引发了开发者对模型选型和性价比的广泛重新评估。",
+    "audience": "AI应用开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw面临重大架构危机",
+    "impact": 4,
+    "why": "核心网关存在严重内存泄漏及服务停滞，大量依赖此框架的生产级Agent项目面临稳定性中断。",
+    "audience": "Agent平台开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "vLLM完成SM100架构适配",
+    "impact": 3,
+    "why": "支持DeepSeek-V4-Flash及MXFP8缓存，确立了其在高性能推理基础设施领域的领先地位。",
+    "audience": "模型推理工程师",
+    "report": "ai-infra"
+  }
+]
