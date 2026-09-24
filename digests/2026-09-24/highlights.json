@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.281 持续开发中",
+      "OpenAI Codex v0.156.1 推送 Rust 更新",
+      "Gemini CLI 持续进行每夜预览活动",
+      "Copilot CLI v1.0.89-1 向用户发布",
+      "OpenCode 进入长期维护模式",
+      "开发者专注于透明度和审计工具"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.6 因严重崩溃被撤回",
+      "OpenClaw v2026.9.7 正在进行紧急修复",
+      "500 个活跃 PR 导致维护负载沉重",
+      "OpenClaw 网关的内存泄漏依然严重",
+      "CI/CD 改进缩短了构建时间",
+      "重心转向 macOS 和 Windows 的稳定性"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0 树立了广度标杆",
+      "Ollama rc1 带来新的 MLX 优化",
+      "Unsloth v0.1.815-beta 增加 AMD 支持",
+      "SGLang 优先开发 Rust 前端",
+      "LiteLLM 重点扩展计费和审计功能",
+      "vLLM 推进引擎加固和 MoE 稳定性"
+    ],
+    "ai-trending": [
+      "google/ax 今日新增 1543 颗星",
+      "substrate 智能体基础框架新增 558 颗星",
+      "obra/superpowers 为 CLI 工作流新增 474 颗星",
+      "harness-sdk 瞄准框架无关的控制",
+      "行业转向智能体原生架构",
+      "高性能内存层成为强劲趋势"
+    ],
+    "ai-web": [
+      "Anthropic 转向新型酶发现",
+      "Claude 识别出类似 CRISPR 的酶系统",
+      "Anthropic 成立内部生命科学实验室",
+      "OpenAI 强调联合国政策参与",
+      "OpenAI Academy 里程碑推动生态增长",
+      "OpenAI 转向成熟的机构化运营"
+    ],
+    "ai-hn": [
+      "Claude Opus 5.5 主导模型能力讨论",
+      "GPT-6 Sol 和 Luna 发布引发激烈辩论",
+      "科学 AI 应用获得社区高度关注",
+      "用户讨论自主智能体集成的风险",
+      "对 AI 相关安全故障的担忧增加",
+      "编码智能体仍是社区讨论热点"
+    ],
+    "ai-arxiv": [
+      "Flash-dLLM 改善扩散模型延迟",
+      "在线策略蒸馏保留量化模型逻辑",
+      "BF16 和 FP16 输出显示非确定性漂移",
+      "研究强调新的智能体卫生策略",
+      "智能体决策的形式化审计方法出现",
+      "硬件感知量化受到学术界关注"
+    ],
+    "ai-community": [
+      "开发者偏好类型化状态机而非 LLM",
+      "多智能体成本追踪在 AWS 上获关注",
+      "引用验证提高了 RAG 的准确性",
+      "工程师难以应对隐蔽的智能体故障",
+      "智能体工作流趋向确定性控制",
+      "社区从追求炒作转向关注可观测性"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.281 maintains active development",
+      "OpenAI Codex v0.156.1 pushes rust-based updates",
+      "Gemini CLI shows continued nightly preview activity",
+      "Copilot CLI v1.0.89-1 releases for users",
+      "OpenCode enters long-term maintenance mode",
+      "Developers target transparency and audit tools"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.6 withdrawn due to critical crash",
+      "Urgent hotfixes underway for OpenClaw v2026.9.7",
+      "High maintenance load with 500 active PRs",
+      "Memory leaks in OpenClaw gateway remain critical",
+      "CI/CD improvements reduce build times",
+      "Focus shifts to stabilizing macOS and Windows"
+    ],
+    "ai-infra": [
+      "llama.cpp v0.5.0 sets the gold standard for breadth",
+      "Ollama rc1 brings new MLX optimizations",
+      "Unsloth v0.1.815-beta adds AMD enablement",
+      "SGLang prioritizes Rust-frontend development",
+      "LiteLLM scales focus on billing and auditing",
+      "vLLM pushes engine hardening and MoE stability"
+    ],
+    "ai-trending": [
+      "google/ax leads with 1543 stars today",
+      "substrate adds 558 stars for agent foundations",
+      "obra/superpowers gains 474 stars for CLI workflows",
+      "harness-sdk targets framework-agnostic control",
+      "Industry shifts to agent-native architectures",
+      "High-performance memory layers trend strongly"
+    ],
+    "ai-web": [
+      "Anthropic pivots to novel enzyme discovery",
+      "Claude identifies CRISPR-like enzyme systems",
+      "Anthropic opens internal life sciences laboratory",
+      "OpenAI emphasizes UN policy engagement",
+      "OpenAI Academy milestones drive ecosystem growth",
+      "OpenAI shifts to mature institutional operations"
+    ],
+    "ai-hn": [
+      "Claude Opus 5.5 dominates model capability debate",
+      "GPT-6 Sol and Luna release triggers intense discussion",
+      "Scientific AI usage gains major community interest",
+      "Users debate risks of autonomous agent integration",
+      "Concerns rise over AI-linked security failures",
+      "Coding agents remain a top community focus"
+    ],
+    "ai-arxiv": [
+      "Flash-dLLM improves diffusion model latency",
+      "On-policy distillation preserves quantized model logic",
+      "BF16 and FP16 outputs show non-deterministic drift",
+      "Research highlights new agentic hygiene strategies",
+      "Formal auditing methods for agent decisions emerge",
+      "Hardware-aware quantization gains academic focus"
+    ],
+    "ai-community": [
+      "Developers favor typed state machines over LLMs",
+      "Multi-agent cost tracking gains traction on AWS",
+      "Citation verification improves RAG truthfulness",
+      "Engineers struggle with silent agent failures",
+      "Agentic workflows move toward deterministic control",
+      "Community shifts from build hype to observability"
+    ]
+  }
+}

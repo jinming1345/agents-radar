@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic Claude进入生物实验领域",
+    "impact": 5,
+    "why": "标志着AI从工具演进为自主科学研究者，突破了纯数字化作业范畴，开创了AI驱动科学发现的新范式。",
+    "audience": "AI科研人员",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenAI发布GPT-6 Sol和Luna",
+    "impact": 5,
+    "why": "作为行业旗舰模型更新，直接影响全球LLM基准水平、架构选型及Agent能力的上限。",
+    "audience": "全体AI开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw v2026.9.6紧急召回",
+    "impact": 4,
+    "why": "作为核心Agent网关，此次崩溃导致大范围生产环境停滞，强制要求所有关联生态进行紧急迁移与修复。",
+    "audience": "Agent系统架构师",
+    "report": "ai-agents"
+  },
+  {
+    "title": "google/ax：新Agent编排运行时",
+    "impact": 4,
+    "why": "Google推出的标准化Agent运行时，有望统一企业级Agent后端规范，改变当前碎片化的开发选型。",
+    "audience": "后端及Agent开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "抛弃Supervisor LLM转向状态机",
+    "impact": 3,
+    "why": "社区共识从非确定性LLM编排转向确定性状态机，解决了多Agent协作中的高成本与死循环难题。",
+    "audience": "Agent开发者",
+    "report": "ai-community"
+  }
+]
