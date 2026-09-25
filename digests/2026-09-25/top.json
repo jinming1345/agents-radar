@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic成立AI生命科学实验室",
+    "impact": 5,
+    "why": "AI模型从文本生成迈向科学发现，Claude成功识别 novel enzyme 系统，确立了AI自主科研的新范式。",
+    "audience": "科研与AI行业",
+    "report": "ai-web"
+  },
+  {
+    "title": "GPT-6 Sol and Luna发布",
+    "impact": 5,
+    "why": "OpenAI新一代旗舰模型在推理和多模态能力上实现重大跳跃，直接决定未来模型选型基准。",
+    "audience": "全体开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "AI CLI工具转向守护进程架构",
+    "impact": 4,
+    "why": "开发者工具由Electron向语言原生守护进程转型，解决了内存泄漏问题，是迈向生产级可靠性的关键架构变更。",
+    "audience": "CLI工具开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "google/ax开源Agent编排框架",
+    "impact": 4,
+    "why": "作为大厂出品的标准化Agent运行环境，其对Agent编排范式的定义将影响后续工具的设计选型。",
+    "audience": "Agent开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "OpenClaw进入高频修复压力期",
+    "impact": 3,
+    "why": "作为核心Agent框架，当前爆发的性能瓶颈与崩溃问题，要求相关开发者立即暂停更新或采取补救措施。",
+    "audience": "Agent基础设施开发者",
+    "report": "ai-agents"
+  }
+]

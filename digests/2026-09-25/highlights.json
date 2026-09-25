@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.282 进入活跃状态",
+      "OpenAI Codex v0.158 保持高活跃度",
+      "开发者转向守护进程化与隔离架构",
+      "Qwen Code v0.24.5 持续更新",
+      "Windows 稳定性仍是采用的主要障碍",
+      "智能体护栏成为社区共同优先级"
+    ],
+    "ai-agents": [
+      "OpenClaw 追踪 500 个活跃问题和 PR",
+      "重点解决网关崩溃问题",
+      "项目保持高速稳定化",
+      "大规模重构以统一智能体/会话助手",
+      "优化 CI 测试以减少集成干扰",
+      "开发专注于关键回归修复"
+    ],
+    "ai-infra": [
+      "vLLM 引领 Blackwell/MI355X 集成",
+      "向混合 Mamba/Transformer 架构转型",
+      "SGLang 聚焦 FFN/MoE 流水线执行",
+      "强化基础设施以确保生产可靠性",
+      "llama.cpp 瞄准 Metal/NPU 内核优化",
+      "LiteLLM 扩展企业治理与预算管理"
+    ],
+    "ai-trending": [
+      "Google ax runtime 今日新增 1373 颗星",
+      "聚焦自动化文件与代码库管理",
+      "NVIDIA Model-Optimizer 提升量化速度",
+      "智能体控制器成为关键中间件",
+      "pytorch 保持 10.3 万颗星的深厚基础",
+      "推理效率项目获得巨大发展动能"
+    ],
+    "ai-web": [
+      "Anthropic 成立内部生命科学实验室",
+      "Claude 模型展示新型酶发现能力",
+      "OpenAI 转向积极扩张亚太市场",
+      "Anthropic 研究将智能与谈判关联",
+      "OpenAI 活动证实全球平台规模化",
+      "从纯基准测试转向智能体实用性"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol 与 Luna 发布引发激烈辩论",
+      "Claude Opus 5.5 挑战 LLM 推理基准",
+      "用户担忧流氓 AI 智能体安全",
+      "社区辩论 AI 决策的社会影响",
+      "Anthropic 的酶研究引发高度关注",
+      "对 API 行为变动的挫败感增加"
+    ],
+    "ai-arxiv": [
+      "Memory Attention 取代值投影",
+      "PASTABench 评估多智能体安全性",
+      "Log-Depth RNN 提供线性并行执行",
+      "关于 KV 缓存与参数交互的新研究",
+      "特征折叠优化受限硬件",
+      "研究探索长周期智能体规划"
+    ],
+    "ai-community": [
+      "开发者审查智能体评估框架",
+      "混淆代理漏洞困扰新型智能体系统",
+      "语义缓存改善智能体数据流",
+      "搜索索引质量优于额外训练",
+      "修复智能体评估错误的指南",
+      "行业转向稳健的工程实践"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.282 achieves active status",
+      "OpenAI Codex v0.158 sees high activity",
+      "Devs shift to daemonized, isolated architectures",
+      "Qwen Code v0.24.5 maintains active updates",
+      "Windows stability remains a key adoption barrier",
+      "Agentic guardrails become a shared community priority"
+    ],
+    "ai-agents": [
+      "OpenClaw tracks 500 active issues and 500 PRs",
+      "Intense focus on resolving gateway crashes",
+      "Project remains in high-velocity stabilization",
+      "Major refactoring to unify agent/session helpers",
+      "CI testing optimized to reduce integration noise",
+      "Development centers on critical regression fixes"
+    ],
+    "ai-infra": [
+      "vLLM leads integration for Blackwell/MI355X",
+      "Shift toward hybrid Mamba/Transformer architectures",
+      "SGLang focuses on FFN/MoE pipeline execution",
+      "Infrastructure hardening for production reliability",
+      "llama.cpp targets Metal/NPU kernel optimization",
+      "LiteLLM scales enterprise governance and budgeting"
+    ],
+    "ai-trending": [
+      "Google's ax runtime gains 1373 stars today",
+      "Focus on autonomous file and codebase management",
+      "NVIDIA Model-Optimizer targets quantization speed",
+      "Agent harnesses emerge as critical middleware",
+      "pytorch retains massive 103k star foundation",
+      "Inference efficiency projects gain massive momentum"
+    ],
+    "ai-web": [
+      "Anthropic opens in-house life sciences lab",
+      "Claude models demonstrate novel enzyme discovery",
+      "OpenAI pivots toward aggressive APAC expansion",
+      "Anthropic study links intelligence to negotiation",
+      "OpenAI activity confirms global platform scaling",
+      "Shift from pure benchmarking to agentic utility"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna releases spark intense debate",
+      "Claude Opus 5.5 challenges LLM reasoning benchmarks",
+      "Users worry over rogue AI agent security",
+      "Community debates societal impact of AI decisions",
+      "Anthropic's enzyme research draws high interest",
+      "Frustration grows over shifting API behaviors"
+    ],
+    "ai-arxiv": [
+      "Memory Attention replaces value projections",
+      "PASTABench assesses multi-agent safety",
+      "Log-Depth RNNs offer linear parallel execution",
+      "New research on KV cache and parameter interplay",
+      "Feature folding optimizes constrained hardware",
+      "Studies explore long-horizon agent planning"
+    ],
+    "ai-community": [
+      "Devs scrutinize agent evaluation frameworks",
+      "Confused deputy bug plagues new agent systems",
+      "Semantic caching improves agentic dataflow",
+      "Search index quality outweighs extra training",
+      "Guide to fixing agent evaluation mistakes",
+      "Industry shifts toward robust engineering practices"
+    ]
+  }
+}
