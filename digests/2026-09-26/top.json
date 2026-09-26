@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI发布GPT-6 (Sol & Luna)",
+    "impact": 5,
+    "why": "作为行业基准模型，其架构变革和性能跃升将直接重塑所有AI应用开发者的模型选型基准。",
+    "audience": "全体开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic发布Claude Opus 5.5",
+    "impact": 5,
+    "why": "在科学推理和自主执行领域取得突破，与GPT-6共同定义了当前前沿AI能力的上限。",
+    "audience": "AI研究人员/开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Google发布Agent架构Runtime ax",
+    "impact": 4,
+    "why": "标志着大厂开始标准化Agent生命周期管理，将深刻影响企业级Agent平台的构建路径。",
+    "audience": "Agent开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "学术界揭示Agent自我篡改风险",
+    "impact": 4,
+    "why": "研究指出本地Agent可篡改执行轨迹，引发对生产环境Agent审计和安全性控制的范式重思。",
+    "audience": "AI安全/架构师",
+    "report": "ai-arxiv"
+  },
+  {
+    "title": "vLLM全面适配DeepSeek-V4.1",
+    "impact": 3,
+    "why": "针对Hopper架构的内核级优化，直接影响高性能推理引擎的落地效果，是生产环境部署的关键选型。",
+    "audience": "基础设施工程师",
+    "report": "ai-infra"
+  }
+]

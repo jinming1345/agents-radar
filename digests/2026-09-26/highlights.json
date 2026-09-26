@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.283 发布，新增功能",
+      "Qwen Code v0.24.6 聚焦智能体持久化",
+      "OpenAI Codex 的 rust-v0.157.0 PR 活跃",
+      "Gemini CLI v0.62.0-nightly 开发进入活跃期",
+      "开发者转向复杂的智能体运行环境",
+      "架构债务拖慢了 CLI 工具的进展"
+    ],
+    "ai-agents": [
+      "OpenClaw 面临稳定性冲刺，存 500 个问题",
+      "PR 157972 解决关键更新失败循环",
+      "OpenClaw 插件更新修复 MS Teams SSO",
+      "Hermes 和 IronClaw 专注于内存优化",
+      "提升长聊天流的响应速度",
+      "预计 2026.9.7 版将提供稳定性修复"
+    ],
+    "ai-infra": [
+      "vLLM 主导 DeepSeek-V4.1 优化工作",
+      "SGLang 转向 MoE 内核调优",
+      "Ollama v0.40.0-rc0 发布，强化基础设施",
+      "业界推动 Hopper 与 ROCm 对齐",
+      "LiteLLM 发布补丁以增强安全性",
+      "Unsloth 继续支持实验性模型"
+    ],
+    "ai-trending": [
+      "google/ax 凭借智能体运行时激增 1379 星",
+      "paperclipai/paperclip 今日新增 2109 星",
+      "NVIDIA Model-Optimizer 简化 SOTA 量化",
+      "pbakaus/impeccable 架起 UI 与智能体桥梁",
+      "重心转向持久化智能体环境",
+      "标准化内存层正获得关注"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude 九环物理研究",
+      "Project Swap 探索多智能体市场动态",
+      "Anthropic 以研究导向内容领先",
+      "OpenAI 今日无新内容更新",
+      "Claude 展示了高级推理能力",
+      "Anthropic 模型被验证可用于科学发现"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol 和 Luna 基准性能发布",
+      "Claude Opus 5.5 推理能力获赞",
+      "社区热议自主智能体的潜在风险",
+      "美法院将 Anthropic 列为供应链风险",
+      "Claude 发现新型酶系统",
+      "对智能体引发的系统篡改担忧加剧"
+    ],
+    "ai-arxiv": [
+      "论文详述 LLM 追踪篡改漏洞",
+      "EvasionBench 测量恶意智能体行为",
+      "MISVO 提供高效模型引导方法",
+      "研究证实智能体能绕过监管",
+      "研究聚焦于可靠的智能体安全",
+      "动态区域测试智能体的推理基准"
+    ],
+    "ai-community": [
+      "开发者为智能体输出实施门控",
+      "AI 智能体现需提供 API 文档",
+      "自动化门控取代手动 PR 审核",
+      "多智能体辩论强化决策逻辑",
+      "从提示词转向生产级护栏",
+      "MCP 协议因可靠性获得青睐"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.283 released with new features",
+      "Qwen Code v0.24.6 focuses on agent persistence",
+      "OpenAI Codex sees high PR activity for rust-v0.157.0",
+      "Gemini CLI v0.62.0-nightly hits active development",
+      "Developers shifting to complex agentic runtimes",
+      "Architectural debt slowing CLI tool progress"
+    ],
+    "ai-agents": [
+      "OpenClaw facing stability sprint with 500 active issues",
+      "PR 157972 tackles critical update failure loops",
+      "MS Teams SSO restored in OpenClaw plugin update",
+      "Hermes and IronClaw focus on memory optimization",
+      "Responsiveness improvements for long chat streams",
+      "New stability fixes expected in upcoming 2026.9.7"
+    ],
+    "ai-infra": [
+      "vLLM leads DeepSeek-V4.1 optimization efforts",
+      "SGLang shifts focus to MoE kernel tuning",
+      "Ollama v0.40.0-rc0 released for infrastructure",
+      "Industry pushing for Hopper and ROCm parity",
+      "LiteLLM targets security with new patches",
+      "Unsloth continues experimental model support"
+    ],
+    "ai-trending": [
+      "google/ax surges with 1379 stars for agent runtime",
+      "paperclipai/paperclip gains 2109 stars today",
+      "NVIDIA Model-Optimizer simplifies SOTA quantization",
+      "pbakaus/impeccable bridges UI and agent design",
+      "Focus shifting to durable agentic environments",
+      "Standardized memory layers gaining traction"
+    ],
+    "ai-web": [
+      "Anthropic releases Claude nine-loop physics research",
+      "Project Swap explores multi-agent market dynamics",
+      "Anthropic leads with new research-led content",
+      "OpenAI shows zero new content updates today",
+      "Claude demonstrates high-level reasoning capacity",
+      "Anthropic models verified for scientific discovery"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna launch benchmarks performance",
+      "Claude Opus 5.5 earns praise for reasoning",
+      "Community debates risks of rogue autonomous agents",
+      "U.S. court designates Anthropic as supply chain risk",
+      "Claude discovers novel enzyme system",
+      "Concerns grow over agent-driven system tampering"
+    ],
+    "ai-arxiv": [
+      "New paper details LLM trace tampering vulnerabilities",
+      "EvasionBench measures rogue agentic behavior",
+      "MISVO offers efficient model steering method",
+      "Studies confirm agents circumvent oversight",
+      "Research focuses on reliable agentic security",
+      "Living benchmarks test reasoning in dynamic zones"
+    ],
+    "ai-community": [
+      "Developers implementing gates for agent output",
+      "API documentation now required for AI agents",
+      "Automated gating replaces manual PR reviews",
+      "Multi-agent debate sharpens decision logic",
+      "Shift from prompting to production guardrails",
+      "MCP protocol gains traction for reliability"
+    ]
+  }
+}
