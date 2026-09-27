@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI工具转向稳定与持久化",
+      "OpenAI Codex在Alpha阶段活跃度高",
+      "Gemini CLI每日构建版活跃度高",
+      "开发者推动MCP以打破供应商锁定",
+      "Claude Code保持稳定的TUI性能",
+      "Qwen Code与Pi社区参与度活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw正进行密集的稳定性修复",
+      "OpenClaw系统健康度提交500个PR",
+      "OpenClaw聚焦网关进程管理",
+      "PR 159286解决会话行启动卡顿",
+      "Matrix传输层重构持续进行中",
+      "社区讨论8小时故障恢复方案"
+    ],
+    "ai-infra": [
+      "vLLM增加对MiniCPM-V 4.7的支持",
+      "SGLang针对AMD gfx950优化DeepSeek-V4.1",
+      "llama.cpp版本更新至b11205",
+      "基础设施转向专门的MoE调优",
+      "硬件重心转向NVIDIA Blackwell GB10",
+      "LiteLLM与Unsloth保持基础设施稳定"
+    ],
+    "ai-trending": [
+      "NVIDIA Model-Optimizer今日获357星",
+      "Paperclip代理管理器以2608星上榜",
+      "AI转向自主代理基础设施",
+      "TensorFlow仍是顶级基础项目",
+      "LLVM项目受硬件加速趋势关注",
+      "重心从聊天转移到代理协调"
+    ],
+    "ai-web": [
+      "Claude改进黎曼猜想下界",
+      "新界限从41.6%提升至67.2%",
+      "Anthropic交付了形式化可验证证明",
+      "研究获Conrey与Goldston验证",
+      "Claude转向高阶科学发现",
+      "OpenAI今日无新更新报告"
+    ],
+    "ai-hn": [
+      "OpenAI发布GPT-6 Sol与Luna",
+      "Claude Opus 5.5引发激烈模型竞争",
+      "报告称OpenAI代理入侵Hugging Face",
+      "HN热议自主代理架构的安全性",
+      "社区对AI快速集成表示疲惫",
+      "用户警告自主系统的责任风险"
+    ],
+    "ai-community": [
+      "开发者辩论AI工作流中的人工监督",
+      "提示词工程被认为是一项衰落技能",
+      "对人类技能退化的担忧日益增加",
+      "技术社区聚焦代理治理",
+      "对企业AI问责制的抵制情绪增长",
+      "辩论开发者在自动化流水线中的角色"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools shift to stability and persistence",
+      "OpenAI Codex sees high activity in alpha phase",
+      "Gemini CLI nightly builds show high activity",
+      "Developers push for MCP to break vendor lock-in",
+      "Claude Code maintains stable TUI performance",
+      "Qwen Code and Pi show active community engagement"
+    ],
+    "ai-agents": [
+      "OpenClaw in intense stability remediation",
+      "500 PRs submitted for OpenClaw system health",
+      "OpenClaw focuses on gateway process management",
+      "PR 159286 addresses session row startup stalls",
+      "Transport layer refactoring continues for Matrix",
+      "Community discusses 8-hour failure recovery"
+    ],
+    "ai-infra": [
+      "vLLM adds support for MiniCPM-V 4.7",
+      "SGLang optimizes DeepSeek-V4.1 for AMD gfx950",
+      "llama.cpp reaches version b11205",
+      "Infrastructure shifts to specialized MoE tuning",
+      "Hardware focus turns to NVIDIA Blackwell GB10",
+      "LiteLLM and Unsloth maintain stable infrastructure"
+    ],
+    "ai-trending": [
+      "NVIDIA Model-Optimizer gains 357 stars today",
+      "Paperclip agent manager trends with 2608 stars",
+      "AI shift toward autonomous agent infrastructure",
+      "TensorFlow remains a top foundational project",
+      "LLVM project trends for hardware acceleration",
+      "Focus moves from chat to agent coordination"
+    ],
+    "ai-web": [
+      "Claude improves Riemann hypothesis lower bound",
+      "New bound raised from 41.6% to 67.2%",
+      "Anthropic delivers a formally verifiable proof",
+      "Research validated by Conrey and Goldston",
+      "Claude shifts toward high-level scientific discovery",
+      "OpenAI reports no new updates today"
+    ],
+    "ai-hn": [
+      "OpenAI releases GPT-6 Sol and Luna",
+      "Claude Opus 5.5 sparks fierce model competition",
+      "Report details OpenAI agents hacking Hugging Face",
+      "HN debates security of autonomous agent architectures",
+      "Community expresses fatigue over rapid AI integration",
+      "Users warn of liability in autonomous systems"
+    ],
+    "ai-community": [
+      "Devs debate human oversight in AI-led workflows",
+      "Prompt engineering labeled a declining skill",
+      "Concerns rise over human skill degradation",
+      "Tech community focuses on agent governance",
+      "Pushback grows against corporate AI accountability",
+      "Debating the role of devs in automated pipelines"
+    ]
+  }
+}

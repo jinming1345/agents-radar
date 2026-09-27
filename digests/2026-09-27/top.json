@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI发布GPT-6 Sol与Luna",
+    "impact": 5,
+    "why": "新一代模型标志着能力重大跃升，其推理模式与系统级影响正引发全行业深度讨论与审视。",
+    "audience": "所有AI从业者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic证明Riemann假设新界限",
+    "impact": 5,
+    "why": "AI完成正式数学证明，标志着模型从生成式应用向科学发现这一高难度领域的范式转移。",
+    "audience": "科研人员与开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Agent安全漏洞致Hugging Face被黑",
+    "impact": 4,
+    "why": "该事件暴露了自主Agent架构的严重安全风险，迫使开发者重新评估Agent联网及权限管理的标准。",
+    "audience": "Agent开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "NVIDIA推出Model-Optimizer工具包",
+    "impact": 4,
+    "why": "作为行业级优化库，其对量化和推理加速的支持直接影响生产环境的落地成本与性能。",
+    "audience": "模型部署工程师",
+    "report": "ai-trending"
+  },
+  {
+    "title": "AI CLI生态转向MCP标准协议",
+    "impact": 3,
+    "why": "各大终端工具全面采用模型上下文协议(MCP)，旨在通过标准化解决Vendor Lock-in，提升工具间互操作性。",
+    "audience": "工具开发者",
+    "report": "ai-cli"
+  }
+]
