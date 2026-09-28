@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI工具转向生产级智能体框架",
+      "Copilot CLI v1.0.89-5稳定性更新",
+      "用户要求工具执行权限的安全模式",
+      "稳定性问题阻碍长驻智能体任务",
+      "行业聚焦会话持久性与安全性",
+      "MCP集成增加了CLI工具性能开销"
+    ],
+    "ai-agents": [
+      "OpenClaw在24小时内处理千条Issue与PR",
+      "OpenClaw代码库正在进行大规模重构",
+      "聚焦稳定性与网关启动逻辑",
+      "CI/CD流水线强化以应对不稳定测试",
+      "开发集中在平台特定的清理工作",
+      "标准化插件生命周期的力度加大"
+    ],
+    "ai-infra": [
+      "推理引擎瞄准GB系列与MI350X硬件",
+      "Llama.cpp发布活跃，更新至b11223版本",
+      "Unsloth更新聚焦FP8训练与CUDA 13",
+      "vLLM与SGLang竞相支持Qwen3-Next",
+      "生态转向基于Rust的网关性能优化",
+      "解决架构技术债是当前首要任务"
+    ],
+    "ai-trending": [
+      "Paperclipai/paperclip今日新增2,401颗星",
+      "智能体基础设施成为开源热门趋势",
+      "Langchain保持14.7万星的基础地位",
+      "效率工程优先考虑本地优先执行",
+      "Open-webui引领自托管AI界面趋势",
+      "社区焦点从模型转向智能体管理"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol与Luna发布引发激烈辩论",
+      "Claude Opus 5.5表现引发行业轰动",
+      "Claude在突破性研究中发现新型酶系统",
+      "HN热议自主智能体黑客攻击风险",
+      "对Anthropic供应链风险的担忧上升",
+      "社区关注点从基准测试转向可靠性"
+    ],
+    "ai-hf": [
+      "Qwen架构在趋势模型榜单中占主导",
+      "Qwen3.8-27B在Hugging Face下载量破670万",
+      "Xing4.0-29B-A4B对话AI获1,782个赞",
+      "GGUF优先发布适配消费级硬件",
+      "Altworld的Hemmingway-1引领创意写作趋势",
+      "行业转向专用决策模型的趋势初现"
+    ],
+    "ai-community": [
+      "提示词注入被标记为关键新漏洞",
+      "Plugin4Shell漏洞攻击两万六千个系统",
+      "开发者警告智能体存在虚假测试成功",
+      "人机协同系统对AI审计至关重要",
+      "推理模式可能增加内部幻觉",
+      "MCP采用率增长以提升智能体可靠性"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools shift to production-grade agentic frameworks",
+      "Copilot CLI reaches v1.0.89-5 stability update",
+      "Users demand safe mode for tool execution permissions",
+      "Stability issues hinder long-lived agent sessions",
+      "Industry focus moves to session durability and safety",
+      "MCP integration adds overhead to CLI tool performance"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 1,000 combined issues and PRs in 24h",
+      "Massive codebase refactoring underway for OpenClaw",
+      "Focus on stability and gateway startup logic",
+      "CI/CD pipeline hardening against flaky tests",
+      "Development concentrated on platform-specific cleanup",
+      "Efforts to standardize plugin lifecycles intensified"
+    ],
+    "ai-infra": [
+      "Inference engines target GB-series and MI350X hardware",
+      "Llama.cpp active with new b11223 release",
+      "Unsloth updates focus on FP8 training and CUDA 13",
+      "vLLM and SGLang racing for Qwen3-Next support",
+      "Ecosystem shift toward Rust-based gateway performance",
+      "Architectural debt resolution is a primary focus"
+    ],
+    "ai-trending": [
+      "Paperclipai/paperclip gains 2,401 stars today",
+      "Agentic infrastructure is the top open-source trend",
+      "Langchain maintains 147k star foundational status",
+      "Efficiency engineering prioritizes local-first execution",
+      "Open-webui leads self-hosted AI interface trends",
+      "Community shifts from models to agent management"
+    ],
+    "ai-hn": [
+      "GPT-6 Sol and Luna launch sparks intense debate",
+      "Claude Opus 5.5 performance creates industry buzz",
+      "Claude discovers novel enzyme system in breakthrough",
+      "HN debates dangers of autonomous agent hacking",
+      "Concerns rise over Anthropic's supply chain risks",
+      "Community shifts focus from benchmarks to reliability"
+    ],
+    "ai-hf": [
+      "Qwen architecture dominates trending model charts",
+      "Qwen3.8-27B hits 6.7M downloads on Hugging Face",
+      "Xing4.0-29B-A4B gains 1,782 likes for conversational AI",
+      "GGUF-first releases enable consumer hardware usage",
+      "Altworld's Hemmingway-1 trends for creative writing",
+      "Burgeoning shift toward specialized decision models"
+    ],
+    "ai-community": [
+      "Prompt injection flagged as critical new vulnerability",
+      "Plugin4Shell exploit hits 26,000 systems",
+      "Devs warn of AI agents claiming fake test success",
+      "Human-in-the-loop systems vital for auditing AI",
+      "Reasoning modes can increase internal hallucinations",
+      "MCP adoption growing to improve agent reliability"
+    ]
+  }
+}

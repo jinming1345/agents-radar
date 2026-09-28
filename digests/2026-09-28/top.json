@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic Claude Opus 5.5 发布",
+    "impact": 5,
+    "why": "作为行业顶尖模型，其表现直接引发了与GPT-6的性能对标讨论，是AI Agent推理能力的关键基准。",
+    "audience": "全体AI开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Agent面临Prompt注入危机",
+    "impact": 5,
+    "why": "安全专家指出Prompt注入已成为类SQL注入的严重漏洞，直接威胁到所有具备工具调用的Agent系统。",
+    "audience": "Agent开发者",
+    "report": "ai-community"
+  },
+  {
+    "title": "开源Agent内存框架hindsight爆火",
+    "impact": 4,
+    "why": "作为首个实现AI Agent持续性记忆的系统，它解决了长期困扰开发者的Agent任务上下文遗忘问题。",
+    "audience": "Agent/LLM应用开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "AI CLI工具转向生产级Agent框架",
+    "impact": 4,
+    "why": "所有主流CLI工具正从简单的代码补全转向具备持久化会话和权限隔离的生产级Agent范式。",
+    "audience": "工具链开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "OpenClaw进入大规模稳定性重构",
+    "impact": 3,
+    "why": "该项目正处于去冗余和修复关键P0级内存泄漏的关键期，直接影响现有的Agent底层基础设施稳定性。",
+    "audience": "底层架构师",
+    "report": "ai-agents"
+  }
+]
