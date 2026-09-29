@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI取消发布Astra 6.1模型",
+    "impact": 5,
+    "why": "作为行业标杆，因安全问题紧急叫停新模型发布，反映出大厂在Agent安全性上面临重大挑战。",
+    "audience": "全体AI从业者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic发布Claude 5.5",
+    "impact": 5,
+    "why": "新一代基座模型的发布通常直接重塑推理能力天花板，影响所有依赖Claude的应用选型。",
+    "audience": "AI应用开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "AI Agent陷入“逻辑封装”争议",
+    "impact": 4,
+    "why": "社区指出大量生产级Agent仅是昂贵的if-statement，引发对Agent架构冗余和成本的高热度讨论。",
+    "audience": "Agent开发者",
+    "report": "ai-community"
+  },
+  {
+    "title": "AI基础设施转向Agentic-Native",
+    "impact": 4,
+    "why": "vLLM等底层引擎全面转向支撑Agent自主规划与分布式KV缓存，改变了高性能推理的基建选型。",
+    "audience": "后端工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "OpenClaw 2026.9.x版本崩溃频发",
+    "impact": 3,
+    "why": "OpenClaw作为主流框架出现严重的内存泄漏与崩溃，直接影响大规模Agent生产环境稳定性。",
+    "audience": "OpenClaw用户",
+    "report": "ai-agents"
+  }
+]

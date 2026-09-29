@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.284 领先稳定 CLI 代理工具",
+      "OpenAI Codex v0.158.0 表现高度活跃",
+      "全面迈向 MCP 模块化工具链",
+      "代理会话稳定性仍是主要挑战",
+      "OpenCode v1.18.33 聚焦自主规划",
+      "Gemini CLI 每日构建强调代理自主性"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.x 系列面临严重不稳定",
+      "开发者应对内存泄漏与崩溃循环",
+      "子代理架构正在进行重大重构",
+      "基础设施解耦正脱离主线程",
+      "专注于修复过时记录写入错误",
+      "UI 新增侧边聊天工作流"
+    ],
+    "ai-infra": [
+      "vLLM 仍是推理优化的行业标准",
+      "SGLang 推动 Dist-KVCache 研究",
+      "Ollama v0.35.0 加入关键系统更新",
+      "LiteLLM v1.104.0 改进代理操作",
+      "llama.cpp 每日构建增强批处理 API 支持",
+      "行业转向代理原生架构"
+    ],
+    "ai-trending": [
+      "vLLM 以 92k+ 星标成为顶级基建项目",
+      "OpenRig 项目单日斩获 734 颗星",
+      "Hindsight 系统支持代理记忆学习",
+      "Rig 库在 Rust AI 开发者中受关注",
+      "OpenCompass 继续主导 LLM 评估",
+      "代理工具库统一异构工具栈"
+    ],
+    "ai-web": [
+      "Anthropic 与 Infosys 合作部署代理",
+      "Claude Code 将进入受监管企业领域",
+      "OpenAI 寻求扩展澳大利亚市场",
+      "Anthropic 研究探索 AI 代理谈判",
+      "模型智能驱动涌现代理能力",
+      "OpenAI 瞄准专业媒体生态系统"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5.5 发布引发热议",
+      "Fireworks AI 发布新模型 Ember-1",
+      "社区质疑自主代理的安全性",
+      "ESP32S3 集群运行量化 1.58 位 LLM",
+      "关于 AI 企业责任的辩论增加",
+      "用户分析模型飞跃是否真正有意义"
+    ],
+    "ai-community": [
+      "开发者批评代理是过度设计的 if 语句",
+      "MCP 服务器 Token 成本引发担忧",
+      "关于自动 AI 修复 Bug 的风险辩论",
+      "高昂 GPU 成本推动生产可靠性关注",
+      "工程师推动实际的 AI 治理",
+      "社区警告防止架构过度臃肿"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.284 leads stable CLI agent tools",
+      "OpenAI Codex v0.158.0 shows high activity",
+      "Universal move toward MCP modular toolchains",
+      "Agent session stability remains a major challenge",
+      "OpenCode v1.18.33 focuses on autonomous planning",
+      "Gemini CLI nightly builds emphasize agent autonomy"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.x series faces severe instability",
+      "Developers fighting memory leaks and crash cycles",
+      "Subagent architecture undergoing major refactoring",
+      "Infrastructure decoupling moving off main thread",
+      "Focus on fixing stale transcript write errors",
+      "New side-chat workflows added to UI"
+    ],
+    "ai-infra": [
+      "vLLM remains the standard for inference optimization",
+      "SGLang driving research in Dist-KVCache",
+      "Ollama v0.35.0 adds critical system updates",
+      "LiteLLM v1.104.0 improves proxy operations",
+      "llama.cpp daily builds enhance batch API support",
+      "Industry shifting to agent-native architectures"
+    ],
+    "ai-trending": [
+      "vLLM hits 92k+ stars as top infrastructure project",
+      "OpenRig project gains 734 stars in a single day",
+      "Hindsight system enables agent memory learning",
+      "Rig library gains traction for Rust AI developers",
+      "OpenCompass continues to dominate LLM evaluation",
+      "Agent harness systems unify heterogeneous tool stacks"
+    ],
+    "ai-web": [
+      "Anthropic partners with Infosys for agent deployment",
+      "Claude Code to enter regulated enterprise sectors",
+      "OpenAI eyes expansion into Australian markets",
+      "Anthropic research probes AI agent negotiation",
+      "Model intelligence drives emergent agent capability",
+      "OpenAI targets specialized media ecosystems"
+    ],
+    "ai-hn": [
+      "Claude Sonnet 5.5 release sparks massive debate",
+      "Fireworks AI launches new Ember-1 model",
+      "Community questions security of autonomous agents",
+      "ESP32S3 cluster runs quantized 1.58-bit LLMs",
+      "Debate grows over AI corporate accountability",
+      "Users analyze if model leaps are truly meaningful"
+    ],
+    "ai-community": [
+      "Devs critique agents as over-engineered if-statements",
+      "MCP server token costs raise developer concerns",
+      "Debate on risks of automated AI bug fixing",
+      "High GPU costs drive focus on production reliability",
+      "Engineers push for practical AI governance",
+      "Community warns against excessive architecture bloat"
+    ]
+  }
+}
