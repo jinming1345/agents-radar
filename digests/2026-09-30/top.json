@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI发布GPT-6.1 SOL",
+    "impact": 5,
+    "why": "新一代模型具备类Astra水平智能且成本显著降低，将重构大模型市场竞争格局与开发者选型。",
+    "audience": "全体AI开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenAI推出Dots代理平台",
+    "impact": 5,
+    "why": "标志着AI从会话式交互向后台常驻代理范式转变，定义了下一代自主Agent的执行标准。",
+    "audience": "Agent开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic披露GLM-5.3漏洞",
+    "impact": 4,
+    "why": "确认前沿模型存在高级网络攻击能力且安全防护失效，迫使全球企业重新评估AI部署的合规与风险。",
+    "audience": "安全与合规人员",
+    "report": "ai-web"
+  },
+  {
+    "title": "AMD完成对World Labs收购",
+    "impact": 4,
+    "why": "AMD加速垂直整合硬件与AI研究，旨在挑战Nvidia数据中心市场垄断地位，影响算力基建布局。",
+    "audience": "架构师/算力厂商",
+    "report": "ai-hn"
+  },
+  {
+    "title": "AI CLI引入MCP标准",
+    "impact": 3,
+    "why": "Model Context Protocol成为行业交互标准，解决工具间数据互通问题，降低Agent开发复杂性。",
+    "audience": "工具链开发者",
+    "report": "ai-cli"
+  }
+]

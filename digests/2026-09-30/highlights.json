@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.285 发布",
+      "Copilot 和 Pi 采用 MCP 标准",
+      "OpenAI Codex 更新至 v0.159.2",
+      "Gemini CLI v0.63.0-preview 发布",
+      "Qwen Code 更新至 v0.24.7",
+      "生态转向自主智能体"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.6 提升稳定性",
+      "OpenClaw v2026.8.33 发布为新 LTS 版本",
+      "Paperclip 今日星标突破 2,458",
+      "LangGraph 总星标维持 42,482",
+      "OpenRig 在多智能体应用中受关注",
+      "OpenClaw 紧急推送高强度修复"
+    ],
+    "ai-infra": [
+      "llama.cpp b11260 发布，强化后端",
+      "Ollama v0.35.1-rc0 专注于稳定性",
+      "LiteLLM 更新至 v1.104.0-rc.2",
+      "vLLM 优先考虑 RL 和混合正确性",
+      "SGLang 优化 AMD/ROCm 支持",
+      "Unsloth 将重心转向 Studio UI"
+    ],
+    "ai-trending": [
+      "Paperclip 单日新增 2,458 星标",
+      "Openrig 今日星标达到 737",
+      "Univer 今日星标突破 696",
+      "LangGraph 稳居智能体框架首位",
+      "VoiceStudio 发出本地优先信号",
+      "智能体套件正在取代聊天界面"
+    ],
+    "ai-web": [
+      "Anthropic 报告 GLM-5.3 网络风险",
+      "OpenAI 宣布 GPT-6.1 SOL",
+      "OpenAI 推出 Dots 智能体平台",
+      "GLM-5.3 显示 64-100% 绕过率",
+      "Anthropic 众包社会影响评估",
+      "OpenAI 进入高频部署阶段"
+    ],
+    "ai-hn": [
+      "GPT 6.1 Sol 获得 780 次点赞",
+      "Sonnet 5.5 获得 871 分",
+      "Dots 智能体平台引发辩论",
+      "社区探讨 AI 的社会影响",
+      "AI 智能体安全隐患上升",
+      "用户对模型商品化看法分歧"
+    ],
+    "ai-arxiv": [
+      "ER-JEPA 改进抽象语义学习",
+      "受控解码攻击绕过安全机制",
+      "STAR-GRPO 防止奖励欺诈",
+      "神经符号计算机使用论文发布",
+      "研究重心转向 RL 稳定性",
+      "边缘原生 AI 开发势头强劲"
+    ],
+    "ai-community": [
+      "欧盟 AI 法案推动智能体治理",
+      "Meta 的注入检测器遭批评",
+      "开发者关注点转向智能体记忆",
+      "AWS 构建者讨论智能体可审计性",
+      "Dev.to 热议代码库安全风险",
+      "提示词注入防御手段效果不佳"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.285 released",
+      "MCP standard adopted by Copilot and Pi",
+      "OpenAI Codex reaches v0.159.2",
+      "Gemini CLI v0.63.0-preview is out",
+      "Qwen Code hits v0.24.7",
+      "Ecosystem pivots to autonomous agents"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.9.6 brings stability",
+      "OpenClaw v2026.8.33 is new LTS release",
+      "Paperclip hits 2,458 stars today",
+      "LangGraph maintains 42,482 total stars",
+      "OpenRig gaining traction for multi-agent use",
+      "High-intensity fix push for OpenClaw"
+    ],
+    "ai-infra": [
+      "llama.cpp b11260 released with backend hardening",
+      "Ollama v0.35.1-rc0 focuses on stability",
+      "LiteLLM hits v1.104.0-rc.2",
+      "vLLM prioritizes RL and hybrid correctness",
+      "SGLang refines AMD/ROCm support",
+      "Unsloth shifts focus to Studio UI"
+    ],
+    "ai-trending": [
+      "Paperclip adds 2,458 stars in one day",
+      "Openrig hits 737 stars today",
+      "Univer crosses 696 stars today",
+      "LangGraph remains top agent backbone",
+      "VoiceStudio signals local-first pivot",
+      "Agent harnesses replacing chat UIs"
+    ],
+    "ai-web": [
+      "Anthropic reports GLM-5.3 cyber-risk",
+      "OpenAI announces GPT-6.1 SOL",
+      "OpenAI introduces Dots agent platform",
+      "GLM-5.3 shows 64-100% bypass rates",
+      "Anthropic crowdsourcing societal impact",
+      "OpenAI enters high-cadence deployment phase"
+    ],
+    "ai-hn": [
+      "GPT 6.1 Sol gains 780 upvotes",
+      "Sonnet 5.5 earns 871 points",
+      "Dots agent platform sparks debate",
+      "Community debates AI societal consequences",
+      "New AI agent security concerns rise",
+      "Users split on model commoditization"
+    ],
+    "ai-arxiv": [
+      "ER-JEPA improves abstract semantic learning",
+      "Controlled decoding attacks bypass safety",
+      "STAR-GRPO prevents reward hacking",
+      "Neuro-Symbolic Computer Use paper debuts",
+      "Research focus shifts to RL stability",
+      "Edge-native AI development gains ground"
+    ],
+    "ai-community": [
+      "EU AI Act compliance drives agent governance",
+      "Meta's injection detector faces criticism",
+      "Developer focus moves to agent memory",
+      "AWS builders discuss agent auditability",
+      "Codebase security risks debated on Dev.to",
+      "Prompt injection defenses lack efficacy"
+    ]
+  }
+}
