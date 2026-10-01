@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.286 专注于稳定性",
+      "OpenAI Codex 达到 rust-v0.159.3",
+      "Gemini CLI v0.64.0-nightly 增加新功能",
+      "Qwen Code v0.24.7-nightly 已发布",
+      "行业聚焦模型上下文协议 (MCP)",
+      "CLI 工具优先处理持久会话状态"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.7 修复了关键崩溃",
+      "OpenClaw 面临 490 个活跃问题",
+      "Hermes Agent 开发保持活跃",
+      "IronClaw 优化了构建时性能",
+      "开发者优先修复 SQLite WAL 状态",
+      "QwenPaw 推动代理自动化"
+    ],
+    "ai-infra": [
+      "vLLM 增加 DeepSeek-V4.1 优化",
+      "Ollama 预发布版 v0.35.0 已到货",
+      "SGLang 追求 DeepSeek-R1 AMD 支持",
+      "LiteLLM v1.105.0-dev.1 已发布",
+      "生态转向专业化内核优化",
+      "Unsloth 的 PR 活动频繁"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell 获得 1,281 颗星",
+      "模型上下文协议服务器趋势走高",
+      "VoiceStudio 达到 3,483 颗星",
+      "代理效率引领开发者兴趣",
+      "本地优先执行势头强劲",
+      "开发者优先考虑 Token 缩减工具"
+    ],
+    "ai-web": [
+      "Anthropic 推出生命科学验证",
+      "Mythos 和 Opus 模型进入高风险测试",
+      "Anthropic 发布机器人暴露研究",
+      "研究发现 80% 的任务可被自动化",
+      "Anthropic 批评 Zhipu GLM-5.3 漏洞",
+      "Anthropic 扩展企业级工具"
+    ],
+    "ai-hn": [
+      "谷歌宣布 Gemini 4 Argon",
+      "OpenAI 推出 GPT 6.1 Sol",
+      "Magnitude 旨在降低代理成本",
+      "用户讨论快速的模型发布周期",
+      "FTC 对主要 AI 厂商展开调查",
+      "社区在代理隐私风险上存在分歧"
+    ],
+    "ai-arxiv": [
+      "基于 PID 的负载控制稳定了稀疏 MoE",
+      "研究人员为研究代理提出 DAGent",
+      "新研究阐明了 NorMuon 的性能差距",
+      "硬件感知设计日益凸显",
+      "测试时推理提升模型质量",
+      "论文警告多智能体对齐规避问题"
+    ],
+    "ai-community": [
+      "Slopsquatting 构成新的供应链风险",
+      "防护栏敏感度阈值普遍失效",
+      "Gemma 4 量化适配 Tesla T4 效率",
+      "OpenAI Dots 发布以对标 Muse",
+      "开发者焦点转向全天候代理",
+      "INT4 量化优化本地部署"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.286 focuses on stability",
+      "OpenAI Codex reaches rust-v0.159.3",
+      "Gemini CLI v0.64.0-nightly adds new features",
+      "Qwen Code v0.24.7-nightly released",
+      "Industry converges on Model Context Protocol",
+      "CLI tools prioritizing durable session states"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.7 addresses critical crashes",
+      "OpenClaw faces 490 active issues",
+      "Hermes Agent development remains active",
+      "IronClaw optimizes build-time performance",
+      "Developers prioritize SQLite WAL state fixes",
+      "QwenPaw drives agentic automation"
+    ],
+    "ai-infra": [
+      "vLLM adds DeepSeek-V4.1 optimization",
+      "Ollama pre-release v0.35.0 arrives",
+      "SGLang pursues DeepSeek-R1 AMD support",
+      "LiteLLM v1.105.0-dev.1 released",
+      "Ecosystem shifts to specialized kernel optimization",
+      "Unsloth sees high PR activity"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell gains 1,281 stars",
+      "Model Context Protocol servers trend high",
+      "VoiceStudio hits 3,483 stars",
+      "Agentic efficiency leads developer interest",
+      "Local-first execution gains momentum",
+      "Developers prioritize token reduction tools"
+    ],
+    "ai-web": [
+      "Anthropic launches Life Sciences Verification",
+      "Mythos and Opus models enter high-stakes testing",
+      "Anthropic releases robot exposure study",
+      "Study finds 80% of tasks exposed to automation",
+      "Anthropic critiques Zhipu GLM-5.3 exploits",
+      "Anthropic expands enterprise-grade tools"
+    ],
+    "ai-hn": [
+      "Google announces Gemini 4 Argon",
+      "OpenAI introduces GPT 6.1 Sol",
+      "Magnitude aims to lower agent costs",
+      "Users debate rapid model release cycles",
+      "FTC launches probes into major AI players",
+      "Community split on agentic privacy risks"
+    ],
+    "ai-arxiv": [
+      "PID-based load control stabilizes sparse MoE",
+      "Researchers propose DAGent for research agents",
+      "New study clarifies NorMuon performance gaps",
+      "Hardware-aware design gains prominence",
+      "Test-time reasoning improves model quality",
+      "Papers warn of multi-agent alignment evasion"
+    ],
+    "ai-community": [
+      "Slopsquatting poses new supply-chain risks",
+      "Guardrail sensitivity thresholds widely failing",
+      "Gemma 4 quantized for Tesla T4 efficiency",
+      "OpenAI Dots launches to compete with Muse",
+      "Developer focus shifts to always-on agents",
+      "INT4 quantization optimizes local deployments"
+    ]
+  }
+}

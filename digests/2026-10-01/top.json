@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI发布GPT 6.1 Sol与Always-on agents",
+    "impact": 5,
+    "why": "标志着AI从对话模型转向主动式、常驻型代理，将重塑工作流自动化标准及开发者架构模式。",
+    "audience": "全体开发者、产品经理",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic启动生命科学验证计划(LSVP)",
+    "impact": 5,
+    "why": "AI模型正式进入受监管的高风险专业领域，打破了AI在药物研发等领域的应用门槛。",
+    "audience": "医疗与科研开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "NVIDIA推出OpenShell安全运行环境",
+    "impact": 4,
+    "why": "首个专门为自主代理设计的安全运行时，解决了代理在执行任务时的安全合规与隐私痛点。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-trending"
+  },
+  {
+    "title": "AI编程助手导致Slopsquatting供应链攻击",
+    "impact": 4,
+    "why": "AI幻觉导致的包名推荐被黑客利用进行供应链投毒，已成为开发者必须警惕的重大安全隐患。",
+    "audience": "后端与工具链开发者",
+    "report": "ai-community"
+  },
+  {
+    "title": "Model Context Protocol (MCP) 成行业标准",
+    "impact": 4,
+    "why": "各工具链趋向统一协议，MCP解决了模型与外部工具间碎片化的连接问题，简化了Agent开发。",
+    "audience": "Agent开发者",
+    "report": "ai-cli"
+  }
+]
