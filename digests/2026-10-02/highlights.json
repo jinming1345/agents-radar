@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.287 已激活，支持代理编排",
+      "OpenAI Codex rust-v0.160.0 正式发布",
+      "Gemini CLI v0.64.0-nightly 修复稳定性问题",
+      "GitHub Copilot CLI v1.0.92-0 发布更新",
+      "Qwen Code v0.24.7-nightly 引入新特性",
+      "Pi v1.0.0 发布，支持代理持久化"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.34 作为扩展稳定版发布",
+      "OpenClaw PR #163074 修复 Windows 稳定性",
+      "PR #163032 修复 OpenClaw 委托工具丢失问题",
+      "OpenClaw 弃用旧版会话迁移代码",
+      "OpenClaw WebUI 浏览器词汇清理已合并",
+      "OpenClaw 正在处理严重崩溃循环问题"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.21 发布，支持 ROCm",
+      "llama.cpp b11332 增加新特性扩展",
+      "LiteLLM v1.103.2 解决关键安全问题",
+      "Unsloth v0.1.902-beta 启用内核优化",
+      "vLLM 加固阶段侧重 Blackwell 硬件",
+      "DeepSeek-V4.1-Flash 支持领跑 vLLM 路线图"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell 首秀获得 2,456 颗星",
+      "tile-ai/tilelang 的 GPU 内核获 163 颗星",
+      "DietrichGebert/ponytail 获 1,194 颗星走红",
+      "PyTorch 以 10.3 万星保持行业标准",
+      "新焦点：代理式用户体验与上下文效率",
+      "OpenShell 推动标准化代理安全"
+    ],
+    "ai-web": [
+      "Claude 形态的科学框架面世",
+      "巴克莱银行扩展 Claude 企业运营",
+      "Anthropic 桥接研究与商业应用",
+      "OpenAI 将重心转向大规模零售",
+      "Claude 集成提升企业生产力",
+      "新研究突显 AI 原生方法论"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发社区激烈辩论",
+      "DoGBench 基准测试凸显文档缺失",
+      "博通与 Anthropic 签署 420 亿美元融资",
+      "加州调查 OpenAI 代理行为",
+      "社区对代理自主性的怀疑日益增长",
+      "OpenDLSS Vulkan 重构版登上榜首"
+    ],
+    "ai-arxiv": [
+      "Gacha Decoding 引发多样的模型生成",
+      "生成溯源追踪合成数据",
+      "新 PACE 框架保护工具使用型代理",
+      "《修复有损用户偏好状态》论文发表",
+      "研究审视长周期工作流中的风险",
+      "研究转向审计就绪的 AI 系统"
+    ],
+    "ai-community": [
+      "开发者设置门禁拦截恶意代理",
+      "警告：AI 功能充当不可控依赖",
+      "生产环境中发现代理生成的代码补丁",
+      "从业者转向确定性状态机",
+      "可靠性担忧推动摆脱原始 LLM 调用",
+      "新焦点：AI 代理的防御性护栏"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.287 active with agent orchestration",
+      "OpenAI Codex rust-v0.160.0 release now active",
+      "Gemini CLI v0.64.0-nightly brings stability fixes",
+      "GitHub Copilot CLI v1.0.92-0 updates released",
+      "Qwen Code v0.24.7-nightly introduces new features",
+      "Pi v1.0.0 released with agentic persistence"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.34 released as extended-stable",
+      "OpenClaw PR #163074 patches Windows stability",
+      "PR #163032 fixes delegation tool loss in OpenClaw",
+      "OpenClaw retires legacy session migration code",
+      "OpenClaw WebUI browser vocab cleanup merged",
+      "OpenClaw grappling with critical crash-loops"
+    ],
+    "ai-infra": [
+      "SGLang v0.5.21 released with ROCm support",
+      "llama.cpp b11332 adds new feature expansions",
+      "LiteLLM v1.103.2 addresses critical security",
+      "Unsloth v0.1.902-beta enables kernel optimization",
+      "vLLM hardening phase focuses on Blackwell hardware",
+      "DeepSeek-V4.1-Flash support leads vLLM roadmap"
+    ],
+    "ai-trending": [
+      "NVIDIA OpenShell gains 2,456 stars on debut",
+      "tile-ai/tilelang gains 163 stars for GPU kernels",
+      "DietrichGebert/ponytail trends with 1,194 stars",
+      "PyTorch remains industry standard with 103k stars",
+      "New focus on Agentic UX and context efficiency",
+      "OpenShell pushes for standardized agent security"
+    ],
+    "ai-web": [
+      "Claude-shaped science framework introduced",
+      "Barclays scales Claude for enterprise operations",
+      "Anthropic bridges research to commercial use",
+      "OpenAI shifts focus to large-scale retail",
+      "Claude integrations now drive enterprise productivity",
+      "New research highlights AI-native methodologies"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks major community debate",
+      "DoGBench benchmark highlights documentation gaps",
+      "Broadcom and Anthropic ink $42B financing deal",
+      "California investigates OpenAI agent behavior",
+      "Community skepticism rising over agent autonomy",
+      "OpenDLSS Vulkan reimplementation hits top charts"
+    ],
+    "ai-arxiv": [
+      "Gacha Decoding elicits diverse model generations",
+      "Generation Provenance tracks synthetic data",
+      "New PACE framework secures tool-using agents",
+      "Repairing Lossy User Preference States published",
+      "Study examines risk in long-horizon workflows",
+      "Research shifts toward audit-ready AI systems"
+    ],
+    "ai-community": [
+      "Devs implement gates to block malicious agents",
+      "Warning: AI features act as uncontrolled dependencies",
+      "Agentic code patches identified in production",
+      "Practitioners shift to deterministic state machines",
+      "Reliability concerns drive shift from raw LLM calls",
+      "New focus on defensive guardrails for AI agents"
+    ]
+  }
+}

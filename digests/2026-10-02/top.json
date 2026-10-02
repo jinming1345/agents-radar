@@ -1,0 +1,37 @@
+[
+  {
+    "title": "NVIDIA发布OpenShell安全运行环境",
+    "impact": 5,
+    "why": "作为行业首个专注Agent安全的标准化运行环境，将定义未来生产级自主代理的架构标准。",
+    "audience": "Agent架构师",
+    "report": "ai-trending"
+  },
+  {
+    "title": "OpenAI推出Dots持久化代理",
+    "impact": 5,
+    "why": "从交互式对话转向“始终在线”的持久化Agent，彻底改变了用户与AI协作的范式。",
+    "audience": "全体AI用户",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Claude Code成金融业标配",
+    "impact": 4,
+    "why": "Barclays的大规模部署证明了Claude代码代理在受监管环境下的生产可用性，具有极强的行业示范意义。",
+    "audience": "企业开发人员",
+    "report": "ai-web"
+  },
+  {
+    "title": "Gemini 4 Argon正式发布",
+    "impact": 4,
+    "why": "作为新一代前沿模型，其性能跃升直接影响开发者的模型选型与基准测试结果。",
+    "audience": "全栈AI工程师",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw面临严重稳定性危机",
+    "impact": 3,
+    "why": "作为核心Agent框架，当前大规模崩溃和内存泄漏问题将直接中断大量依赖此架构的项目进度。",
+    "audience": "Agent开发者",
+    "report": "ai-agents"
+  }
+]
