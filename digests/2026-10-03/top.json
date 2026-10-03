@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Google发布Gemini 4 Argon",
+    "impact": 5,
+    "why": "作为行业顶尖模型的新版本，其性能表现引发广泛关注，直接重塑模型选型基准。",
+    "audience": "AI应用开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic启动Claude Frontier Academy",
+    "impact": 5,
+    "why": "投入1亿美元培养工程师，旨在建立Claude驱动的企业级技术标准，影响企业落地架构。",
+    "audience": "企业架构师及AI工程师",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenAI官宣构建GPT-6指南",
+    "impact": 4,
+    "why": "标志着行业重心从GPT-5代向下一代前沿架构转移，预示新的开发范式出现。",
+    "audience": "模型研究与开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "NVIDIA推出OpenShell运行时",
+    "impact": 4,
+    "why": "为自主Agent提供安全的生产级运行环境，填补了企业级Agent部署的安全空白。",
+    "audience": "AI基础设施开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "KaliBench安全工具基准发布",
+    "impact": 3,
+    "why": "推动Agent测评从静态答题转向真实Runtime执行，提升了Agent在复杂环境中的可靠性。",
+    "audience": "Agent开发者及研究者",
+    "report": "ai-arxiv"
+  }
+]

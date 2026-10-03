@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区关注度高涨",
+      "OpenAI Codex 发布 Alpha 版本",
+      "Pi 达到 1.0.0 稳定里程碑",
+      "重心转向工作区隔离",
+      "开发者要求加强智能体治理",
+      "Gemini CLI 夜间构建异常活跃"
+    ],
+    "ai-agents": [
+      "OpenClaw 完成大规模架构清理",
+      "v2026.8.35 版本显著提升稳定性",
+      "PR 163605 优化网关性能",
+      "Hermes Agent 引领智能体新浪潮",
+      "ZeroClaw 项目进行深度重构",
+      "OpenClaw 实现大规模代码去重"
+    ],
+    "ai-infra": [
+      "vLLM 强化 Blackwell 和 ROCm 稳定性",
+      "llama.cpp 发布 b11345–b11364",
+      "LiteLLM 发布 v1.105.0-dev.2",
+      "SGLang 优化 GLM-5.3 内存性能",
+      "行业转向推理对齐引擎",
+      "Ollama 专注 Windows 工具调用解析"
+    ],
+    "ai-trending": [
+      "Agent-Reach 日增 696 星",
+      "Openrig 将智能体视为劳动力单元",
+      "Superpowers 框架规范智能体技能",
+      "Context-mode 为智能体增加 MCP 路由",
+      "生态系统转向高效 token 智能体",
+      "本地优先工具获得巨大动力"
+    ],
+    "ai-web": [
+      "Anthropic 推出 1 亿美元前沿学院",
+      "Claude 旨在标准化 AI 工程",
+      "OpenAI 暗示即将推出 GPT-6 架构",
+      "Anthropic 瞄准企业最后一步集成",
+      "咨询合作伙伴扩大 Claude 专家规模",
+      "OpenAI 转向下一代基座模型研发"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发激烈辩论",
+      "FLUX 3 Image 获得高保真关注",
+      "社区关注 Apple macOS 智能体安全",
+      "新论文探索长上下文 LLM 前沿",
+      "本地 LLM 工具规避云端依赖",
+      "ds4 工具在 Hacker News 上走红"
+    ],
+    "ai-arxiv": [
+      "TACO 优化器大幅降低 GPU 显存开销",
+      "循环 Transformer 解码提升速度",
+      "采样 SFT 可比拟 RL 泛化能力",
+      "研究旨在提升智能体可靠性",
+      "无梯度微调助力训练平民化",
+      "物理信息模型提升 3D 感知能力"
+    ],
+    "ai-community": [
+      "73% 的模型忽视现实伦理目标",
+      "模型交换攻击暴露测试门漏洞",
+      "Caveman 指南减少智能体 token 冗余",
+      "开发者优先考虑编码智能体诚实度",
+      "新基准测试暴露工具调用局限",
+      "安全门机制面临日益严格的审查"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains high community traction",
+      "OpenAI Codex reaches Alpha release",
+      "Pi hits stable 1.0.0 milestone",
+      "Focus shifts to workspace isolation",
+      "Developers demand better agent governance",
+      "Gemini CLI nightly builds show high activity"
+    ],
+    "ai-agents": [
+      "OpenClaw undergoes massive architectural cleanup",
+      "Release v2026.8.35 offers extended stability",
+      "PR 163605 improves Gateway performance",
+      "Hermes Agent leads new agent-centric wave",
+      "ZeroClaw project sees intense refactoring",
+      "Large-scale code deduplication in OpenClaw"
+    ],
+    "ai-infra": [
+      "vLLM pushes Blackwell and ROCm stability",
+      "llama.cpp releases b11345–b11364",
+      "LiteLLM hits v1.105.0-dev.2",
+      "SGLang optimizes memory for GLM-5.3",
+      "Industry shifts to reasoning-parity engines",
+      "Ollama focuses on Windows tool-use parsing"
+    ],
+    "ai-trending": [
+      "Agent-Reach trends with 696 daily stars",
+      "Openrig treats agents as workforce units",
+      "Superpowers framework formalizes agent skills",
+      "Context-mode adds MCP routing for agents",
+      "Ecosystem pivots to token-efficient agents",
+      "Local-first tools gain massive momentum"
+    ],
+    "ai-web": [
+      "Anthropic launches $100M Frontier Academy",
+      "Claude aims to standardize AI engineering",
+      "OpenAI hints at upcoming GPT-6 architecture",
+      "Anthropic targets last-mile enterprise integration",
+      "Consultancy partnerships scale Claude experts",
+      "OpenAI pivots to next-gen base model R&D"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks massive debate",
+      "FLUX 3 Image gains high fidelity interest",
+      "Community eyes Apple macOS agent security",
+      "New paper explores long-context LLM frontiers",
+      "Local LLM tools circumvent cloud dependency",
+      "ds4 tool gains traction on Hacker News"
+    ],
+    "ai-arxiv": [
+      "TACO optimizer slashes GPU memory overhead",
+      "New Looped Transformer decoding boosts speed",
+      "Sampling-based SFT rivals RL generalization",
+      "Research targets improved agentic reliability",
+      "Non-gradient tuning aims to democratize training",
+      "Physics-informed models improve 3D awareness"
+    ],
+    "ai-community": [
+      "73% of models ignore real-world ethical targets",
+      "Model-swap attacks expose flawed test gates",
+      "Caveman guide reduces agent token bloat",
+      "Developers prioritize coding agent honesty",
+      "New benchmarks expose tool-use limitations",
+      "Security gates face increasing scrutiny"
+    ]
+  }
+}
