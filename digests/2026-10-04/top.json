@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Gemini 4 Argon 发布",
+    "impact": 5,
+    "why": "作为当前行业的最强基准模型，其发布重新定义了 AI 模型的推理与性能边界，直接影响所有开发者选型。",
+    "audience": "全体AI开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Agent 推理优化工具 caveman",
+    "impact": 4,
+    "why": "通过语言优化减少 65% Token 消耗，直接解决了当前 Agent 开发中昂贵的成本痛点。",
+    "audience": "Agent开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "AI CLI 进入成熟稳固期",
+    "impact": 4,
+    "why": "AI CLI 从单纯的代码生成转向代理编排与持久会话，标志着 AI 开发工具已进入工程化落地阶段。",
+    "audience": "全栈开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "基础设施重心转向性能调度",
+    "impact": 4,
+    "why": "vLLM 等核心引擎从纯吞吐量转向资源调度与硬件调优，影响生产环境的部署成本与稳定性。",
+    "audience": "后端/架构师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "OpenAI 核心高管离职",
+    "impact": 3,
+    "why": "安全负责人离职并公开批评公司文化，将引发行业对大模型治理与开发准则的重新审视。",
+    "audience": "科技行业从业者",
+    "report": "ai-hn"
+  }
+]

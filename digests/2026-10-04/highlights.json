@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.289 驱动智能体编排",
+      "OpenAI Codex Alpha v0.162 专注于会话稳定性",
+      "开发者更青睐托管智能体而非基础生成",
+      "Qwen Code 夜间构建版推进持久化会话",
+      "Token 通胀仍是主要阻力点",
+      "行业转向架构可靠性与智能体"
+    ],
+    "ai-agents": [
+      "ZeroClaw v0.9.0 筹备展现出高开发速度",
+      "Hermes Agent 处于高维护压力下",
+      "QwenPaw 凭借 11 个活跃 PR 保持稳健",
+      "生态重点转向安全性和 IPC 稳定性",
+      "团队优先考虑加固而非功能扩张",
+      "IronClaw 开发停滞，近期无 PR"
+    ],
+    "ai-infra": [
+      "vLLM 在量化内核中面临回归问题",
+      "SGLang 在 AMD 环境下运行不稳定",
+      "llama.cpp 在多 Token 预测方面领先",
+      "LiteLLM 转向智能体工作流预算",
+      "Ollama 专注于 Windows 与 JSON 集成",
+      "Unsloth 报告高影响的内核冲突"
+    ],
+    "ai-trending": [
+      "ponytail 以极简智能体理念收获 153k 星",
+      "ECC 集成在 Cursor 和 Claude 中获青睐",
+      "caveman proxy 将 Token 使用量降低 65%",
+      "Agent-Reach CLI 因免费数据走红",
+      "superpowers 成为顶级趋势 Shell 工具",
+      "开发者兴趣转向高效 Token 智能体"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 作为全新基准模型首秀",
+      "FLUX 3 为图像生成保真度设定新标准",
+      "Pop!_OS 计划禁用 AI 生成代码",
+      "社区热议 OpenAI 文化未来",
+      "Claude Opus 5.5 优化技巧引发关注",
+      "焦点转向编码智能体的集成与管理"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.289 drives agentic orchestration",
+      "OpenAI Codex Alpha v0.162 focuses on session stability",
+      "Developers favor managed agents over basic generation",
+      "Qwen Code nightly builds push persistent sessions",
+      "Token inflation remains a major friction point",
+      "Industry shifts to architectural reliability and agents"
+    ],
+    "ai-agents": [
+      "ZeroClaw v0.9.0 prep shows high development velocity",
+      "Hermes Agent under high maintenance stress",
+      "QwenPaw remains robust with 11 active PRs",
+      "Ecosystem focus shifts to security and IPC stability",
+      "Teams prioritize hardening over feature proliferation",
+      "IronClaw development stalls with zero recent PRs"
+    ],
+    "ai-infra": [
+      "vLLM faces regressions in quantization kernels",
+      "SGLang struggles with AMD instability",
+      "llama.cpp leads in multi-token prediction",
+      "LiteLLM pivots toward agentic workflow budgeting",
+      "Ollama focuses on Windows and JSON integration",
+      "Unsloth reports high-impact kernel conflicts"
+    ],
+    "ai-trending": [
+      "ponytail hits 153k stars with minimalist agent focus",
+      "ECC integration gains traction with Cursor and Claude",
+      "caveman proxy cuts token usage by 65%",
+      "Agent-Reach CLI gains viral status for free data",
+      "superpowers emerges as a top trending shell tool",
+      "Developer interest shifts to token-efficient agents"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon debuts as a new state-of-the-art benchmark",
+      "FLUX 3 sets a new standard for image generation fidelity",
+      "Pop!_OS moves to ban AI-generated code",
+      "Community debates the future of OpenAI culture",
+      "Claude Opus 5.5 optimization tips drive engagement",
+      "Focus shifts to integrating and managing coding agents"
+    ]
+  }
+}
