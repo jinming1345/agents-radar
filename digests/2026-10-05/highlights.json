@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 在智能代理工作流中趋于稳定",
+      "OpenAI Codex v0.162 进入 Alpha 阶段",
+      "Copilot CLI v1.0.92-4 发布保持平稳",
+      "Qwen Code 在夜间构建测试中扩展",
+      "开发者优先考虑持久上下文记忆",
+      "会话状态恢复是 CLI 的首要障碍"
+    ],
+    "ai-agents": [
+      "QwenPaw v2.2.2b4 在高压状态下运行",
+      "ZeroClaw v0.8.6 开发势头增强",
+      "行业转向智能代理加固",
+      "重点从扩展转向沙箱化",
+      "架构稳定性成为新优先级",
+      "IronClaw 保持稳定但活跃度低"
+    ],
+    "ai-infra": [
+      "vLLM 凭借企业级 FP8 支持领先",
+      "llama.cpp b11390 扩展 VLM 支持",
+      "LiteLLM v1.105.0-rc.1 聚焦工具循环稳定",
+      "Ollama 在新版本中面临关键问题",
+      "Qwen-3.8/3-TTS 推动当前模型采用",
+      "感知生命周期的服务取代单纯速度"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon 引发推理辩论",
+      "FLUX 3 Image 树立开源权重保真度新标杆",
+      "HN 争论智能代理是否需文档而非记忆",
+      "星际争霸 AI 作弊引发安全质疑",
+      "企业动荡影响 OpenAI 相关讨论",
+      "开发者要求本地沙箱控制权"
+    ],
+    "ai-hf": [
+      "LTX-2.5 视频模型下载量超 160 万",
+      "Kolibri-1 MoE 模型推理首秀",
+      "Xing4.0-29B-A4B-GGUF 本地硬件表现佳",
+      "Qwen-3.8/3.5 系列主导 HF 趋势",
+      "GSQ 和 RCO 量化成为标准",
+      "多模态图生视频工具主导参与度"
+    ],
+    "ai-community": [
+      "TabPFN 实现私密健康预测",
+      "开发者质疑 AI 代码可靠性与速度",
+      "基于 LLM 的测试流程面临准确性风险",
+      "隐私优先的本地 AI 应用势头强劲",
+      "社区转向对智能代理的理性审视",
+      "LLM 自动化测试仍存在阻力"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains stability in agentic workflows",
+      "OpenAI Codex v0.162 reaches alpha status",
+      "Copilot CLI v1.0.92-4 maintains steady release",
+      "Qwen Code expands in nightly build testing",
+      "Developers prioritize durable context memory",
+      "Session state recovery is the top CLI hurdle"
+    ],
+    "ai-agents": [
+      "QwenPaw reaches v2.2.2b4 in high-stress state",
+      "ZeroClaw v0.8.6 development gains momentum",
+      "Industry shifts toward agentic hardening",
+      "Focus moves from expansion to sandboxing",
+      "Architectural stability is the new priority",
+      "IronClaw remains stable with low activity"
+    ],
+    "ai-infra": [
+      "vLLM leads with enterprise-grade FP8 support",
+      "llama.cpp b11390 expands VLM support",
+      "LiteLLM v1.105.0-rc.1 targets tool-loop stability",
+      "Ollama faces critical issues in new releases",
+      "Qwen-3.8/3-TTS drives current model adoption",
+      "Lifecycle-aware serving replaces raw speed"
+    ],
+    "ai-hn": [
+      "Gemini 4 Argon sparks reasoning debates",
+      "FLUX 3 Image sets new open-weights fidelity bar",
+      "HN debates if agents need docs over memory",
+      "StarCraft AI cheating raises safety questions",
+      "Corporate volatility hits OpenAI discourse",
+      "Developers demand sandboxed local control"
+    ],
+    "ai-hf": [
+      "LTX-2.5 video model hits 1.6M+ downloads",
+      "Kolibri-1 MoE model debuts for reasoning",
+      "Xing4.0-29B-A4B-GGUF gains local hardware traction",
+      "Qwen-3.8/3.5 series dominates HF trends",
+      "GSQ and RCO quantization become standards",
+      "Multimodal image-to-video tools lead engagement"
+    ],
+    "ai-community": [
+      "TabPFN enables private health prediction",
+      "Devs question AI code reliability vs speed",
+      "LLM-based test pipelines face accuracy risks",
+      "Privacy-first local AI apps gain momentum",
+      "Community shifts to post-hype agent scrutiny",
+      "Automated testing for LLMs remains a friction"
+    ]
+  }
+}

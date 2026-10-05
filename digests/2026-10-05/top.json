@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Google 发布 Gemini 4 Argon",
+    "impact": 5,
+    "why": "作为最前沿的旗舰模型，其推理能力和多模态表现直接重塑行业基准，引发大规模社区讨论。",
+    "audience": "全体AI开发者与用户",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Agent开发转向硬化与可靠性",
+    "impact": 4,
+    "why": "整个生态从功能堆砌转向内存持久化、沙箱隔离与生产级观测，标志着Agent迈向成熟阶段。",
+    "audience": "Agent开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "AI CLI工具进入稳固期",
+    "impact": 4,
+    "why": "Claude Code等工具开始解决状态碎片化和企业治理问题，直接影响生产环境的CLI选型标准。",
+    "audience": "后端与DevOps工程师",
+    "report": "ai-cli"
+  },
+  {
+    "title": "Qwen3.8-27B 成为主流开源基座",
+    "impact": 3,
+    "why": "该模型在多模态与推理任务中表现突出，已成为各大推理引擎与微调框架的首选优化目标。",
+    "audience": "模型训练与部署工程师",
+    "report": "ai-hf"
+  },
+  {
+    "title": "基础设施引入生命周期优化",
+    "impact": 3,
+    "why": "vLLM等项目引入KV缓存睡眠等机制，大幅降低长上下文推理的资源成本，提升生产效能。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-infra"
+  }
+]
