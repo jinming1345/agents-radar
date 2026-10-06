@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.290 发布",
+      "OpenAI Codex v0.162.0-alpha 上线",
+      "重心转向智能体自主性",
+      "Qwen Code v0.25.0 亮相",
+      "Gemini CLI v0.64.0-nightly 更新",
+      "强调持久化运行时环境"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1 发布",
+      "高速代码重构正在进行",
+      "网关线程卸载至 Worker",
+      "聚焦会话持久性",
+      "P0 级崩溃循环报告激增",
+      "启用嵌入缓存迁移"
+    ],
+    "ai-infra": [
+      "vLLM 新增 FlashMLA 和 NVFP4",
+      "针对 Blackwell 硬件加固",
+      "vLLM v0.31.0 保持稳定",
+      "SGLang 解决关键死锁问题",
+      "llama.cpp 扩展视觉支持",
+      "基础设施转向存算分离"
+    ],
+    "ai-trending": [
+      "browser-use 斩获 117k 星",
+      "crawl4ai 达到 84k 星",
+      "OpenMontage 趋势：视频智能体",
+      "聚焦智能体互操作性",
+      "cloudflare-os 发布，获 101 星",
+      "利基型产品化智能体兴起"
+    ],
+    "ai-web": [
+      "Anthropic 定义机器人暴露指数",
+      "机器人技术预计影响未来 40 年",
+      "OpenAI 转向广告变现",
+      "欧盟一致的来源验证倡议",
+      "Anthropic 转向物理自动化",
+      "OpenAI 优先考虑合规性"
+    ],
+    "ai-hn": [
+      "Beam 501B 模型获得关注",
+      "Dust 论文挑战反向传播",
+      "关于智能体记忆与文档的讨论",
+      "对恶意智能体事件的担忧",
+      "社区对企业安全性持怀疑态度",
+      "实验性训练受到关注"
+    ],
+    "ai-arxiv": [
+      "离线策略合并防止遗忘",
+      "新型组合标记化模型",
+      "研究人员解决验证陷阱",
+      "反事实激活分析",
+      "LoRA 适应趋势以提高稳定性",
+      "聚焦推理时计算"
+    ],
+    "ai-community": [
+      "警告：AI 审计日志不可信",
+      "MicroVM 中的智能体状态持久化",
+      "自动化爬虫提升智能体上下文",
+      "对不可变可观测性的需求",
+      "Hacktoberfest 推动利基工具",
+      "智能体错误管理至关重要"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.290 released",
+      "OpenAI Codex v0.162.0-alpha live",
+      "Focus shifting to agent autonomy",
+      "Qwen Code v0.25.0 debuts",
+      "Gemini CLI v0.64.0-nightly update",
+      "Emphasis on durable runtime environments"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.1 ships",
+      "High-velocity refactoring underway",
+      "Gateway threads offloaded to workers",
+      "New focus on session durability",
+      "Critical P0 crash-loop reports surge",
+      "Embedding cache migration enabled"
+    ],
+    "ai-infra": [
+      "vLLM adds FlashMLA and NVFP4",
+      "Hardening for Blackwell hardware",
+      "vLLM v0.31.0 remains stable",
+      "SGLang battling critical deadlocks",
+      "llama.cpp expands vision support",
+      "Infrastructure shifting to disaggregation"
+    ],
+    "ai-trending": [
+      "browser-use hits 117k stars",
+      "crawl4ai reaches 84k stars",
+      "OpenMontage trend: video agents",
+      "New focus on agentic interoperability",
+      "cloudflare-os launches to 101 stars",
+      "Rise of productized niche agents"
+    ],
+    "ai-web": [
+      "Anthropic defines robot exposure index",
+      "Robotics set for 40-year impact",
+      "OpenAI shifts toward ad-monetization",
+      "EU-aligned provenance initiatives",
+      "Anthropic pivots to physical automation",
+      "OpenAI prioritizes regulatory compliance"
+    ],
+    "ai-hn": [
+      "Beam 501B model gains traction",
+      "Dust paper challenges backpropagation",
+      "Debate on AI agent memory vs docs",
+      "Concern over rogue agent incidents",
+      "Community wary of corporate safety",
+      "Experimental training gains attention"
+    ],
+    "ai-arxiv": [
+      "Off-policy merging prevents forgetting",
+      "New compositional tokenization model",
+      "Researchers address verification traps",
+      "Counterfactual activation analysis",
+      "LoRA adaptation trends for stability",
+      "Focus on inference-time compute"
+    ],
+    "ai-community": [
+      "Warning: AI audit logs are untrustworthy",
+      "Agent state persistence in microVMs",
+      "Automated crawlers boost agent context",
+      "Demand for immutable observability",
+      "Hacktoberfest fuels niche agent tools",
+      "Agentic error management is critical"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布机器人暴露指数研究",
+    "impact": 5,
+    "why": "首次量化大模型与物理机器人结合的经济周期，预示AI从纯软件转向物理自动化的长期趋势。",
+    "audience": "AI行业战略分析师",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenClaw进入高频修复阶段",
+    "impact": 4,
+    "why": "作为核心Agent框架，其频繁的P0崩溃修复和内存泄漏治理直接决定当前生产级Agent的稳定性。",
+    "audience": "Agent系统架构师",
+    "report": "ai-agents"
+  },
+  {
+    "title": "vLLM与SGLang竞逐Blackwell硬件支持",
+    "impact": 4,
+    "why": "两大基础设施框架对最新硬件及MoE模型的优化，决定了未来生产环境的推理吞吐量上限。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "Agent框架出现文档化趋势",
+    "impact": 3,
+    "why": "社区共识从单纯依赖大模型记忆转为通过高质量文档供给提升Agent准确性，改变了开发范式。",
+    "audience": "AI Agent开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Claude Code等CLI工具进入硬化期",
+    "impact": 3,
+    "why": "工具从实验转向生产，重点转向状态管理与权限控制，标志着CLI AI工具进入基础设施化时代。",
+    "audience": "后端开发工程师",
+    "report": "ai-cli"
+  }
+]
