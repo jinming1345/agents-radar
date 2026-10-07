@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.292 提升智能体可靠性",
+      "生态重心转向企业级治理",
+      "长期会话状态是最大障碍",
+      "OpenCode v1.18.35 开发者活跃度高",
+      "Copilot CLI v1.0.93 保持中等状态",
+      "减少上下文丢失成为共同目标"
+    ],
+    "ai-agents": [
+      "OpenClaw 面临 P0 稳定性报告困扰",
+      "项目受内存泄漏和启动挂起影响",
+      "重心转向 v2026.9.5 的关键热修复",
+      "Hermes Agent 领跑新工作流实验",
+      "IronClaw 面临网关初始化压力",
+      "ZeroClaw 报告大量响应式维护任务"
+    ],
+    "ai-infra": [
+      "vLLM 与 SGLang 竞相优化 DeepSeek-V4",
+      "llama.cpp b11457 改进超显存缓存",
+      "Unsloth v0.1.903-beta 优化硬件效率",
+      "LiteLLM 转向高性能 Rust 路由",
+      "GLM-5.3-Flash 导致严重的内存死锁",
+      "工程师转向支持 Blackwell 后续芯片"
+    ],
+    "ai-trending": [
+      "TypeScript 项目 rea 擅长二进制逆向",
+      "claude-mem 获 9.7 万星标，提供持久上下文",
+      "CowAgent 凭借一键安装架构激增",
+      "开发者优先考虑智能体记忆与技能",
+      "Text-to-CAD 工具在代理工作流中走红",
+      "趋势转向专用型智能体"
+    ],
+    "ai-web": [
+      "Anthropic 发布分级网络验证计划",
+      "Claude Mythos 5.1 获得目标安全访问权限",
+      "OpenAI 预示转向持久化智能体计算",
+      "Anthropic 完善其双用途政策框架",
+      "OpenAI 新指南详述 GPT-5 和 GPT-6 策略",
+      "网络安全护栏进入企业合规流程"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 发布引发广泛审查",
+      "OpenAI 分享 AI 数学证明进展",
+      "Dust 研究提出无反向传播训练法",
+      "社区讨论金融与安全领域的 AI 风险",
+      "数学推理转向可验证的证明",
+      "用户分析 Mistral 的开放权重可用性"
+    ],
+    "ai-arxiv": [
+      "POLAR 框架增加本体引导风险检查",
+      "混合潜在注意力减少 KV 缓存膨胀",
+      "新型扩散模型采用自回归权重",
+      "研究人员解决智能体静默失败问题",
+      "训练后治理提升智能体安全性",
+      "研究聚焦于智能体的结构可靠性"
+    ],
+    "ai-community": [
+      "开发者警告 AI 智能体的现实危害",
+      "绿色测试未能捕获生产边缘情况",
+      "资深开发者强调拒绝 AI 的能力",
+      "测试财务控制需要付费模型",
+      "社区转向生产级可靠性",
+      "监管合规占据当前讨论主导地位"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.292 pushes for agent reliability",
+      "Ecosystem shifts to enterprise governance focus",
+      "Long-running session state is the top hurdle",
+      "OpenCode v1.18.35 sees high developer activity",
+      "Copilot CLI v1.0.93 remains in moderate status",
+      "Context loss mitigation becomes a shared goal"
+    ],
+    "ai-agents": [
+      "OpenClaw struggles with P0 stability reports",
+      "Project plagued by memory leaks and startup hangs",
+      "Focus turns to critical hotfixes for v2026.9.5",
+      "Hermes Agent leads new workflow experiments",
+      "IronClaw faces intense gateway initialization stress",
+      "ZeroClaw reports high volume of reactive maintenance"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang race to optimize DeepSeek-V4",
+      "llama.cpp b11457 improves larger-than-VRAM caching",
+      "Unsloth v0.1.903-beta targets hardware efficiency",
+      "LiteLLM pivots to high-performance Rust routing",
+      "GLM-5.3-Flash causing critical memory deadlocks",
+      "Engineers shift to supporting post-Blackwell chips"
+    ],
+    "ai-trending": [
+      "TypeScript project rea excels at binary reverse engineering",
+      "claude-mem hits 97k stars for persistent AI context",
+      "CowAgent surges with one-line install architecture",
+      "Developers prioritize agentic memory and skills",
+      "text-to-cad tool gains traction in agent workflows",
+      "Trend shifts to specialized autonomous agents"
+    ],
+    "ai-web": [
+      "Anthropic unveils tiered Cyber Verification Program",
+      "Claude Mythos 5.1 gains targeted security access",
+      "OpenAI signals shift to persistent agent computing",
+      "Anthropic refines its dual-use policy framework",
+      "New OpenAI guides detail GPT-5 and GPT-6 strategy",
+      "Cyber-safety guardrails get a formal enterprise path"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 launch sparks massive scrutiny",
+      "OpenAI shares progress on AI-driven math proofs",
+      "Dust research offers backprop-free training method",
+      "Community debates AI risks in banking and security",
+      "Mathematical reasoning shifts to provable proofs",
+      "Users analyze Mistral's open-weight availability"
+    ],
+    "ai-arxiv": [
+      "POLAR framework adds ontology-guided risk checks",
+      "Hybrid Latent Attention cuts KV-cache inflation",
+      "New diffusion models use autoregressive weights",
+      "Researchers address silent failures in agents",
+      "Post-training governance improves agent safety",
+      "Study focuses on structural reliability for agents"
+    ],
+    "ai-community": [
+      "Devs warn of real-world harm from AI agents",
+      "Green tests fail to catch production edge cases",
+      "Senior devs emphasize the skill of saying no to AI",
+      "Testing financial controls requires paid models",
+      "Community shifts to production-level reliability",
+      "Regulatory compliance dominates current discussion"
+    ]
+  }
+}

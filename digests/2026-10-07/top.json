@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI发布Agent开发策略与工具",
+    "impact": 5,
+    "why": "正式发布GPT 5/6开发指南及Ironclad计算机使用策略，标志着AI从聊天转向代理与持久化计算的范式转移。",
+    "audience": "全体AI开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Anthropic启动网络安全验证计划",
+    "impact": 5,
+    "why": "正式允许特定专业人士绕过模型安全限制，重塑高安全领域AI使用规范，极具行业示范效应。",
+    "audience": "安全从业者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Mistral Large 4正式发布",
+    "impact": 4,
+    "why": "作为顶尖模型的新迭代，在性能上对标美国头部模型，并引发社区对欧洲合规性和开源潜力的广泛讨论。",
+    "audience": "模型用户与企业",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw进入严重稳定性维护期",
+    "impact": 4,
+    "why": "作为核心Agent框架，当前500+严重Bug挂起，直接影响大量依赖该架构的生产环境稳定性。",
+    "audience": "Agent开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "Claude Code 引入意图强度参数",
+    "impact": 3,
+    "why": "创新性引入effort参数控制智能体行为深度，为解决复杂开发任务中的资源分配提供了新交互范式。",
+    "audience": "AI CLI用户",
+    "report": "ai-cli"
+  }
+]
