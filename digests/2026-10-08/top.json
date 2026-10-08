@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic成立生物实验室并发布首个研究成果",
+    "impact": 5,
+    "why": "AI模型从数字模拟转向物理实验室，标志着AI科研应用进入实证科学新范式。",
+    "audience": "科研人员与AI策略师",
+    "report": "ai-web"
+  },
+  {
+    "title": "Mistral Large 4性能对标闭源旗舰模型",
+    "impact": 5,
+    "why": "Mistral再次缩小开源与顶级闭源模型的差距，直接冲击企业级大模型选型格局。",
+    "audience": "AI架构师与开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenAI发布GPT-6 for Everyone",
+    "impact": 5,
+    "why": "作为行业标杆，GPT-6的大规模部署将重新定义AI产品化标准与用户交互体验。",
+    "audience": "全体AI用户",
+    "report": "ai-web"
+  },
+  {
+    "title": "Claude Code等工具进入托管Agent开发阶段",
+    "impact": 4,
+    "why": "AI CLI工具正从聊天机器人转向具有持久会话和自动化能力的操作运行时，改变开发流。",
+    "audience": "Agent开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "vLLM与llama.cpp强化MoE专家并行调度",
+    "impact": 4,
+    "why": "针对MoE模型的内存优化和内核调优是当前推理基础设施提升吞吐量的核心瓶颈解决方案。",
+    "audience": "基础设施工程师",
+    "report": "ai-infra"
+  }
+]

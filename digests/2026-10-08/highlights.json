@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.293 驱动智能体自动化",
+      "OpenAI Codex Alpha 版达到 v0.162",
+      "Pi v1.1.0 稳定版发布，带来新功能",
+      "焦点转向长效、持久的智能体对话",
+      "安全沙箱成为行业首要任务",
+      "团队积极推动复杂的 MCP 集成"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.2 优先支持持久化",
+      "500 项活跃更新追踪 OpenClaw 稳定性",
+      "PR 166882 改进 CI/QA 发布验证",
+      "修复状态管理以防止竞态条件",
+      "优化远程工作进程附加交付",
+      "网关加固针对内存和子智能体泄漏"
+    ],
+    "ai-infra": [
+      "vLLM 率先支持 Gemma4 和 Qwen3.8",
+      "Ollama v0.40.1 解决迁移稳定性",
+      "LiteLLM 随 v1.106.0-dev 版本演进",
+      "行业转向混合 MoE 和 MTP 服务",
+      "Blackwell 和 MI355X 内核支持占主导",
+      "企业 OAuth 集成成为关键差异点"
+    ],
+    "ai-trending": [
+      "rea 获 4655 颗星，用于智能体逆向工程",
+      "trycua 推动 computer-use 2.0 部署",
+      "security-audit-skill 自动化多阶段检查",
+      "cmux 终端优化 AI 智能体多任务处理",
+      "开发者环境中的智能体优先 UX 激增",
+      "焦点转向 Token 效率和持久上下文"
+    ],
+    "ai-web": [
+      "Anthropic 成立内部生命科学实验室",
+      "Claude 发现新型 CRISPR 类酶系统",
+      "OpenAI 暗示即将推出 GPT-6",
+      "Anthropic 正式启动网络验证计划",
+      "众包面试研究推动 AI 对齐",
+      "Anthropic 转向物理科学发现"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 引发激烈基准测试辩论",
+      "OpenAI 正式化数学证明生成",
+      "Docker Agent 入场推动生态增长",
+      "社区对 AI 取代初级工程师存在分歧",
+      "自有服务成本上升引发质疑",
+      "关于可验证与预测性 AI 的辩论增加"
+    ],
+    "ai-arxiv": [
+      "无数据路径减轻灾难性遗忘",
+      "双 QK 2 位量化减少内存流量",
+      "研究探索智能体逻辑与角色解耦",
+      "流程感知评估在研究中受关注",
+      "研究优化边缘 LLM 推理性能",
+      "研究瞄准边缘模型的物理推理"
+    ],
+    "ai-community": [
+      "警告：智能体直接合并到生产环境有风险",
+      "提示词注入被重新分类为数据流问题",
+      "审计发现 85% 的 AI SDK 缺乏 Token 上限",
+      "工程师辩论 AI 的专业责任",
+      "安全问题主导生产工作流",
+      "社区呼吁建立严格的 AI 监管工具"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.293 drives agent automation",
+      "OpenAI Codex reaches v0.162 in alpha",
+      "Pi v1.1.0 stable release brings new features",
+      "Focus shifts to long-lived, durable agent sessions",
+      "Security sandboxing gains industry-wide priority",
+      "Teams push for sophisticated MCP integration"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.1-beta.2 prioritizes persistence",
+      "500 active updates track OpenClaw stabilization",
+      "PR 166882 improves CI/QA release validation",
+      "State management patched to prevent race conditions",
+      "Worker attachment delivery refined for remotes",
+      "Gateway hardening targets memory and subagent leaks"
+    ],
+    "ai-infra": [
+      "vLLM leads enterprise support for Gemma4 and Qwen3.8",
+      "Ollama v0.40.1 addresses migration stability",
+      "LiteLLM evolves with v1.106.0-dev builds",
+      "Industry shifts to hybrid MoE and MTP serving",
+      "Blackwell and MI355X kernel support dominates",
+      "Enterprise OAuth integration becomes a key differentiator"
+    ],
+    "ai-trending": [
+      "rea gains 4,655 stars for agentic reverse engineering",
+      "trycua drives computer-use 2.0 deployments",
+      "security-audit-skill automates multi-phase checks",
+      "cmux terminal optimizes for AI agent multitasking",
+      "Agent-first UX surges in developer environments",
+      "Focus turns to token efficiency and persistent context"
+    ],
+    "ai-web": [
+      "Anthropic launches in-house life sciences lab",
+      "Claude identifies novel CRISPR-like enzyme system",
+      "OpenAI hints at imminent GPT-6 rollout",
+      "Anthropic formalizes Cyber Verification Program",
+      "Crowdsourced interview study drives AI alignment",
+      "Anthropic pivots to physical scientific discovery"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 sparks intense benchmarking debates",
+      "OpenAI formalizes mathematical proof generation",
+      "Docker Agent entry fuels ecosystem growth",
+      "Community split on AI replacing junior engineers",
+      "Rising proprietary service costs draw skepticism",
+      "Debate grows over verifiable versus predictive AI"
+    ],
+    "ai-arxiv": [
+      "New data-free path mitigates catastrophic forgetting",
+      "Dual-QK 2-bit quantization reduces memory traffic",
+      "Paper explores logic-persona decoupling in agents",
+      "Process-aware evaluation gains research traction",
+      "Study optimizes edge LLM inference performance",
+      "Research targets physical reasoning in edge models"
+    ],
+    "ai-community": [
+      "Warning: AI agents merging to production is risky",
+      "Prompt injection reclassified as data-flow issue",
+      "Audit finds 85% of AI SDKs lack token ceilings",
+      "Engineers debate professional responsibility for AI",
+      "Security concerns dominate production workflows",
+      "Community calls for rigorous AI oversight tools"
+    ]
+  }
+}
