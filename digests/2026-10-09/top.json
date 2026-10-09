@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic启动Cyber Mission",
+    "impact": 5,
+    "why": "Anthropic将安全战略升级为国家级任务，标志着AI模型正全面向关键基础设施及自主网络防御领域深度整合。",
+    "audience": "安全与基础设施架构师",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenAI撤回数学研究成果",
+    "impact": 5,
+    "why": "这一撤回事件引发了业界对LLM生成逻辑严谨性的信任危机，直接推动了形式化验证工具在AI领域的迫切需求。",
+    "audience": "所有AI研究与开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Agent生态进入持久化阶段",
+    "impact": 4,
+    "why": "各Agent框架正从实验转向稳定，通过MCP标准化及持久化记忆解决Agent在长周期任务中的状态崩溃问题。",
+    "audience": "Agent应用开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "DeepSeek V4.1适配SGLang",
+    "impact": 4,
+    "why": "SGLang率先整合深度推理模型优化，将重新定义高性能推理引擎在处理复杂链式思考任务时的标准。",
+    "audience": "大模型推理工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "REA逆向工程Agent发布",
+    "impact": 3,
+    "why": "通过AI实现原生二进制逆向，展示了自主Agent在专业安全分析领域替代人工的高效新范式。",
+    "audience": "安全研究员",
+    "report": "ai-trending"
+  }
+]

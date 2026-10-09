@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.295 发布",
+      "重心转向智能体编排",
+      "GitHub Copilot CLI 更新至 v1.0.95-1",
+      "行业标准正向 MCP 靠拢",
+      "OpenAI Codex 新增持久线程",
+      "强调安全沙盒执行"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.9 网关趋于稳定",
+      "OpenClaw 进入高强度维护期",
+      "数据库锁死问题已修复",
+      "后台工作者提升性能",
+      "主线程架构强化",
+      "CI/CD 流水线优化改进"
+    ],
+    "ai-infra": [
+      "vLLM 新增 Blackwell SM12x 内核",
+      "SGLang 领先集成 DeepSeek V4.1",
+      "llama.cpp b11501-14 改进 MoE",
+      "Ollama v0.40.2 增加推理支持",
+      "LiteLLM 聚焦企业级计费",
+      "推理引擎迈向多节点化"
+    ],
+    "ai-trending": [
+      "rea 项目获得 7,738 颗星",
+      "基于智能体的逆向工程成趋势",
+      "claude-mem 凭借上下文获关注",
+      "PyTorch 引领基础设施类项目",
+      "HuggingFace Transformers 达 166k 星",
+      "智能体时代主导 GitHub 趋势"
+    ],
+    "ai-web": [
+      "Anthropic 启动网络任务",
+      "Anthropic 承诺向 Genesis 投入 1.5 亿美元",
+      "推出全新自动化漏洞扫描器",
+      "OpenAI 面临反影响力审查",
+      "Anthropic 瞄准关键基础设施",
+      "聚焦任务关键型 AI 支持"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 主导讨论",
+      "Claude Haiku 5.5 效率受赞誉",
+      "OpenAI 撤回数学研究成果",
+      "社区对 AI 基准测试持怀疑态度",
+      "加密安全性关注度上升",
+      "关于 AI 模型可靠性的辩论"
+    ],
+    "ai-arxiv": [
+      "提出 AI 时间跨度新指标",
+      "小世界拓扑与推理能力相关联",
+      "改进长尾数据的 SFT 方法",
+      "构建智能体种群阈值模型",
+      "研究转向自主自我优化",
+      "聚焦智能体安全与监控"
+    ],
+    "ai-community": [
+      "工程师优先考虑生产成熟度",
+      "警告演示级 AI 代码风险",
+      "关注隐藏的 Token 管理成本",
+      "关于人机协作监管的辩论",
+      "特定领域基准测试成为潮流",
+      "质疑交付速度指标"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.295 released",
+      "Focus shifts to agentic orchestration",
+      "GitHub Copilot CLI reaches v1.0.95-1",
+      "Industry standardizing around MCP",
+      "OpenAI Codex adds durable threads",
+      "Emphasis on secure sandbox execution"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.9.9 stabilizes gateway",
+      "High-intensity maintenance for OpenClaw",
+      "Database locking issues resolved",
+      "Performance gains via background workers",
+      "Architectural hardening of main threads",
+      "Streamlined CI/CD pipeline improvements"
+    ],
+    "ai-infra": [
+      "vLLM adds Blackwell SM12x kernels",
+      "SGLang leads DeepSeek V4.1 integration",
+      "llama.cpp b11501-14 improves MoE",
+      "Ollama v0.40.2 adds reasoning support",
+      "LiteLLM targets enterprise billing",
+      "Inference engines moving to multi-node"
+    ],
+    "ai-trending": [
+      "rea project hits 7,738 stars",
+      "Reverse engineering via agents trends",
+      "claude-mem gains traction for context",
+      "PyTorch leads infrastructure stars",
+      "HuggingFace Transformers hits 166k",
+      "Agents era dominates GitHub trends"
+    ],
+    "ai-web": [
+      "Anthropic launches Cyber Mission",
+      "Anthropic pledges $150M to Genesis",
+      "New automated vulnerability scanner",
+      "OpenAI faces counter-influence scrutiny",
+      "Anthropic targeting critical infrastructure",
+      "Focus on mission-critical AI support"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 dominates discussions",
+      "Claude Haiku 5.5 efficiency praised",
+      "OpenAI withdraws math research results",
+      "Community skeptical of AI benchmarks",
+      "Interest in cryptographic safety rising",
+      "Debate on AI model reliability"
+    ],
+    "ai-arxiv": [
+      "New AI time horizon metrics proposed",
+      "Small-world topology linked to reasoning",
+      "SFT methods for long-tail data improved",
+      "Agent population thresholds modeled",
+      "Research shifts to autonomous self-refinement",
+      "Focus on agent safety and monitoring"
+    ],
+    "ai-community": [
+      "Engineers prioritize production maturity",
+      "Warning on demo-grade AI code",
+      "Focus on hidden token management costs",
+      "Debate on human-in-the-loop oversight",
+      "Domain-specific benchmarks trending",
+      "Skepticism on speed-to-ship metrics"
+    ]
+  }
+}
