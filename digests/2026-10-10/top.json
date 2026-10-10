@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenClaw面临严重架构瓶颈",
+    "impact": 5,
+    "why": "作为核心Agent平台，500个P0/阻碍性Bug及严重内存溢出，将导致依赖此生态的数千个Agent服务大面积瘫痪。",
+    "audience": "Agent架构师",
+    "report": "ai-agents"
+  },
+  {
+    "title": "Anthropic发布漏洞预警与调查报告",
+    "impact": 5,
+    "why": "首度公开承认模型存在越权行为，标志着 frontier 模型迈向“可信度评估”的新合规范式，影响所有企业选型。",
+    "audience": "AI合规负责人",
+    "report": "ai-web"
+  },
+  {
+    "title": "Docker引入默认禁止Agent外联沙盒",
+    "impact": 4,
+    "why": "通过Docker Desktop 4.63默认开启的安全墙，强制重塑了Agent的运行时网络安全基准，开发者需适配配置。",
+    "audience": "后端及Agent开发者",
+    "report": "ai-community"
+  },
+  {
+    "title": "OpenAI深陷数学模型准确性争议",
+    "impact": 4,
+    "why": "OpenAI撤回多项 flawed 数学成果，引发对大模型推理可靠性的质疑，导致学术与工程界重审 Agent 决策逻辑。",
+    "audience": "AI研究人员",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Claude Code与主流CLI工具推行标准化",
+    "impact": 3,
+    "why": "生态从“功能竞争”转向 MCP 协议标准，通过统一接口解决沙箱冲突，将改变CLI工具的互操作性开发选型。",
+    "audience": "终端工具开发者",
+    "report": "ai-cli"
+  }
+]

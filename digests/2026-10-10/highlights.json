@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.296 受到关注",
+      "重心转向持久化状态与恢复",
+      "GitHub Copilot CLI 发布稳定版 v1.0.96-1",
+      "社区要求标准化 MCP 等协议",
+      "OpenAI Codex 现大量问题反馈",
+      "Qwen Code 新增开发者预览版夜间构建"
+    ],
+    "ai-agents": [
+      "OpenClaw 面临重大稳定性倒退",
+      "过去24小时更新了500个PR",
+      "强化智能体通道通信",
+      "修复 Telegram 和 Discord 流输出顺序",
+      "增强代码库交互安全性",
+      "专注于修复内存索引漏洞"
+    ],
+    "ai-infra": [
+      "vLLM 新增对 Blackwell/SM120 支持",
+      "LiteLLM 进行重大单体架构迁移",
+      "SGLang 优化确定性推理",
+      "DeepSeek-V4.1-Flash 驱动模型支持竞赛",
+      "llama.cpp 扩展 Intel SYCL 支持",
+      "Unsloth 专注于微调优化"
+    ],
+    "ai-trending": [
+      "LiteLLM 今日新增95颗星",
+      "rig 达到8,840颗星",
+      "open-code-review 新增322颗星",
+      "开发者重心转向智能体工程",
+      "主动式上下文压缩成为关键",
+      "智能体原生工具被迅速采用"
+    ],
+    "ai-web": [
+      "Anthropic 调查模型非预期行为",
+      "OpenAI 转向企业级运营",
+      "Anthropic 文档强调问责制",
+      "Claude Science 助力天体物理数据",
+      "OpenAI 发布新商业级标准",
+      "透明度成为 Anthropic 核心战略"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 引发激烈争论",
+      "OpenAI 数学证明遭社区质疑",
+      "编码智能体因高幻觉受批评",
+      "AI 在法律领域的作用引发讨论",
+      "关于数学可靠性有1500+条评论",
+      "用户压力测试 Mistral 推理能力"
+    ],
+    "ai-arxiv": [
+      "发布新型 4-bit AdamW 量化方法",
+      "VFold 引入对称感知 KV 压缩",
+      "开发出预测性对齐框架",
+      "研究目标锁定突现的智能体欺骗",
+      "新论文探索亲社会价值传递",
+      "聚焦弥合空间推理差距"
+    ],
+    "ai-community": [
+      "Docker 4.63 增加安全智能体沙箱",
+      "开发者讨论 AI 训练中的“唯唯诺诺”偏差",
+      "批评工程工具滞后",
+      "转向本地执行工作流",
+      "社区推动严格的基准测试",
+      "新项目将 AI 与离线数据桥接"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.296 gains traction",
+      "Focus shifts to durable state and recovery",
+      "GitHub Copilot CLI hits stable v1.0.96-1",
+      "Community demands standard protocols like MCP",
+      "OpenAI Codex seeing high issue volume",
+      "Qwen Code adds nightlies for developer preview"
+    ],
+    "ai-agents": [
+      "OpenClaw faces major stability regressions",
+      "500 PRs updated in last 24 hours",
+      "Hardening agent-channel communication",
+      "Fix for Telegram and Discord stream output order",
+      "Enhanced security for repository interactions",
+      "Focus on fixing memory indexing bugs"
+    ],
+    "ai-infra": [
+      "vLLM adds support for Blackwell/SM120",
+      "LiteLLM undergoes major monolith migration",
+      "SGLang optimizes deterministic inference",
+      "DeepSeek-V4.1-Flash drives model support race",
+      "llama.cpp expands Intel SYCL support",
+      "Unsloth focuses on fine-tuning refinement"
+    ],
+    "ai-trending": [
+      "LiteLLM hits 95 stars today",
+      "rig reaches 8,840 stars",
+      "open-code-review gains 322 stars",
+      "Developer focus shifts to agentic engineering",
+      "Aggressive context compression becomes key",
+      "Agent-native tools gain rapid adoption"
+    ],
+    "ai-web": [
+      "Anthropic probes unintended model actions",
+      "OpenAI pivots to enterprise operationalization",
+      "Anthropic documentation stresses accountability",
+      "Claude Science aids astrophysics data",
+      "OpenAI releases new business-grade standards",
+      "Transparency becomes core Anthropic strategy"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 sparks intense debate",
+      "OpenAI math proofs face community skepticism",
+      "Coding agents criticized for high hallucination",
+      "Debate grows on AI role in legal fields",
+      "1500+ comments on math reliability",
+      "Users stress-test Mistral reasoning"
+    ],
+    "ai-arxiv": [
+      "New 4-bit AdamW quantization method released",
+      "VFold introduces symmetry-aware KV compression",
+      "Predictive framework for alignment developed",
+      "Research targets emergent agent deception",
+      "New paper explores prosocial value transfer",
+      "Focus on bridging the spatial reasoning gap"
+    ],
+    "ai-community": [
+      "Docker 4.63 adds secure agent sandboxing",
+      "Devs debate AI 'yes-man' bias in training",
+      "Critique of lagging engineering tooling",
+      "Shift toward local execution workflows",
+      "Community pushes for rigorous benchmarking",
+      "New projects bridge AI with offline data"
+    ]
+  }
+}
