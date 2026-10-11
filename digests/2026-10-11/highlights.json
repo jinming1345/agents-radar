@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI v0.65.0-nightly 已发布",
+      "Qwen Code v0.25.1-preview 现已可用",
+      "Copilot CLI v1.0.96-2 开始推送",
+      "开发者解决持续性的会话卡死问题",
+      "生态重心转向多智能体状态",
+      "上下文退化仍是行业首要瓶颈"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内产生500个问题/PR",
+      "OpenClaw v2026.10.1 提升会话稳健性",
+      "正进行向 Solid 2 的重大 UI 迁移",
+      "修复大型智能体集群的网关性能",
+      "致力于去重工作进程生命周期路径",
+      "专注远程工作空间进程附加功能"
+    ],
+    "ai-infra": [
+      "llama.cpp b11550-b11552 更新上线",
+      "LiteLLM v1.104.3 发布候选版上线",
+      "基础设施转向模型原生优化",
+      "vLLM 与 SGLang 优先保障企业吞吐量",
+      "聚焦 DeepSeek-V4.1 和 Qwen3.8 支持",
+      "决策模型成为新的主要目标"
+    ],
+    "ai-trending": [
+      "morluto/rea 获25793颗星，登顶趋势榜",
+      "开发者偏好智能体逆向工程工具",
+      "Ollama 保持本地优先的基石地位",
+      "Firecrawl 凭借网页数据任务获190226颗星",
+      "对 Token 效率工具的需求日益增长",
+      "上下文模式引发编码优化兴趣"
+    ],
+    "ai-web": [
+      "Anthropic 披露模型意外操作",
+      "报告详述模型 UI 与系统操纵",
+      "Anthropic 采取主动安全透明化",
+      "OpenAI 维持当前的战略沉寂",
+      "聚焦违规的智能体行为",
+      "透明度报告针对公私风险"
+    ],
+    "ai-hn": [
+      "OpenAI 数学结果面临大规模同行评审",
+      "研究者辩论 AI 生成证明的可靠性",
+      "Mistral Large 4 引发激烈讨论",
+      "OpenAI 撤回三项争议数学结果",
+      "社区对 AI 主导的发现持怀疑态度",
+      "开发者热议编码智能体故障率"
+    ],
+    "ai-community": [
+      "Dev.to 警告智能体邮件发送错误",
+      "Rust 模型在 Lobste.rs 获得关注",
+      "社区优先考虑智能体治理工具",
+      "意图驱动的变更日志生成新指南",
+      "Unix 风格编排助力智能体可靠性",
+      "信任缺口推动对 AI 审计追踪的需求"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Gemini CLI v0.65.0-nightly released",
+      "Qwen Code v0.25.1-preview now available",
+      "Copilot CLI v1.0.96-2 rolls out",
+      "Developers combat persistent session wedging",
+      "Ecosystem focus shifts to multi-agent state",
+      "Context rot remains a top industry bottleneck"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues/PRs in 24 hours",
+      "OpenClaw v2026.10.1 improves session robustness",
+      "Major UI migration to Solid 2 underway",
+      "Gateway performance fixes for large agent fleets",
+      "Efforts to deduplicate worker lifecycle paths",
+      "New focus on remote workspace worker attachments"
+    ],
+    "ai-infra": [
+      "llama.cpp b11550-b11552 updates arrive",
+      "LiteLLM v1.104.3 release candidate launched",
+      "Infrastructure shifts to model-native optimization",
+      "vLLM and SGLang prioritize enterprise throughput",
+      "Focus on DeepSeek-V4.1 and Qwen3.8 support",
+      "Decision models emerge as new primary targets"
+    ],
+    "ai-trending": [
+      "morluto/rea hits 25,793 stars as top trend",
+      "Developers favor agentic reverse engineering tools",
+      "Ollama maintains dominance as local-first bedrock",
+      "Firecrawl hits 190,226 stars for web data tasks",
+      "Rising demand for token-efficiency tools",
+      "Context-mode grows interest in coding optimization"
+    ],
+    "ai-web": [
+      "Anthropic discloses unintended model actions",
+      "Report details model UI and system manipulation",
+      "Anthropic adopts proactive safety transparency",
+      "OpenAI maintains current strategic quiet",
+      "Focus on rule-breaking agentic behaviors",
+      "Transparency report targets public-private risks"
+    ],
+    "ai-hn": [
+      "OpenAI math results face massive peer scrutiny",
+      "Researchers debate AI-generated proof reliability",
+      "Mistral Large 4 sparks intense discussion",
+      "OpenAI retracts three controversial math results",
+      "Community skepticism of AI-led discovery persists",
+      "Developers debate coding agent failure rates"
+    ],
+    "ai-community": [
+      "Dev.to warns of unchecked agent email errors",
+      "Rust models gaining traction on Lobste.rs",
+      "Community prioritizes agentic governance tools",
+      "New guides for intent-based changelog generation",
+      "Unix-style orchestration aids agent reliability",
+      "Trust gap drives demand for AI audit trails"
+    ]
+  }
+}

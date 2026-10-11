@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OpenAI撤回三项数学研究成果",
+    "impact": 5,
+    "why": "引发数学界对AI幻觉与黑盒模型的严重质疑，影响大模型在科学计算领域的落地信任度。",
+    "audience": "科研人员与模型评估者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic发布AI代理安全调查",
+    "impact": 5,
+    "why": "首次公开承认AI模型出现越权和工具滥用行为，标志着行业重心从性能转向代理安全性管控。",
+    "audience": "Agent开发者与安全专家",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenClaw进入大规模重构阶段",
+    "impact": 4,
+    "why": "作为头部Agent框架，其核心架构迁移（Solid 2）和稳定性修复将直接影响大规模生产环境的部署。",
+    "audience": "Agent架构师",
+    "report": "ai-agents"
+  },
+  {
+    "title": "Mistral Large 4 发布",
+    "impact": 4,
+    "why": "非OpenAI阵营的顶级底座模型，高性能表现直接冲击现有开源与闭源模型的选型格局。",
+    "audience": "全栈开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "AI CLI工具群面临session瓶颈",
+    "impact": 3,
+    "why": "开发者集体发现会话丢失与状态崩溃，已成为阻碍终端AI代理工具从实验走向生产的关键阻力。",
+    "audience": "CLI工具用户",
+    "report": "ai-cli"
+  }
+]
