@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Qwen3.8 系列模型成为开源新标杆",
+    "impact": 5,
+    "why": "作为当前最主流的开源基座，其下载量和影响力覆盖了绝大多数社区模型微调与部署场景。",
+    "audience": "所有AI开发者",
+    "report": "ai-hf"
+  },
+  {
+    "title": "Agent 逆向分析工具 morluto/rea 爆发",
+    "impact": 4,
+    "why": "单日星标增长超2.5万，标志着AI代理在处理复杂技术分析与二进制逆向工程上进入新范式。",
+    "audience": "安全研究员及Agent开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "Claude Code 等 CLI 工具进入硬化期",
+    "impact": 4,
+    "why": "从单一模型能力转向本地环境稳定性、状态持久化与安全性，是Agent从玩具走向生产工具的关键跨越。",
+    "audience": "工具链开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "推理模型 (d1/R1) 推动底层架构演进",
+    "impact": 4,
+    "why": "vLLM与llama.cpp等底层框架正大规模重构以适应推理模型的深度思维链需求，影响模型推理效率。",
+    "audience": "模型推理工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "OpenClaw 陷入严重的稳定运行危机",
+    "impact": 3,
+    "why": "数百个P0/P1级issue暴露了高频Agent系统在生产环境中的资源泄露与大规模崩溃问题，反映出行业现状。",
+    "audience": "Agent系统架构师",
+    "report": "ai-agents"
+  }
+]

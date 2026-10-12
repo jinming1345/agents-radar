@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 和 OpenAI Codex 达到稳定状态",
+      "Qwen Code v0.25.1 专注于稳定性能",
+      "开发者优先考虑持久会话保持",
+      "Gemini CLI 转为夜间活跃开发模式",
+      "自主智能体的沙箱挑战依然存在",
+      "OpenCode 改进了跨平台文件处理"
+    ],
+    "ai-agents": [
+      "OpenClaw 维护繁重，有 345 个未决问题",
+      "v2026.10.5-beta.1 加固了核心基础设施",
+      "OpenClaw 提高了 Windows 插件 SDK 的一致性",
+      "Hermes 和 IronClaw 推动智能体工作流研究",
+      "QwenPaw 加入 OpenClaw 生态系统",
+      "基础设施清理移除了过时的会话垫片"
+    ],
+    "ai-infra": [
+      "vLLM 面临高并发内存溢出问题",
+      "llama.cpp 获得实验性循环模型支持",
+      "Unsloth 开创了统一的 DiffusionTrainer",
+      "基础设施向推理模型支持转型",
+      "LiteLLM v1.106.x 改进了支出跟踪工具",
+      "混合服务对于思维链任务至关重要"
+    ],
+    "ai-trending": [
+      "PyTorch 以 104k 星标引领且稳步增长",
+      "AirLLM 实现 4GB 显存运行 70B 模型推理",
+      "Ollama 在本地模型部署中占据主导",
+      "智能体转型激发了对自主系统的兴趣",
+      "Morluto/rea 在逆向工程领域受到关注",
+      "Hugging Face 仍是标准模型中心"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 引发性能与算力争论",
+      "社区探讨 AI 生成的数学证明",
+      "Lean Theorem Prover 的可靠性受审视",
+      "OpenAI 的治理引发机构焦虑",
+      "智能体系统现可执行复杂的反编译",
+      "工程师优先考虑 LLM 沙箱与安全"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 成为主流开源权重模型",
+      "Qwen3.8-Flash-Next 优化了低延迟聊天",
+      "DeepSeek-V4.1-Flash 保持高速性能",
+      "以视频为中心的生成由 LTX-2.5 引领",
+      "用户优先选择 2-bit GGUF 量化格式",
+      "Flash 变体占据近期模型下载榜首"
+    ],
+    "ai-community": [
+      "Hacktoberfest 推动物理世界 AI 实验",
+      "小型 322M 模型现用作 Shell 安全防护",
+      "社区转向严谨的智能体基准测试",
+      "向开发者解释 8-bit 量化数学原理",
+      "文章探讨现实世界的开发智能体工作流",
+      "焦点转向智能体系统的实际成本"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and OpenAI Codex reach stable status",
+      "Qwen Code v0.25.1 focuses on stable performance",
+      "Developers prioritize durable session persistence",
+      "Gemini CLI moves to nightly active development",
+      "Sandboxing challenges persist for autonomous agents",
+      "OpenCode improves cross-platform file handling"
+    ],
+    "ai-agents": [
+      "OpenClaw under heavy maintenance with 345 open issues",
+      "v2026.10.5-beta.1 hardens core infrastructure",
+      "OpenClaw improves Windows plugin SDK consistency",
+      "Hermes and IronClaw drive agentic workflow research",
+      "QwenPaw joins the OpenClaw ecosystem",
+      "Infrastructure cleanup removes obsolete session shims"
+    ],
+    "ai-infra": [
+      "vLLM faces high-concurrency OOM issues",
+      "llama.cpp gains experimental recurrent model support",
+      "Unsloth pioneers unified DiffusionTrainer",
+      "Infrastructure shifts toward reasoning-model support",
+      "LiteLLM v1.106.x improves spend tracking tools",
+      "Hybrid serving now critical for think-token tasks"
+    ],
+    "ai-trending": [
+      "PyTorch leads with 104k stars and steady growth",
+      "AirLLM enables 70B parameter inference on 4GB GPUs",
+      "Ollama dominates local model deployment",
+      "Agentic shift drives interest in autonomous systems",
+      "Morluto/rea gains traction for reverse engineering",
+      "Hugging Face remains the standard model hub"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 sparks performance-to-compute debate",
+      "Community debates AI-generated math proofs",
+      "Lean Theorem Prover reliability under scrutiny",
+      "Governance at OpenAI triggers institutional anxiety",
+      "Agentic systems now perform complex decompilation",
+      "Engineers prioritize LLM sandboxing and safety"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B becomes the dominant open-weight model",
+      "Qwen3.8-Flash-Next optimized for low-latency chat",
+      "DeepSeek-V4.1-Flash maintains high-speed performance",
+      "Video-centric generation led by LTX-2.5",
+      "Users prioritize 2-bit GGUF quantization formats",
+      "Flash variants dominate recent model downloads"
+    ],
+    "ai-community": [
+      "Hacktoberfest drives physical-world AI experiments",
+      "Small 322M models now used as shell safety nets",
+      "Community moves to rigorous agent benchmarking",
+      "8-bit quantization math explained for devs",
+      "Article explores real-world dev agent workflows",
+      "Focus shifts to practical costs of agentic systems"
+    ]
+  }
+}
