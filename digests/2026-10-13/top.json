@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic披露AI自主复制风险",
+    "impact": 5,
+    "why": "预警小于30B的小型模型已具备初步自主复制能力，将彻底改变模型安全与部署范式。",
+    "audience": "安全研究员及开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenClaw爆发式增长与重构",
+    "impact": 4,
+    "why": "作为核心Agent框架，其高频重构和大规模bug修复直接影响当前基于该生态构建的生产环境稳定性。",
+    "audience": "Agent开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "BitNet发布1-bit LLM推理架构",
+    "impact": 4,
+    "why": "彻底改变低功耗设备上运行超大模型的成本结构，是本地化AI部署的颠覆性技术。",
+    "audience": "边缘计算开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "OpenAI Codex强制驻留后台争议",
+    "impact": 3,
+    "why": "因未经授权安装后台守护进程引发社区强烈抵制，暴露了AI工具在系统集成中的信任危机。",
+    "audience": "AI CLI用户",
+    "report": "ai-hn"
+  },
+  {
+    "title": "vLLM与SGLang陷入MoE内核战",
+    "impact": 3,
+    "why": "两大主流推理引擎围绕DeepSeek-V4等模型的MoE性能优化进行军备竞赛，决定了企业级算力利用率。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-infra"
+  }
+]

@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI工具转向企业级守护进程",
+      "社区要求为智能体设置手动终止开关",
+      "Gemini CLI发布v0.65.0-nightly更新",
+      "Pi项目达到v1.2.0稳定性",
+      "Qwen Code推送v0.25.1-nightly构建",
+      "非破坏性文件操作备受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw正承受高运营压力",
+      "OpenClaw v2026.10.5-beta.2增强韧性",
+      "v2026.10.2修复Windows启动回归问题",
+      "UI组件正迁移至Solid 2",
+      "心跳机制转向新执行器架构",
+      "OpenClaw问题与PR追踪变动频繁"
+    ],
+    "ai-infra": [
+      "vLLM与SGLang聚焦MoE稳定性",
+      "BitNet官方1-bit推理框架获97星",
+      "AirLLM在4GB显存上运行2.8T模型",
+      "Context-mode凭Token效率获246星",
+      "DeepSeek-V4 MoE支持引发内核大战",
+      "Ollama进入v0.40.x周期"
+    ],
+    "ai-trending": [
+      "Rea智能体星数激增至164K",
+      "BitNet简化1-bit LLM部署",
+      "AirLLM实现4GB显存推理超大模型",
+      "Context-mode减少98%工具输出",
+      "开发者工具趋向专业智能化",
+      "自动安全智能体需求高涨"
+    ],
+    "ai-web": [
+      "Anthropic警告AI自我复制风险",
+      "30B以下模型接近自我复制",
+      "Claude发现类CRISPR新型酶系统",
+      "Anthropic成立专属生命科学实验室",
+      "监管机构加强对AI代理关注",
+      "去中心化AI威胁向量研究进展"
+    ],
+    "ai-hn": [
+      "Meta的Muse Wonder获548分",
+      "OpenAI数学进展讨论达1535条评论",
+      "Janas支持运行超出内存的LLM",
+      "HN社区热议AI生成代码质量",
+      "自动智能体效用引发疲劳感",
+      "SSD流式传输LLM架构备受关注"
+    ],
+    "ai-community": [
+      "间接提示注入仍是首要担忧",
+      "人机协同被质疑为UX失败",
+      "开发者抵制过度依赖AI",
+      "Hacktoberfest推动本地化AI项目",
+      "调试优先级高于AI热度",
+      "重点转向隐性AI集成成本"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools shift to enterprise-grade daemons",
+      "Community demands manual kill switches for agents",
+      "Gemini CLI releases v0.65.0-nightly update",
+      "Pi project reaches v1.2.0 stability",
+      "Qwen Code pushes v0.25.1-nightly build",
+      "Focus grows on non-destructive file operations"
+    ],
+    "ai-agents": [
+      "OpenClaw under high operational strain",
+      "OpenClaw v2026.10.5-beta.2 improves resilience",
+      "Windows startup regressions fixed in v2026.10.2",
+      "Solid 2 migration underway for UI components",
+      "Heartbeats moving to new executor architecture",
+      "High churn in OpenClaw issue and PR tracking"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang focus on MoE stability",
+      "BitNet official 1-bit inference framework hits 97 stars",
+      "AirLLM runs 2.8T models on 4GB GPUs",
+      "Context-mode hits 246 stars for token efficiency",
+      "Kernel wars ignite for DeepSeek-V4 MoE support",
+      "Ollama enters v0.40.x cycle"
+    ],
+    "ai-trending": [
+      "Rea agents explode to 164K stars",
+      "BitNet simplifies 1-bit LLM deployment",
+      "AirLLM enables massive model inference on 4GB GPUs",
+      "Context-mode reduces tool output by 98%",
+      "Shift toward specialized agentic developer tools",
+      "High demand for automated security via agents"
+    ],
+    "ai-web": [
+      "Anthropic warns of self-replicating AI risks",
+      "Models under 30B approach self-replication",
+      "Claude discovers novel CRISPR-like enzyme system",
+      "Anthropic launches proprietary life sciences lab",
+      "Regulatory focus on AI agency increases",
+      "New research on decentralized AI threat vectors"
+    ],
+    "ai-hn": [
+      "Meta's Muse Wonder gains traction with 548 points",
+      "OpenAI math progress discussion reaches 1535 comments",
+      "Janas allows running LLMs larger than RAM",
+      "HN community debates AI-generated code quality",
+      "Growing fatigue over autonomous agent utility",
+      "SSD-streamed LLM architectures gain interest"
+    ],
+    "ai-community": [
+      "Indirect prompt injection remains a top concern",
+      "Human-in-the-loop debated as a UX failure",
+      "Devs push back against AI over-reliance",
+      "Hacktoberfest fuels localized AI projects",
+      "Debugging takes priority over AI hype",
+      "Focus shifts to hidden AI integration costs"
+    ]
+  }
+}
