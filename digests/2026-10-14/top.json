@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic弃用Git，自研Scion代码系统",
+    "impact": 5,
+    "why": "AI全自动开发导致代码合并量激增12倍，迫使行业从Git迁移至AI原生版本控制系统，是基础设施范式转移。",
+    "audience": "平台工程与后端开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Gemini 4 Argon正式发布",
+    "impact": 5,
+    "why": "Google最新大模型引发行业对模型架构和机器人整合能力的激烈辩论，直接影响模型选型格局。",
+    "audience": "AI研究员与模型应用开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw陷入严重回归故障",
+    "impact": 4,
+    "why": "单日500个PR/Issue显示该核心Agent项目正经历严重的版本稳定性危机，影响大规模生产环境部署。",
+    "audience": "Agent架构师",
+    "report": "ai-agents"
+  },
+  {
+    "title": "AI CLI工具进入Agent治理阶段",
+    "impact": 4,
+    "why": "AI终端工具从聊天功能转向自主Agent，行业亟需解决多租户预算限制和持久化会话稳定性问题。",
+    "audience": "AI CLI开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "AI基础设施转向MonoKernel架构",
+    "impact": 4,
+    "why": "为支持MoE等复杂架构，Serving引擎正从通用核向硬件深度绑定的MonoKernel转型，直接影响推理性能上限。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-infra"
+  }
+]

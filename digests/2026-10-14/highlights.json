@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 在企业环境中更趋稳定",
+      "OpenAI Codex 的拉取请求激增 10 个",
+      "开发者推动严格的 AI 智能体成本上限",
+      "Gemini CLI 进入预览发布阶段",
+      "Qwen Code 专注于智能体治理",
+      "持久会话恢复是首要任务"
+    ],
+    "ai-agents": [
+      "OpenClaw 面临重大回归挑战",
+      "Hermes Agent 报告 500 个活跃问题",
+      "v2026.10.5-beta.3 提升持久安装稳定性",
+      "macOS 新增对受保护 Bun 服务的支持",
+      "添加身份验证 worker 以防止线程阻塞",
+      "尽管发布压力大，项目健康度保持稳定"
+    ],
+    "ai-infra": [
+      "vLLM 与 SGLang 在 MoE 架构上展开竞争",
+      "DeepSeek-V4 模型支持陷入平局",
+      "llama.cpp b11609 更新服务器安全性",
+      "LiteLLM 达到 v1.106.0-rc.2，侧重遥测",
+      "Unsloth 通过新 Studio UI 扩展微调",
+      "推理转向专用 MonoKernel 设计"
+    ],
+    "ai-trending": [
+      "rea agent 激增至 208k 星标",
+      "context-mode 将 Token 使用量减少 98%",
+      "airllm 可在 4GB 显存 GPU 上运行 2.8T 模型",
+      "headroom 将 RAG 分块优化高达 95%",
+      "智能体效率趋势优于基础提示词",
+      "知识图谱 RAG 采用率迅速成熟"
+    ],
+    "ai-web": [
+      "Anthropic 每日代码合并量跃升至 30,000",
+      "Anthropic 使用自定义 Scion VCS 替代 Git",
+      "Antique 界面管理 AI 代码审查",
+      "Anthropic 加强反蒸馏防御",
+      "AI 智能体推动内部基础设施增长",
+      "高频自动代码贡献激增"
+    ],
+    "ai-hn": [
+      "Google 发布 Gemini 4 Argon 模型",
+      "Character.ai 申请第 11 章破产保护",
+      "关于 AI 隐藏任意能力的讨论",
+      "对普及编码智能体的担忧增加",
+      "Anthropic 版本控制改革引发争议",
+      "OpenAI 工程师在会议期间被捕"
+    ],
+    "ai-community": [
+      "智能体疲劳影响开发者工作流",
+      "智能体身份验证需意图验证",
+      "银行法规推动 AI 新监管标准",
+      "相比基础提示词，本地模型更受欢迎",
+      "审计自主系统成为新焦点",
+      "开发者难以保护智能体流水线"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains stability in enterprise environments",
+      "OpenAI Codex sees surge of 10 pull requests",
+      "Developers push for strict AI agent cost-capping",
+      "Gemini CLI reaches preview release status",
+      "Qwen Code focuses on agent governance",
+      "Persistent session recovery is a top priority"
+    ],
+    "ai-agents": [
+      "OpenClaw faces major regression challenges",
+      "Hermes Agent reports 500 active issues",
+      "v2026.10.5-beta.3 improves durable install stability",
+      "macOS gains support for protected Bun services",
+      "Auth workers added to prevent thread blocking",
+      "Project health holds despite high release strain"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang compete on MoE architectures",
+      "DeepSeek-V4 model support enters a dead heat",
+      "llama.cpp b11609 updates server security",
+      "LiteLLM hits v1.106.0-rc.2 with telemetry focus",
+      "Unsloth scales fine-tuning with new Studio UI",
+      "Inference shifts to specialized MonoKernel designs"
+    ],
+    "ai-trending": [
+      "rea agent hits 208k stars after massive surge",
+      "context-mode reduces token usage by 98%",
+      "airllm enables 2.8T models on 4GB GPUs",
+      "headroom optimizes RAG chunks by up to 95%",
+      "Agentic efficiency trends over basic prompting",
+      "Knowledge graph RAG adoption is rapidly maturing"
+    ],
+    "ai-web": [
+      "Anthropic daily code merges jump to 30,000",
+      "Custom Scion VCS replaces Git at Anthropic",
+      "Antique interface manages AI code reviews",
+      "Anthropic boosts anti-distillation defenses",
+      "AI agents now drive internal infra growth",
+      "High-frequency automated code contributions surge"
+    ],
+    "ai-hn": [
+      "Google releases Gemini 4 Argon model",
+      "Character.ai files for Chapter 11 bankruptcy",
+      "Discussion on AI hiding arbitrary capabilities",
+      "Concerns rise over pervasive coding agents",
+      "Anthropic source control overhaul sparks debate",
+      "OpenAI engineer arrested amid conference scandal"
+    ],
+    "ai-community": [
+      "Agent fatigue hits developer workflows",
+      "Intent-verification needed for agent auth",
+      "Banking regs push new AI oversight standards",
+      "Local models favored over simple prompting",
+      "New focus on auditing autonomous systems",
+      "Developers struggle to secure agentic pipelines"
+    ]
+  }
+}
