@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.303 发布",
+      "重心转向持久化智能体工作流",
+      "GitHub Copilot CLI 面临集成争议",
+      "OpenCode 迁移至 V2 并引入新安全护栏",
+      "Gemini CLI 每日构建聚焦于智能化",
+      "AI CLI 工具从对话转向智能体交付"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5 增加自我修复更新",
+      "OpenClaw 24 小时内收到 500 个 PR",
+      "重构旨在移除重复的底层逻辑",
+      "项目正解决 Windows 稳定性回归问题",
+      "加强浏览器自动化安全性",
+      "OpenClaw 集成 pnpm 12 环境支持"
+    ],
+    "ai-infra": [
+      "vLLM v0.32.0 修复严重回归问题",
+      "SGLang v0.5.22 改善内存损坏问题",
+      "vLLM 为 MI355X 芯片增加内核优化",
+      "LiteLLM v1.107.0-rc.1 安全更新",
+      "行业从 Python 转向 Rust 桥接",
+      "大规模服务与边缘运行时的分化"
+    ],
+    "ai-trending": [
+      "ComfyUI 今日新增 154 个星标",
+      "Claude 插件目录达到 1175 个星标",
+      "Cursor 插件规范标准化智能体交互",
+      "ai-job-search 项目热度达 2232 星标",
+      "智能体约束成为关键架构模式",
+      "行业趋向模块化、供应商无关的基础设施"
+    ],
+    "ai-web": [
+      "Anthropic 成立 50 亿美元公共利益基金",
+      "Anthropic AI 智能体数量是员工的 6 倍",
+      "METR 获准像员工一样审计模型",
+      "Anthropic 在新加坡设立新办公室",
+      "OpenAI 通过 Rosalind 学术计划瞄准教育",
+      "Anthropic 将劳动力市场研究制度化"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 引发 706 条评论",
+      "Meta 向开源社区发布 Muse Spark",
+      "混合推理智能体在潜在空间思考",
+      "用户争论基准性能与实际效用",
+      "HN 社区讨论 AI 思考后再行动",
+      "新模型挑战闭源模型的主导地位"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 以 760 万次下载领先",
+      "DeepSeek-V4.1-Flash 下载量近 140 万",
+      "Qwen3.8-Flash-Next 针对延迟进行优化",
+      "多模态模型扩展至文本生成之外",
+      "Flash 架构主导趋势榜单",
+      "高保真视频模型受到关注"
+    ],
+    "ai-community": [
+      "微调 Qwen3-8B 的成本耗尽项目预算",
+      "开发者面临高昂 GPU 时长成本的现实",
+      "基于图的内存架构解决物流难题",
+      "社区转向本地优先的 AI 部署",
+      "项目探索私有 AI 短信副驾驶",
+      "真实商业反馈使 AI 实验陷入停滞"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.303 released",
+      "Focus shifts to persistent agentic workflows",
+      "GitHub Copilot CLI faces integration debates",
+      "OpenCode migrating to V2 with new guardrails",
+      "Gemini CLI nightly builds focus on intelligence",
+      "AI CLI tools shift from chat to agent handoffs"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.5 adds self-healing updates",
+      "500 PRs submitted to OpenClaw in 24 hours",
+      "Refactoring aims to remove duplicate machinery",
+      "Project grappling with Windows stability regressions",
+      "Tightening security for browser-based automation",
+      "OpenClaw integrates pnpm 12 environment support"
+    ],
+    "ai-infra": [
+      "vLLM v0.32.0 addresses critical regressions",
+      "SGLang v0.5.22 improves memory corruption issues",
+      "vLLM adds kernel optimizations for MI355X chips",
+      "LiteLLM security update in v1.107.0-rc.1",
+      "Industry shifts from Python to Rust bridges",
+      "High-scale serving vs edge runtime bifurcation"
+    ],
+    "ai-trending": [
+      "ComfyUI gains 154 stars trending today",
+      "Claude plugins directory hits 1175 stars",
+      "Cursor plugin specs standardize agent interaction",
+      "ai-job-search project trends with 2232 stars",
+      "Agent harnesses emerge as a key architectural pattern",
+      "Industry moving toward modular, vendor-agnostic infra"
+    ],
+    "ai-web": [
+      "Anthropic forms $5B Public Benefit Fund",
+      "AI agents outnumber human staff 6-to-1 at Anthropic",
+      "METR granted employee-like access to audit models",
+      "Anthropic opens new Singapore office",
+      "OpenAI eyes education with Rosalind Academic Plan",
+      "Anthropic institutionalizes labor market research"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 sparks 706 comments",
+      "Meta releases Muse Spark to open-source community",
+      "Hybrid Reasoning Agents think in latent space",
+      "Users debate benchmark performance vs real utility",
+      "HN community debates AI-thinking-before-acting",
+      "New models challenge closed-source dominance"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 7.6M downloads",
+      "DeepSeek-V4.1-Flash nears 1.4M downloads",
+      "Qwen3.8-Flash-Next optimized for latency",
+      "Multimodal models expand beyond text generation",
+      "Flash architectures dominate trending lists",
+      "High-fidelity video models gain traction"
+    ],
+    "ai-community": [
+      "Fine-tuning Qwen3-8B costs drain project budgets",
+      "Developers face reality of high GPU-hour costs",
+      "Graph-based memory architectures solve logistics",
+      "Community shifts to local-first AI deployments",
+      "Project explores private AI texting copilots",
+      "Real-world business feedback stalls AI experiments"
+    ]
+  }
+}

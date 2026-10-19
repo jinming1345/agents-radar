@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布AI劳动力研究",
+    "impact": 5,
+    "why": "揭示了AI智能体已占公司工作时数的大多数，标志着从‘辅助开发’向‘自主代理执行’的范式转移。",
+    "audience": "AI行业从业者",
+    "report": "ai-web"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash发布",
+    "impact": 4,
+    "why": "极致的推理速度与性能表现，极大压缩了推理成本，迅速成为社区部署的首选高性能开源模型。",
+    "audience": "模型开发者/架构师",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw进入超高频重构期",
+    "impact": 4,
+    "why": "Agent架构的核心重构与性能优化，直接影响数以百计的依赖项目稳定性与生产环境部署方案。",
+    "audience": "Agent开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "Agentic Handoff标准化尝试",
+    "impact": 3,
+    "why": "主流CLI工具开始统一会话状态序列化协议，解决跨Agent、跨工具链协作的上下文丢失痛点。",
+    "audience": "Agent开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "AI基础设施向Rust迁移",
+    "impact": 3,
+    "why": "LiteLLM等核心组件全面向Rust转型，标志着AI生产基础设施正从Python解释型向高性能原生执行环境演进。",
+    "audience": "后端/基础设施工程师",
+    "report": "ai-infra"
+  }
+]
