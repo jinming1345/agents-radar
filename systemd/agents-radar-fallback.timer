@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Agents Radar before GitHub and retry once
+
+[Timer]
+OnCalendar=*-*-* 06:15:00 Asia/Shanghai
+OnCalendar=*-*-* 08:15:00 Asia/Shanghai
+Persistent=true
+RandomizedDelaySec=2min
+Unit=agents-radar-fallback.service
+
+[Install]
+WantedBy=timers.target

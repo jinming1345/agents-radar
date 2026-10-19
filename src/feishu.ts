@@ -28,6 +28,28 @@ function getWebhookUrls(): string[] {
 
 type CardElement = Record<string, unknown>;
 
+type FeishuResponse = {
+  code?: number;
+  msg?: string;
+  StatusCode?: number;
+  StatusMessage?: string;
+};
+
+export function assertFeishuSuccess(body: string): void {
+  let response: FeishuResponse;
+  try {
+    response = JSON.parse(body) as FeishuResponse;
+  } catch {
+    throw new Error(`Feishu API returned invalid JSON: ${body}`);
+  }
+
+  const code = response.code ?? response.StatusCode;
+  if (code !== 0) {
+    const message = response.msg ?? response.StatusMessage ?? "unknown error";
+    throw new Error(`Feishu API business error ${String(code)}: ${message}`);
+  }
+}
+
 async function sendToOneWebhook(webhookUrl: string, title: string, elements: CardElement[]): Promise<void> {
   const res = await fetch(webhookUrl, {
     method: "POST",
@@ -44,10 +66,11 @@ async function sendToOneWebhook(webhookUrl: string, title: string, elements: Car
       },
     }),
   });
+  const body = await res.text();
   if (!res.ok) {
-    const body = await res.text();
     throw new Error(`Feishu API ${res.status}: ${body}`);
   }
+  assertFeishuSuccess(body);
 }
 
 async function sendFeishu(title: string, elements: CardElement[]): Promise<void> {

@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach } from "vitest";
-import { buildFeishuMessage } from "../feishu.ts";
+import { assertFeishuSuccess, buildFeishuMessage } from "../feishu.ts";
 import type { Highlights } from "../notify.ts";
 
 const BASE_URL = "https://example.com/radar";
@@ -74,5 +74,21 @@ describe("buildFeishuMessage", () => {
     const msg = buildFeishuMessage("2026-03-09", ["ai-cli", "ai-cli-en"], BASE_URL, null);
     expect(msg).toContain("AI CLI 工具");
     expect(msg).not.toContain("◦");
+  });
+});
+
+describe("assertFeishuSuccess", () => {
+  it("accepts a successful webhook response", () => {
+    expect(() => assertFeishuSuccess('{"StatusCode":0,"code":0,"msg":"success"}')).not.toThrow();
+  });
+
+  it("rejects a Feishu business error returned over HTTP 200", () => {
+    expect(() => assertFeishuSuccess('{"code":19024,"msg":"Key Words Not Found"}')).toThrow(
+      "Feishu API business error 19024: Key Words Not Found",
+    );
+  });
+
+  it("rejects a non-JSON response", () => {
+    expect(() => assertFeishuSuccess("gateway error")).toThrow("Feishu API returned invalid JSON");
   });
 });

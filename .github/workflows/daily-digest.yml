@@ -34,7 +34,7 @@ jobs:
       should_run: ${{ steps.check.outputs.should_run }}
 
     steps:
-      - name: Skip a scheduled run when today's digest already exists
+      - name: Skip a scheduled run only when today's Feishu delivery is complete
         id: check
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,11 +46,11 @@ jobs:
           fi
           # CST date, matching the digests/YYYY-MM-DD/ folder produced by toCstDateStr
           DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)
-          if gh api "repos/${{ github.repository }}/contents/digests/$DATE" --silent 2>/dev/null; then
-            echo "digests/$DATE is already committed — a manual run covered today. Skipping."
+          if gh api "repos/${{ github.repository }}/contents/digests/$DATE/.feishu-sent" --silent 2>/dev/null; then
+            echo "digests/$DATE/.feishu-sent exists — today's delivery is complete. Skipping."
             echo "should_run=false" >> "$GITHUB_OUTPUT"
           else
-            echo "No digests/$DATE yet — proceeding."
+            echo "No delivery marker for $DATE — generating or retrying notification."
             echo "should_run=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -90,7 +90,13 @@ jobs:
           LLM_MAX_RETRIES_429: 6
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
-        run: pnpm start
+        run: |
+          DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          if [ -d "digests/$DATE" ]; then
+            echo "digests/$DATE already exists — retrying notification without regenerating it."
+          else
+            pnpm start
+          fi
 
       - name: Commit digest files
         run: |
@@ -131,6 +137,18 @@ jobs:
           FEISHU_WEBHOOK_URLS: ${{ secrets.FEISHU_WEBHOOK_URLS }}
           PAGES_URL: https://${{ github.repository_owner }}.github.io/agents-radar
         run: pnpm notify:feishu
+
+      - name: Record successful Feishu delivery
+        run: |
+          DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          printf 'sent_at=%s\nsender=github-actions\nrun=%s\n' \
+            "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+            "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            > "digests/$DATE/.feishu-sent"
+          git add "digests/$DATE/.feishu-sent"
+          git commit -m "delivery: record Feishu ${DATE}"
+          git pull --rebase
+          git push
 
       - name: Close stale issues
         env:
