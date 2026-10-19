@@ -2,7 +2,7 @@ name: Daily Agents Radar
 
 on:
   schedule:
-    # 22:37 UTC daily = 06:37 CST (UTC+8) the next day. A ~20 min run started
+    # 22:43 UTC daily = 06:43 CST (UTC+8) the next day. A ~20 min run started
     # then lands the digest around 07:00 CST, which is when it is expected.
     #
     # The minute is deliberately off the hour. GitHub queues scheduled runs and
@@ -11,7 +11,7 @@ on:
     # was dispatched 5h07m late and the 08-27 run was never created at all.
     # qwen-flash has flat pricing, so moving the slot costs nothing (it would
     # have, under DeepSeek's peak/off-peak scheme).
-    - cron: "37 22 * * *"
+    - cron: "43 22 * * *"
   workflow_dispatch:
 
 permissions:
