@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.304 专注稳定性",
+      "OpenAI Codex alpha 达到 rust-v0.164",
+      "Gemini CLI v0.66.0 聚焦每日构建",
+      "GitHub Copilot CLI 发布稳定版 v1.0.101",
+      "开发者摩擦推动新工具安全需求",
+      "上下文管理成为当前工具路线图核心"
+    ],
+    "ai-agents": [
+      "OpenClaw 迎来 500 个 PR 重构浪潮",
+      "OpenClaw beta v2026.10.10 修复补丁安全",
+      "Steipete PR 解耦 UI 与网关管道",
+      "项目重心转向 UI 去重",
+      "基础设施改进修复更新死锁",
+      "Hermes 和 IronClaw 引领智能体架构增长"
+    ],
+    "ai-infra": [
+      "vLLM 增加关键 KV 卸载与内核支持",
+      "SGLang 瞄准 MoE 融合与内核更新",
+      "Unsloth 支持 552B DeepSeek-V4.1 微调",
+      "LiteLLM 重点转向 OIDC 和 Rust",
+      "llama.cpp 攻克 DeepSeek-V4.1 集成",
+      "基础设施迈向长运行智能体状态"
+    ],
+    "ai-trending": [
+      "ComfyUI 单日增长 1,011 颗星",
+      "Ollama 仍是本地 LLM 后端的核心",
+      "HuggingFace Transformers 保持基础地位",
+      "ai-job-search 日增 3,856 颗星",
+      "智能体原生设施取代简单聊天机器人",
+      "性能优先级转向零延迟"
+    ],
+    "ai-web": [
+      "Anthropic 智能体数量已是人类六倍",
+      "Anthropic 开发 Scion 管理每日 3 万合并",
+      "人类注意力成为新的生产瓶颈",
+      "OpenAI 转向 Rosalind 学术计划",
+      "Anthropic 内部劳动力转向元工作",
+      "AI 生成代码量迫使设施重新设计"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 驱动基准测试",
+      "Mistral 发布用于时间序列数据的 Timestral",
+      "Claude 揭示 ECDSA 曲线的历史起源",
+      "HN 讨论人类主导协作的流失",
+      "开发者寻求审计 AI 代码的工具",
+      "社区质疑黑盒 AI 的工作来源"
+    ],
+    "ai-community": [
+      "智能体漏洞被视为分布式系统问题",
+      "新 AWS 智能体在克隆前对仓库评分",
+      "今年已识别 7,600+ 个恶意 AI 仓库",
+      "资深开发者被 AI 验证开销困扰",
+      "平台无关架构获得动力",
+      "安全焦点转向 MCP 服务器令牌风险"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.304 brings stability focus",
+      "OpenAI Codex alpha reaches rust-v0.164",
+      "Gemini CLI v0.66.0 focuses on nightly builds",
+      "GitHub Copilot CLI hits stable v1.0.101",
+      "Developer friction drives new tool security",
+      "Context management dominates current tool roadmaps"
+    ],
+    "ai-agents": [
+      "OpenClaw sees massive 500 PR refactor wave",
+      "OpenClaw beta v2026.10.10 fixes patch safety",
+      "Steipete PRs decouple UI and gateway plumbing",
+      "Project focus shifts to UI de-duplication",
+      "Infrastructure improvements fix update deadlocks",
+      "Hermes and IronClaw lead agent architecture growth"
+    ],
+    "ai-infra": [
+      "vLLM adds critical KV offload and kernel support",
+      "SGLang targets MoE fusion and kernel updates",
+      "Unsloth enables 552B DeepSeek-V4.1 fine-tuning",
+      "LiteLLM shifts focus toward OIDC and Rust",
+      "llama.cpp struggles with DeepSeek-V4.1 integration",
+      "Infrastructure moves toward long-running agent states"
+    ],
+    "ai-trending": [
+      "ComfyUI gains 1,011 stars in single day",
+      "Ollama remains essential for local LLM backends",
+      "HuggingFace Transformers maintains foundation lead",
+      "ai-job-search trends with 3,856 daily stars",
+      "Agent-native infrastructure replaces simple chatbots",
+      "Performance priority shifts toward zero-latency"
+    ],
+    "ai-web": [
+      "Anthropic agents now outnumber humans six-to-one",
+      "Anthropic builds Scion to manage 30k daily merges",
+      "Human attention becomes the new production bottleneck",
+      "OpenAI shifts to Rosalind academic initiative",
+      "Anthropic internal labor pivots to meta-work",
+      "AI-generated code volumes force infra redesigns"
+    ],
+    "ai-hn": [
+      "DeepSeek-v4.1-Flash-1017 drives heavy benchmarks",
+      "Mistral launches Timestral for time-series data",
+      "Claude reveals historical ECDSA curve origins",
+      "HN debates erosion of human-driven collaboration",
+      "Developers seek tools to audit AI-generated code",
+      "Community questions black-box AI work origins"
+    ],
+    "ai-community": [
+      "Agent bugs identified as distributed-system issues",
+      "New AWS agent scores repos before cloning",
+      "7,600+ malicious AI repos identified this year",
+      "Senior devs trapped by AI verification overhead",
+      "Platform-agnostic architectures gain momentum",
+      "Security focus shifts to MCP server token risks"
+    ]
+  }
+}

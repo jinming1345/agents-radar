@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布Scion系统管理超高并发代码",
+    "impact": 5,
+    "why": "标志着AI生成的代码量已彻底改变软件工程基建范式，传统版本控制已无法承载自动化规模。",
+    "audience": "软件架构师",
+    "report": "ai-web"
+  },
+  {
+    "title": "DeepSeek-V4.1-Flash性能震动行业",
+    "impact": 5,
+    "why": "作为当前推理基准，其极速表现强制要求开发者重新评估生产环境下的模型选型及部署策略。",
+    "audience": "AI后端开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Agent开发转向长期化与任务自动化",
+    "impact": 4,
+    "why": "开源趋势显示社区正从聊天机器人全面转向长周期自主代理，将重塑工具链与工作流设计。",
+    "audience": "Agent开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "AI CLI工具进入稳定与安全性重构期",
+    "impact": 4,
+    "why": "针对Claude Code等工具的权限与审计需求升级，代表Agent正式进入企业合规化部署阶段。",
+    "audience": "CLI开发用户",
+    "report": "ai-cli"
+  },
+  {
+    "title": "Unsloth实现552B模型大规模分布式训练",
+    "impact": 3,
+    "why": "显著降低了 frontier 级模型微调的硬件门槛，让高性能分布式训练从实验室走向小型集群。",
+    "audience": "AI模型训练师",
+    "report": "ai-infra"
+  }
+]
