@@ -15,8 +15,20 @@ mkdir -p "$state_dir"
 exec 9>"$state_dir/daily.lock"
 flock -n 9 || { echo "Another agents-radar run is active; skipping."; exit 0; }
 
+git_with_retry() {
+  local attempt
+  for attempt in 1 2 3; do
+    git "$@" && return 0
+    if (( attempt < 3 )); then
+      echo "git $1 failed; retrying in $((attempt * 10))s..." >&2
+      sleep "$((attempt * 10))"
+    fi
+  done
+  return 1
+}
+
 cd "$repo_dir"
-git pull --ff-only
+git_with_retry pull --ff-only
 
 if [ -f "$marker" ]; then
   echo "$marker exists; today's Feishu delivery is already complete."
@@ -39,8 +51,8 @@ if [ ! -d "digests/$today" ]; then
   pnpm start
   git add digests/
   git commit -m "digest: $today daily digest"
-  git pull --rebase
-  git push
+  git_with_retry pull --rebase
+  git_with_retry push
 
 else
   echo "digests/$today already exists; retrying notification without regenerating it."
@@ -50,8 +62,8 @@ pnpm manifest
 git add manifest.json feed.xml
 if ! git diff --cached --quiet; then
   git commit -m "chore: update manifest.json"
-  git pull --rebase
-  git push
+  git_with_retry pull --rebase
+  git_with_retry push
 fi
 
 pnpm notify:feishu
@@ -59,5 +71,5 @@ pnpm notify:feishu
 printf 'sent_at=%s\nsender=systemd-fallback\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$marker"
 git add "$marker"
 git commit -m "delivery: record Feishu $today"
-git pull --rebase
-git push
+git_with_retry pull --rebase
+git_with_retry push
