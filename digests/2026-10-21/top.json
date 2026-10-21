@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "title": "OpenClaw 架构面临深度压力与稳定性危机",
+    "impact": 5,
+    "why": "作为核心Agent开发框架，其在生产环境下出现的SQLite WAL争用与迁移失败，直接影响所有大规模部署用户的业务连续性。",
+    "audience": "Agent基础设施开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "vLLM 与 SGLang 核心引擎出现关键性能回归",
+    "impact": 5,
+    "why": "作为行业推理基石，引擎挂起与KV缓存崩溃问题会迫使企业推迟生产级模型部署或面临高昂的运维风险。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "Claude Code 等 AI CLI 转向成熟期防御架构",
+    "impact": 4,
+    "why": "标志着AI工具从单纯的便利性向沙盒安全和可控Agent行为转型，定义了未来开发工具的行业安全范式。",
+    "audience": "前端与DevOps工程师",
+    "report": "ai-cli"
+  },
+  {
+    "title": "Headroom 引入 Token 压缩新范式",
+    "impact": 4,
+    "why": "通过高达95%的Token压缩技术，直接解决长周期自主任务的高昂成本，有望改变Agent开发者的预算策略。",
+    "audience": "AI Agent开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "安全审计类 Agent 技能包生态爆发",
+    "impact": 3,
+    "why": "Cloudflare推出的security-audit-skill证明Agent已从通用编码工具演进为垂直领域的专业化工程自动化组件。",
+    "audience": "DevSecOps工程师",
+    "report": "ai-trending"
+  }
+]

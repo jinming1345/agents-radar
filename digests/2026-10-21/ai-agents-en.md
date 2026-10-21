@@ -1,6 +1,6 @@
 # OpenClaw Ecosystem Digest 2026-10-21
 
-> Issues: 93 | PRs: 500 | Projects covered: 5 | Generated: 2026-10-21 01:22 UTC
+> Issues: 83 | PRs: 500 | Projects covered: 5 | Generated: 2026-10-21 02:44 UTC
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
 - [Hermes Agent](https://github.com/nousresearch/hermes-agent)
@@ -15,50 +15,89 @@
 # OpenClaw Project Digest: 2026-10-21
 
 ## 1. Today's Overview
-OpenClaw is currently in a state of high-intensity maintenance and rapid UI modernization. With 93 active issues and 500 PRs updated in the last 24 hours, the project is balancing critical backend stability concerns—specifically memory management and SQLite concurrency—against a significant push to overhaul the mobile/web-UI responsiveness. Development velocity remains extremely high, though the volume of open PRs (292) suggests the maintainer bottleneck is tightening, particularly around complex architectural decisions.
+OpenClaw is experiencing a high-velocity development cycle, characterized by intense activity around stability, UI refinement, and complex state-machine edge cases. With 83 issues updated and 500 PRs in motion over the last 24 hours, the project is under significant strain from recent releases, specifically regarding session SQLite migrations and agent-runtime stability. Maintainers are heavily focused on correcting regressions in the 2026.10.x series, particularly on Windows and Linux Gateway deployments.
 
 ## 2. Releases
-*No new releases in the last 24 hours.*
+*No new releases were published in the last 24 hours.*
 
 ## 3. Project Progress
-Today's activity focused heavily on the **Web UI modernization suite**, with a massive wave of PRs (many from contributor `vyctorbrzezowski`) aimed at feature parity between desktop and mobile. 
-*   **UI/UX Improvements:** Significant progress on mobile-responsive details panels, automation inventory views ([#176490](https://github.com/openclaw/openclaw/pull/176490)), and cross-viewport remote desktop controls ([#176552](https://github.com/openclaw/openclaw/pull/176552)).
-*   **Infrastructure:** Test suite cleanup continues with redundant test removals ([#178853](https://github.com/openclaw/openclaw/pull/178853)) and optimization of CI/CD performance for iOS builds ([#178891](https://github.com/openclaw/openclaw/pull/178891)).
+*   **UI/UX Improvements:** Significant effort was invested into polishing the "Control UI," including better handling of rejected attachments (#178942, #178952), loading state indicators (#178939, #178951), and visual alignment for subagent status (#178946).
+*   **Agent Lifecycle:** Progress was made on streamlining the "Claw" publishing flow (#178925) and fixing context-loss bugs where `claude-cli` sessions were reset by subagent completions (#178955).
+*   **Search/Router:** Development has begun on integrating Tavily search directly through ClawRouter (#178957).
+*   **Cleanup:** The team is aggressively pruning low-value tests to reduce CI overhead (#178949, #178935, #178930).
 
 ## 4. Community Hot Topics
-*   **[#91588](https://github.com/openclaw/openclaw/issues/91588) (41 comments):** A critical Gateway memory leak (350MB to 15.5GB) remains the most discussed issue. Users are reporting OOM crashes, making this the highest-priority stability blocker.
-*   **[#120385](https://github.com/openclaw/openclaw/issues/120385) (18 comments):** Confusion persists regarding missing MCP tools in scheduled/cron turns. It highlights a critical visibility gap in agent task execution.
-*   **[#172091](https://github.com/openclaw/openclaw/issues/172091) (13 comments):** A SQLite WAL checkpoint deadlock caused by orphaned worker threads is causing significant operational pain, particularly on Windows deployments.
+*   **#120385 (Tool Catalog Issues):** With 18 comments, this remains the most debated issue. It highlights critical friction in the code-mode tool catalog, specifically regarding missing MCP tools in scheduled/cron turns.
+*   **#172091 (SQLite WAL Contention):** With 13 comments, this critical bug involving permanent blocking of shared-state WAL checkpoints on Windows is causing service-impacting failures for long-running gateways.
+*   **#164972 (Multi-Agent Team Failures):** 10 comments reflect the complexity of debugging multi-agent coordination within the `claude-cli` runtime, where failures are often masked as successes.
 
 ## 5. Bugs & Stability
-*   **Critical (P0/P1):**
-    *   **Gateway Memory Leak [#91588](https://github.com/openclaw/openclaw/issues/91588):** High severity; requires urgent memory profiling of the `launchd-handoff` cycle.
-    *   **Late Reclamation Failure [#166634](https://github.com/openclaw/openclaw/issues/166634):** SQLite checkpoint expiration leaves agents in a permanent `UNAVAILABLE` state post-crash.
-    *   **Codex Subagent Assignment Bloat [#172837](https://github.com/openclaw/openclaw/issues/172837):** A leak in the `nativeSubagentAssignments` logic is causing state bloat.
-*   **High Severity (P2):**
-    *   **Windows Performance Regression [#171831](https://github.com/openclaw/openclaw/issues/171831):** Startup times have ballooned from 55s to 320s, indicating a potential regression in the event loop/plugin registration.
+*   **Critical (P0/P1) Regressions:**
+    *   **#178960:** Windows migration blocked by transcript metadata mismatches. *No fix PR currently linked.*
+    *   **#178937:** Cron heartbeat loops causing severe system resource drain on 2026.10.5. *No fix PR.*
+    *   **#178908:** Shared OAuth refresh leads to database corruption/fencing issues. *No fix PR.*
+    *   **#178804:** Codex plugin causing process accumulation (EAGAIN/PID limits). *No fix PR.*
+*   **Known Fixes In Progress:**
+    *   **#177956:** Fix for transcript admission conflict/fallback chain loops is in progress.
+    *   **#177968:** Patch to address `EXDEV` errors in `doctor` when home directories span multiple filesystems.
 
 ## 6. Feature Requests & Roadmap Signals
-*   **Post-Quantum Security:** A proactive request for a P2P channel adapter ([#178844](https://github.com/openclaw/openclaw/issues/178844)) signals interest in hardening OpenClaw against emerging security threats.
-*   **Native Identity:** Continued demand for better management of personal identity vs. shared owners in macOS/iOS ([#162164](https://github.com/openclaw/openclaw/issues/162164)).
-*   **UI Parity:** Expect the next release to feature a significantly more capable "Mobile Session Details" view, as evidenced by the large batch of UI features currently under review.
+*   **Post-Quantum Security:** #178844 proposes a Post-Quantum P2P transport layer via Montana Protocol, signaling a push toward more secure, decentralized autonomous agent communication.
+*   **Automation Control:** Feature requests for granular cron filtering (#177342) and webhook handling (#171273) suggest that users are pushing OpenClaw toward becoming a full-fledged automation platform rather than just a chat assistant.
+*   **Prediction:** Expect the next release to prioritize "Gateway Stability," with a heavy focus on migration patches and the formalization of the "cron context" contract (#178933).
 
 ## 7. User Feedback Summary
-Users are experiencing "tooling fatigue," particularly with the CLI toolchain. Pain points include:
-*   **Frustration with `doctor --fix`:** Long execution times and lack of progress bars make the repair process feel like a "black hole."
-*   **Silent Failures:** The browser snapshot tool fails silently with a 0 exit code, causing workflow disruptions.
-*   **UI Friction:** The mobile experience is currently fragmented, though current development activity suggests a massive UX improvement is imminent.
+Users are currently reporting significant friction with:
+*   **Update Reliability:** Frequent failures in `doctor --fix` and binary update processes are causing downtime for Linux/Windows users.
+*   **UI Discoverability:** Users find the lack of process information and confusing session loading states in the web UI frustrating.
+*   **Migration Pain:** Users upgrading from older versions (2026.7.x) to recent beta releases (2026.10.x) are encountering frequent database migration blocks, leading to "unusable" gateways.
 
 ## 8. Backlog Watch
-*   **[#116164](https://github.com/openclaw/openclaw/issues/116164):** The Signal plugin module-state assertion is stale and lacks a fix, affecting users on beta versions.
-*   **[#164690](https://github.com/openclaw/openclaw/issues/164690):** Duplicate MCP server spawning is creating massive memory overhead (~144MB/child). This is a known issue that requires a deeper architectural fix than simple patches.
-*   **[#147935](https://github.com/openclaw/openclaw/issues/147935):** The "MAPLE" lifecycle contract for long-running agents is a high-level proposal needing urgent product triage to prevent agent divergence in complex multi-agent topologies.
+*   **#158912:** `MEMORY.md` injection failure persists since September, despite being a core documentation feature. 
+*   **#156983:** Cron-related message loss and session rebound issues remain unresolved and impact stable users.
+*   **#146791:** iOS push notification registration failures remain a release-blocker for stable mobile users.
 
 ---
 
 ## Cross-Ecosystem Comparison
 
-⚠️ Comparative analysis generation failed.
+### **1. Ecosystem Overview**
+The open-source AI agent ecosystem as of October 2026 is shifting from experimental "chat-wrapper" functionality to complex, gateway-based automation platforms. Projects are currently struggling with the "hard problems" of agentic infrastructure: cross-platform session persistence, secure memory isolation, and database migration stability. While development velocity remains extremely high, the community is moving toward a mandatory "hardening" phase, prioritizing architectural security and multi-tenant reliability over simple feature expansion.
+
+### **2. Activity Comparison**
+| Project | Issues/PRs (24h) | Release Status | Health Score* |
+| :--- | :--- | :--- | :--- |
+| **OpenClaw** | 583 | Stable/Bottlenecked | 6/10 (High regression) |
+| **Hermes** | 72 | Maintenance | 7/10 (Stable/Hardening) |
+| **IronClaw** | 12 | Stable | 8/10 (Slow/Focused) |
+| **QwenPaw** | 45 | v2.3.0 Prep | 8/10 (High velocity) |
+| **ZeroClaw** | 65 | Hardening | 7/10 (Security focus) |
+*\*Health Score is a subjective metric based on bug-to-feature ratio, PR-to-merge speed, and reported stability.*
+
+### **3. OpenClaw’s Position**
+OpenClaw acts as the "Reference Implementation" for the ecosystem, commanding the largest community activity (500+ PRs in motion). Its primary advantage is its comprehensive breadth, effectively positioning itself as a full-fledged automation platform. However, it suffers from "first-mover" technical debt; its reliance on complex SQLite migration logic and monolithic gateway architectures has made it the most prone to P0/P1 regression cycles compared to the more modular or focused approaches of QwenPaw or IronClaw.
+
+### **4. Shared Technical Focus Areas**
+*   **Security & Isolation:** Both **ZeroClaw** (principal-based trust) and **OpenClaw** (transcript metadata) are struggling with context-leakage and multi-agent security boundaries.
+*   **Gateway Reliability:** **OpenClaw**, **Hermes**, and **ZeroClaw** all report systemic issues with daemon reloads, SQLite WAL contention, and connection "zombie" states.
+*   **Standardization (MCP):** **IronClaw** and **QwenPaw** are driving the push toward standardized plugin interfaces and host/agent contracts (e.g., Plazmi, `window.QwenPaw`), signaling a move away from vendor-locked, monolithic codebases.
+
+### **5. Differentiation Analysis**
+*   **OpenClaw:** The "Generalist." Prioritizes deep integration (Tavily, Claude-cli) and complex automation workflows (cron/webhooks).
+*   **Hermes Agent:** The "Memory-Centric" platform. Focused on managing persistent state across multiple user profiles and large-scale memory budgeting.
+*   **IronClaw:** The "On-Chain/Sovereign" specialist. Focuses on decentralized agent-to-blockchain interactions and lightweight hosted MCP endpoints.
+*   **QwenPaw:** The "Mobile/Cross-Platform" player. Leading the effort for mobile-first agent standardization (HarmonyOS) and UI-friendly skill development.
+*   **ZeroClaw:** The "Security-First" architecture. Currently auditing and hardening internal state machines and memory recall mechanisms to prevent systemic leaks.
+
+### **6. Community Momentum & Maturity**
+*   **High-Velocity Iteration:** **QwenPaw** and **OpenClaw** are the most active; QwenPaw is successfully channeling this energy into a structured release cycle (v2.3.0), whereas OpenClaw is currently reactive, struggling with high-volume technical debt.
+*   **Hardening/Maturation:** **Hermes** and **ZeroClaw** are the most mature regarding security and infrastructure concerns, choosing to sacrifice new features to resolve fundamental systemic bugs.
+*   **Niche/Stable:** **IronClaw** operates at a lower volume but holds the most distinct roadmap, focusing on long-term decentralization rather than immediate UI/UX feature parity.
+
+### **7. Trend Signals**
+*   **From Assistant to Platform:** The decline of "chat" as the primary value prop. Users demand "Cron/Webhook/Automation" triggers, effectively turning agents into headless background processes.
+*   **Security Debt:** The "Agent-Injection" vector is becoming a primary concern. Developers should anticipate mandatory, model-backed tool approval gates (e.g., QwenPaw #8283) becoming the industry standard.
+*   **Modular Extensibility:** The push for "Plazmi" and generic MCP extensions suggests that "Native" agent features are being deprecated in favor of pluggable, third-party provider architectures. This will likely kill off proprietary integration strategies by Q3 2027.
 
 ---
 
@@ -70,73 +109,75 @@ Users are experiencing "tooling fatigue," particularly with the CLI toolchain. P
 # Hermes Agent Project Digest: 2026-10-21
 
 ## 1. Today's Overview
-The Hermes Agent repository experienced high intensity today, with 63 total items updated (13 issues, 50 PRs). Development focus is currently heavily skewed toward stability and hardware-specific optimizations, particularly for Windows and high-memory AMD hardware. The project maintains a strong momentum in community contributions, specifically regarding plugin catalog growth and robust handling of local terminal processes.
+The Hermes Agent project shows high velocity today, with 72 total items (22 issues, 50 PRs) updated or created. Development focus is currently heavily tilted toward stabilizing core infrastructure, with significant attention on session persistence, memory management, and cross-platform gateway reliability. While activity is high, the backlog of systemic bugs—particularly regarding output truncation and multi-profile session management—indicates that the project is currently in a "stabilization and hardening" phase rather than a purely feature-driven one.
 
 ## 2. Releases
-*   **No new releases today.**
+*   **None.** No new releases were cut in the last 24 hours.
 
 ## 3. Project Progress
-*   **Terminal Stability:** The critical bug causing empty terminal output when file descriptors exceed `FD_SETSIZE` was resolved via PR [#142125](https://github.com/NousResearch/hermes-agent/pull/142125).
-*   **Kanban Refinement:** PR [#142310](https://github.com/NousResearch/hermes-agent/pull/142310) removed unsupported retry promises from task notifications to ensure clearer communication with users.
-*   **Market/Safety Plugins:** The plugin catalog saw expansion with the addition of `greyridge-token-safety` ([#141825](https://github.com/NousResearch/hermes-agent/pull/141825)) and pending entries for market data and keyless inference.
-*   **SSE Resilience:** PR [#32431](https://github.com/NousResearch/hermes-agent/pull/32431) significantly improved API server robustness by enabling `Last-Event-ID` replay for SSE events.
+Today saw 8 PRs merged or closed, with significant movement toward refining the agent's internal tools and installation reliability:
+*   **Memory Hygiene:** Continued progress on memory curation logic, specifically addressing how the agent manages its 2200-character `MEMORY.md` limit (#69264, #140848).
+*   **Credential Management:** Improvements to cross-profile credential rotation on the dashboard (#142103).
+*   **Installer Reliability:** Fixes for `uv` isolation during PM migration (#124313) and improved desktop-to-gateway process smoke testing (#142322).
+*   **Tooling:** Support added for `memory(action="read")` in the dispatcher (#11548).
 
 ## 4. Community Hot Topics
-*   **[Issue #94928](https://github.com/NousResearch/hermes-agent/issues/94928):** Terminal pipe fd limitations. With 8 comments, this was the primary focus of technical discussion until the fix was verified and closed today.
-*   **[Issue #142301](https://github.com/NousResearch/hermes-agent/issues/142301):** Race condition in `reclaim_task`. This highlights a high-priority concern regarding task duplication in distributed environments.
-*   **[Issue #140507](https://github.com/NousResearch/hermes-agent/issues/140507):** Windows local-model execution on AMD Strix Halo. High interest from hardware enthusiasts looking to leverage unified 128GB RAM pools.
+*   [#135039](https://github.com/NousResearch/hermes-agent/issues/135039) **Memory Budgeting:** With 11 comments, this is the most discussed item. Users are concerned about the latency and cost of injecting large `MEMORY.md`/`USER.md` files into every turn, highlighting a need for a "size budget" and better distinction between global vs. session-specific facts.
+*   [#142036](https://github.com/NousResearch/hermes-agent/issues/142036) **Gateway Logging:** This bug is causing significant friction (8 comments) as gateway restarts lead to silent logging failures, effectively blinding developers to runtime issues.
+*   [#142037](https://github.com/NousResearch/hermes-agent/issues/142037) **UI Stale States:** 7 comments regarding the Desktop UI failing to update the "model label" correctly after a switch, impacting UX clarity.
 
 ## 5. Bugs & Stability
-*   **Critical (High):** [Issue #141448](https://github.com/NousResearch/hermes-agent/issues/141448) reports the package manager (PM) incorrectly garbage collecting dependencies while they are in active use by live processes.
-*   **High (Urgent):** [Issue #142307](https://github.com/NousResearch/hermes-agent/issues/142307) points to a security vulnerability where pinned `certifi` versions continue to trust compromised eMudhra CA intermediates.
-*   **Medium:** [Issue #142288](https://github.com/NousResearch/hermes-agent/issues/142288) reports native vision images being dropped from context after a single turn on gateway platforms.
+*   **Critical (P2/Systemic):** Issue [#110126](https://github.com/NousResearch/hermes-agent/issues/110126) highlights a systemic failure class regarding DeepSeek V4 output truncation, with over 35 related reports.
+*   **Persistence (P2):** Issue [#142330](https://github.com/NousResearch/hermes-agent/issues/142330) reports a `RuntimeStoreError` where epoch-bumping bricks a gateway's write capability, requiring a full restart.
+*   **Connectivity (P2):** Issue [#139662](https://github.com/NousResearch/hermes-agent/issues/139662) reports that message platform sessions (Discord, Feishu, WeCom) become unresumable from the Desktop after a gateway restart.
+*   **Regressions:** PR [#142335](https://github.com/NousResearch/hermes-agent/pull/142335) addresses a browser-tool failure when CDP ports change, highlighting the fragility of real-profile attachments.
 
 ## 6. Feature Requests & Roadmap Signals
-*   **Configuration Overrides:** PR [#139409](https://github.com/NousResearch/hermes-agent/pull/139409) proposes a Linux-style `config.d` directory for overrides, which would likely simplify deployments for power users.
-*   **Usage-Window Plans:** PR [#142308](https://github.com/NousResearch/hermes-agent/pull/142308) adds support for usage-based allowance tracking, signaling a move toward more flexible billing models for enterprise or heavy-usage users.
-*   **Kanban Evolution:** [Issue #142305](https://github.com/NousResearch/hermes-agent/issues/142305) suggests that human feedback in Kanban tasks should trigger specific re-runs of the same task, reflecting a desire for a more iterative, stateful agent loop.
+*   **Unified Multi-Profile Control:** High interest in a global command interface (`--all-profiles`) to avoid repetitive maintenance tasks across profiles (#142331).
+*   **Advanced Billing:** Introduction of "usage-window" plan support suggests the project is preparing for more complex monetization or tiering of agent resources (#142308).
+*   **Desktop Onboarding:** Demand for Weixin/WeChat QR-code onboarding within the Desktop UI to mirror existing CLI capabilities (#142323).
 
 ## 7. User Feedback Summary
-Users are currently expressing frustration with "hidden" failure states, such as CLI tools losing output silently due to FD limits or the Desktop app failing to release session leases when switching hosts ([Issue #142311](https://github.com/NousResearch/hermes-agent/issues/142311)). However, the rapid response to the terminal bug and the proactive addition of local-model memory fixes for Windows indicate a high level of responsiveness from the maintainers.
+Users are experiencing "tool fatigue" and configuration fragmentation. The pain points center on the difficulty of maintaining state across multiple profiles (credentials, history, and memory). There is a clear divide between the power-user CLI experience and the Desktop UI, with users reporting inconsistent behavior between the two, particularly regarding session visibility and model switching.
 
 ## 8. Backlog Watch
-*   **[Issue #86413](https://github.com/NousResearch/hermes-agent/issues/86413):** A significant architectural question regarding filesystem namespaces for terminal backends has been open since August. It remains in a "needs-decision" state and represents a potential blocker for unified platform behavior.
+*   [#89166](https://github.com/NousResearch/hermes-agent/issues/89166): A long-standing (since Aug 18) issue regarding session lease waiting flooding gateways. This appears to be a high-impact performance bottleneck for users sharing sessions across multiple processes.
+*   [#81281](https://github.com/NousResearch/hermes-agent/issues/81281): A complex sandbox/Docker egress networking bug that remains open since August, likely hindering users on hardened, rootless Docker environments.
 
 </details>
 
 <details>
 <summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
 
-# IronClaw Project Digest – 2026-10-21
+# IronClaw Project Digest: 2026-10-21
 
 ## 1. Today's Overview
-The IronClaw project is seeing highly focused activity around Model Context Protocol (MCP) extensibility and secure local environment integration. Development efforts are currently prioritized on resolving network policy hurdles that prevent local MCP servers from utilizing hosted-MCP registration features. While dependency maintenance remains consistent through automated bot activity, the core architectural discussions suggest the community is pushing for deeper local sovereignty and "bring-your-own-extension" capabilities.
+The IronClaw project is currently experiencing a focused period of activity centered on resolving network security and local connectivity constraints within its "Hosted MCP" (Model Context Protocol) architecture. Development efforts are split between routine dependency maintenance and critical refinements to how local agents interact with hosted environments. The project remains in a healthy, active state, with 12 total items (PRs and issues) receiving updates in the last 24 hours, signaling steady progress toward improving local agent sovereignty and extensibility.
 
 ## 2. Releases
-*No new releases were reported for this period.*
+*No new releases identified for this period.*
 
 ## 3. Project Progress
-*   **Dependency Hygiene:** Maintenance PRs (#8151, #8152, #8149, #8150, #8148, #8145) were opened to address security and version updates across the Rust, JavaScript, and Python stacks.
-*   **Archived Maintenance:** PRs #7386 and #8048 were closed, cleaning up outdated dependency updates in favor of newer upstream versions.
+*   **Dependency Maintenance:** The team cleared a small backlog of dependency updates, closing two PRs ([#7386](https://github.com/nearai/ironclaw/pull/7386), [#8048](https://github.com/nearai/ironclaw/pull/8048)) related to `dompurify` and `fast-uri`.
+*   **Infrastructure:** Seven open PRs remain under active review, dominated by automated dependency bumps (Rust, Python/uv, and JS packages) and one significant architectural improvement to the MCP endpoint registration process.
 
 ## 4. Community Hot Topics
-*   **[#8146] Hosted MCP: Loopback Endpoint Enrollment:** Users are hitting a roadblock where current network security policies reject local IP literals. This is critical for users trying to integrate local MCP connectors with hosted credential flows.
-*   **[#8136] Proposal: Plazmi extension:** A new request for declarative auth and egress surfaces to support external extensions (specifically Plazmi) without cluttering the host core.
-*   **[#2077] Market Contract Source:** An ongoing discussion regarding the need for on-chain contract visibility for `market.near.ai` to support sovereign, key-holding agents.
+*   **[#2077] Contract source for market.near.ai:** This long-standing request remains a focal point for the developer community. Users are pushing for transparency regarding the `market.near.ai` contract source to enable "sovereign agents" that can perform on-chain interactions independently of IronClaw’s proprietary HTTP APIs.
+*   **[#8136] Proposal: Optional hosted-MCP Plazmi extension:** A new request proposing the use of declarative extension surfaces for third-party companion tools. This highlights a community desire to move away from vendor-locked logic in favor of a modular, plugin-based architecture.
 
 ## 5. Bugs & Stability
-*   **Critical (Networking/Policy):** [Issue #8146](https://github.com/nearai/ironclaw/issues/8146) highlights a regression or design limitation where the system rejects 127.0.0.1 loopback endpoints. 
-    *   *Remediation:* [PR #8147](https://github.com/nearai/ironclaw/pull/8147) provides an explicit enrollment mechanism for trusted loopback endpoints, directly addressing this stability gap.
+*   **[#8146] Hosted MCP Endpoint Registration (High Severity):** Current `main` builds reject all HTTP and IP-literal endpoints, effectively breaking local Connector registration. 
+    *   **Fix Status:** PR [#8147](https://github.com/nearai/ironclaw/pull/8147) has been submitted to allow explicit trusted enrollment of loopback (127.0.0.1) endpoints, which is a necessary workaround for local development and private credential-account setups.
 
 ## 6. Feature Requests & Roadmap Signals
-*   **Native Local MCP Support:** The combination of #8146 and #8147 strongly suggests that "local-first" MCP integration will be a high-priority feature in the upcoming version.
-*   **Extension Sovereignty:** The request for declarative auth surfaces (#8136) signals a move toward a more modular architecture, allowing third-party extensions to manage their own egress and auth without requiring vendor logic in the IronClaw host.
+*   **Agent Sovereignty:** The trend toward on-chain agent operation is clear. I anticipate upcoming roadmap items will likely focus on "Agent-Native Auth," moving beyond hosted HTTP APIs toward direct blockchain-interaction primitives.
+*   **Modular Extensibility:** The proposal for [Plazmi](https://plazmi.gg) integration ([#8136](https://github.com/nearai/ironclaw/issues/8136)) suggests that the project is maturing toward a "plugin-first" model, allowing developers to extend host functionality without modifying core infrastructure.
 
 ## 7. User Feedback Summary
-Users are expressing friction regarding the "hosted-first" design of the agent infrastructure. Specifically, developers building sovereign agents want to move away from HTTP-API-only dependencies and toward direct on-chain interaction (#2077). There is a clear demand for more "local-friendly" configurations that allow agents to operate on loopback networks without being blocked by strict enterprise-style host policies.
+Users are currently expressing frustration with the rigidity of the Hosted MCP security model. Specifically, local developers find the restriction on IP-literal endpoints hindering their ability to test and deploy local agent connectors. There is a palpable desire for more "open" and "local-first" developer experiences, moving away from centralized infrastructure dependencies.
 
 ## 8. Backlog Watch
-*   **[#2077] Contract source for market.near.ai:** Open since April 2026. This is a high-level request regarding the open-source nature of the market infrastructure. It remains a point of contention for developers building autonomous, key-holding agents who want to bypass centralized API infrastructure. *Maintainer attention is needed to clarify if/when the contract code will be open-sourced.*
+*   **[#2077](https://github.com/nearai/ironclaw/issues/2077) (Market Contract Source):** This issue has been open since April 2026. While technically an older request, it represents a core pillar of the project's promise of decentralized agency. It is currently awaiting a response from the core maintainers regarding the feasibility of open-sourcing the market contract.
 
 </details>
 
@@ -146,42 +187,35 @@ Users are expressing friction regarding the "hosted-first" design of the agent i
 # QwenPaw Project Digest: 2026-10-21
 
 ## 1. Today's Overview
-The QwenPaw ecosystem shows high development velocity, with 48 total GitHub events (15 issues, 33 PRs) processed in the last 24 hours. The project is currently deep in a cycle of architectural refinement, focusing on making the platform "lighter and more extensible" (Issue #8289) while addressing stability issues in desktop and channel-specific integrations. Developer activity is concentrated on enhancing the plugin system and ensuring reliability during model-fallback transitions, suggesting a shift toward enterprise-grade stability and modularity.
+The QwenPaw project shows high development velocity heading into the v2.3.0 cycle, with 45 total PR/Issue updates in the last 24 hours. Current efforts are heavily focused on system stability—specifically addressing regression issues in Desktop tooling and platform-specific channel connectivity—and preparing for a major modularity refactor. Project health remains strong, with a healthy ratio of bug fixes being pushed alongside long-term architectural improvements.
 
 ## 2. Releases
-*   **None.** No new releases published in the last 24 hours.
+*   **No new releases.** The project continues to operate on the 2.2.2-beta release track, with active work on the upcoming v2.3.0.
 
 ## 3. Project Progress
-Several critical fixes and enhancements were merged to stabilize the user experience:
-*   **[#8339] Console Stability:** Merged a fix for scroll-position jumping in long conversations, addressing a common visual annoyance in the web UI.
-*   **[#8215] LM Studio Integration:** Resolved an issue where audio-file delivery caused agent sessions to wedge due to modality-limit rejections from local model servers.
-*   **[#8343] DingTalk Reliability:** Addressed a silent-failure bug where long-running sessions would result in dropped replies when webhooks expired.
-*   **[#8200] Search Capability:** Integrated Firecrawl as a new `web_search` provider, expanding the platform's research capabilities.
+Recent PRs indicate a focus on refining the user experience and platform reliability:
+*   **Console UI Fixes:** [#8339](https://github.com/agentscope-ai/QwenPaw/pull/8339) (merged) stabilized the conversation scroll-jump issue, resolving a major UI frustration.
+*   **Tooling Resilience:** [#8346](https://github.com/agentscope-ai/QwenPaw/pull/8346) (merged) fixed packaging errors for data-app uploads, and [#8215](https://github.com/agentscope-ai/QwenPaw/pull/8215) (merged) addressed LM Studio compatibility regarding audio input limits.
+*   **Security:** [#8283](https://github.com/agentscope-ai/QwenPaw/pull/8283) (merged) implemented a decision-model-backed tool approval mode, enhancing safety for agent operations.
 
 ## 4. Community Hot Topics
-*   **[#8071] Plugin-facing Theme Extension:** A highly anticipated feature request for a semantic token override layer. Users want to allow plugins to exert more control over UI aesthetics without cluttering the primary codebase.
-*   **[#7874] PawApp Redesign:** A massive architectural PR redesigning the SDK and control plane to create a unified host contract for plugins. This is the primary driver for future extensibility.
-*   **[#8187] Channel Decoupling:** Continued debate and development on extracting channels into isolated sub-processes to improve fault tolerance.
+*   **[#8071] Feature: Plugin-facing theme extension:** Plugin developers are requesting deeper theme integration (semantic token overrides) beyond the current simple color accents. This reflects a growing ecosystem of third-party QwenPaw plugins requiring better aesthetic parity with the core UI.
+*   **[#8311] [Plugins/HarmonyOS] Request for Standardization:** A significant discussion regarding unifying the `window.QwenPaw` contract for HarmonyOS. This signals the project's ambition to become a cross-platform standard for mobile AI agents.
 
 ## 5. Bugs & Stability
-*   **[#8320] Critical (Desktop):** The `make-skill` validator fails in v2.2.2 because the `qwenpaw` module cannot be imported in bundled environments. A fix is pending in PR #8344.
-*   **[#8315] High (Connectivity):** Feishu channel fails with `426 Upgrade Required` when standard system proxy variables are set without specific `NO_PROXY` exceptions.
-*   **[#8340] Medium (UI):** Users report an inability to close the edit popup for scheduled (Cron) tasks, forcing a browser refresh.
-*   **[#8329] Medium (Telegram):** Quoted messages in Telegram are silently ignored, preventing the agent from understanding context in threaded replies.
+*   **Critical:** [#8315](https://github.com/agentscope-ai/QwenPaw/issues/8315) - **Feishu Connection Failure:** Proxy injection issues prevent the Feishu channel from connecting. This is a high-severity bug for enterprise users relying on proxy-heavy environments.
+*   **High:** [#8320](https://github.com/agentscope-ai/QwenPaw/issues/8320) - **Desktop Validation Regression:** The `make-skill` validator fails due to module import errors on Windows. A fix is in progress via [#8344](https://github.com/agentscope-ai/QwenPaw/pull/8344).
+*   **Medium:** [#8340](https://github.com/agentscope-ai/QwenPaw/issues/8340) & [#8249](https://github.com/agentscope-ai/QwenPaw/issues/8249) - **Cron Job UI bugs:** Several reports of cron job editors failing to save correctly or hanging, impacting task automation reliability. A fix is pending in [#8349](https://github.com/agentscope-ai/QwenPaw/pull/8349).
 
 ## 6. Feature Requests & Roadmap Signals
-*   **Modularity (#8289):** The roadmap points toward a v2.3.0 release focused on a "lighter and more modular" architecture. Expect further PRs revolving around plugin refactoring.
-*   **Real-time Voice (#7785):** Significant progress on adding realtime voice chat, which will likely be a flagship feature for upcoming beta cycles.
-*   **Evaluation Leaderboard (#8253):** Community-driven effort to add a `/evaluation/` page for transparency in model performance.
+*   **v2.3.0 Lightness:** The upcoming v2.3.0 release is explicitly focused on "making QwenPaw lighter and more extensible" ([#8289](https://github.com/agentscope-ai/QwenPaw/issues/8289)). Expect major refactoring of plugin architectures and internal memory management.
+*   **Realtime Voice:** [#7785](https://github.com/agentscope-ai/QwenPaw/pull/7785) remains an ongoing, large-scale feature integration that will likely define the next major functional milestone.
 
 ## 7. User Feedback Summary
-*   **Pain Points:** Users are struggling with the "silent failure" of messages when agents exceed token or timeout limits (notably in DingTalk and Telegram channels).
-*   **Usability:** There is a strong demand for more "plugin-first" UI integration, allowing third-party tools to look and feel native to the console.
-*   **DevOps:** The requirement for better subpath support behind reverse proxies (#8177) highlights the increasing use of QwenPaw in corporate/multi-service environments.
+Users are generally appreciative of the rapid bug-fixing pace but are encountering "friction" in enterprise-grade deployments (proxy issues, environment-specific install failures). There is high demand for better plugin/theme documentation and more robust validation for the `make-skill` CLI, which is currently a point of frustration for desktop-based skill developers.
 
 ## 8. Backlog Watch
-*   **[#7565] Plugin Unloading:** This complex, long-running PR is essential for the requested "hot-reload" features. As the project pushes for v2.3.0 modularity, this will require urgent maintainer review to ensure plugin stability.
-*   **[#8124] Fallback logic:** An important fix for routing content-inspection errors to the fallback model chain. Currently, these errors kill the entire turn, negatively impacting user trust in the "model-fallback" feature.
+*   **[#7565](https://github.com/agentscope-ai/QwenPaw/pull/7565):** Plugin clean unload/hot reload. This PR has been open since September 4th and is critical for the v2.3.0 modularity goal. Maintainers should prioritize reviewing this to unblock the extensibility roadmap.
 
 </details>
 
@@ -191,40 +225,39 @@ Several critical fixes and enhancements were merged to stabilize the user experi
 # ZeroClaw Project Digest: 2026-10-21
 
 ## 1. Today's Overview
-ZeroClaw is experiencing an intense period of architectural hardening and security-focused refactoring, evidenced by 69 combined active issues and PRs in the last 24 hours. The development focus has shifted toward formalizing trust boundaries, enforcing resource budgets, and resolving concurrency edge cases in the daemon runtime. While feature development (e.g., new providers and MCP integrations) continues, the current trend prioritizes system stability and security audit compliance over new user-facing functionality.
+ZeroClaw is experiencing an intense period of architectural hardening and security auditing. Activity over the last 24 hours has been dominated by a high volume of open issues and PRs (65 combined), primarily focused on correcting scoping leaks, enforcing system limits, and improving the robustness of the daemon-gateway lifecycle. The project health appears stable but under pressure, as the team shifts from feature expansion to addressing significant technical debt regarding cross-agent memory isolation and security boundaries.
 
 ## 2. Releases
-*   **None.** There were no new releases in the last 24 hours.
+*   **None.** No new releases were cut in the last 24 hours. Development remains focused on fixing critical bugs identified in the `v0.8.x` branch.
 
 ## 3. Project Progress
-*   **Merged/Closed:** Only 1 PR was finalized today. The project remains in a heavy-development phase where most architectural changes are currently held in a draft or review state.
-*   **Feature Advancement:** Significant work is underway on the "Goal Mode" V1 proposal (#11880) and transport-neutral policy contracts, alongside documentation efforts for local Sem MCP repository lookups (#11915).
+*   **Status Update:** While 50 PRs were updated, only one was merged/closed, indicating that the maintainers are currently in a heavy review cycle, particularly for complex architectural refactors.
+*   **Security Enforcement:** PR [#11910](https://github.com/zeroclaw-labs/zeroclaw/pull/11910) is a critical move to enforce the system prompt size budget, changing it from an advisory limit to a "fail-closed" gate to prevent context exhaustion.
+*   **Gateway Reliability:** PR [#11901](https://github.com/zeroclaw-labs/zeroclaw/pull/11901) addresses the issue of "zombie" connections following daemon reloads, ensuring graceful drainage of active gateway sessions.
 
 ## 4. Community Hot Topics
-*   **[RFC] Principal-based trust boundaries (#11914):** This is the most critical architectural discussion. It addresses how content, memory, and capabilities are scoped, aiming to fix cross-agent leaks and system prompt budget overflows.
-*   **[Bug] Cron & Gateway events (#11918):** Following user reports (#11916, #11917), this PR is the primary focus for stabilizing how cron outputs and session messages are surfaced to the web UI, indicating a community push for better dashboard responsiveness.
+*   **Security & Trust Boundaries:** Issue [#11914](https://github.com/zeroclaw-labs/zeroclaw/issues/11914) (RFC: principal-based trust boundaries) is the most critical discussion point. It serves as a unified umbrella for recent leakage issues, signaling a transition toward a more rigorous access-control model for memory and capabilities.
+*   **Memory Isolation:** Issue [#11912](https://github.com/zeroclaw-labs/zeroclaw/issues/11912) highlights a vulnerability where cross-agent content leaks occur due to memory-injection path bypasses. This is a high-priority architectural concern for multi-tenant deployments.
 
 ## 5. Bugs & Stability
-*   **Critical (S2/S3) issues reported today:**
-    *   **#11916:** "Quiet" cron results erroneously appearing in web chats (Fix PR #11918).
-    *   **#11917:** Web dashboard fails to receive live events until the first manual reply (Impacts real-time UX).
-    *   **#11912:** Memory recall bypasses per-agent scoping, causing potential cross-agent data leaks (High security risk).
-    *   **#11904:** Race condition in cron database initialization when multiple connections attempt to switch to WAL mode.
-    *   **#11899:** Daemon reload fails to correctly terminate existing gateway connections.
+*   **S2 (Degraded Behavior):** [#11912](https://github.com/zeroclaw-labs/zeroclaw/issues/11912) Memory recall bypasses per-agent scoping; [#11896](https://github.com/zeroclaw-labs/zeroclaw/issues/11896) Embedder failures causing memory recall to hang the entire agent turn.
+*   **S3 (Minor Issues):**
+    *   [#11916](https://github.com/zeroclaw-labs/zeroclaw/issues/11916): Quiet cron results erroneously appearing in web chat logs.
+    *   [#11904](https://github.com/zeroclaw-labs/zeroclaw/issues/11904): SQLite connection collision on cron startup.
+    *   [#11902](https://github.com/zeroclaw-labs/zeroclaw/issues/11902): OIDC token rejection during JWKS fetches.
+*   **Fixes in Progress:** PR [#11918](https://github.com/zeroclaw-labs/zeroclaw/pull/11918) targets the cron result spam, while [#11901](https://github.com/zeroclaw-labs/zeroclaw/pull/11901) addresses the daemon reload connection leaks.
 
 ## 6. Feature Requests & Roadmap Signals
-*   **Resource Budgeting:** There is a strong signal toward implementing "hard" limits rather than advisory ones, specifically for system prompts (#11910).
-*   **Provider Expansion:** Addition of Firecrawl for web search (#11680) and Opper for model hosting (#11584) suggests a strategy of diversifying AI infrastructure support.
-*   **Prediction:** The v0.8.7 release is likely to prioritize the security patches (specifically #11906, #11910) and the stabilization of the cron/gateway event loop.
+*   **UX/UI Refinements:** User requested a toggle for the "Thinking" box to remain collapsed ([#11919](https://github.com/zeroclaw-labs/zeroclaw/issues/11919), PR [#11920](https://github.com/zeroclaw-labs/zeroclaw/pull/11920)). Given the immediate PR submission, this is likely to appear in the next patch release.
+*   **Tooling Expansion:** Community members continue to contribute third-party providers, such as the Firecrawl web search tool ([#11680](https://github.com/zeroclaw-labs/zeroclaw/pull/11680)) and the Opper model provider ([#11584](https://github.com/zeroclaw-labs/zeroclaw/pull/11584)).
 
 ## 7. User Feedback Summary
-Current user sentiment reflects frustration with "leaky" abstractions, particularly regarding concurrency and session persistence. Users are reporting that channel interruptions lead to lost tool results (#11909) and that authentication providers sometimes fail in a "closed" state during background JWKS fetches (#11902). There is a palpable demand for more robust, "production-grade" error handling in the gateway.
+*   **Pain Points:** Users are struggling with the transition between daemon states (reloads dropping connections, fresh data dir setup issues).
+*   **Security Concerns:** Users are identifying significant security gaps regarding default-open permissions in Telegram bots ([#11913](https://github.com/zeroclaw-labs/zeroclaw/issues/11913)) and the lack of enforcement on system prompt budgets.
+*   **Developer Sentiment:** There is a strong, collaborative push from the community to fix these gaps, evidenced by the high number of contributor-led bug reports and fixes.
 
 ## 8. Backlog Watch
-*   **#10997 & #10998:** These relate to plugin installation and core tool sets for v0.8.7. They have been blocked since late September; maintainers need to address the dependency/binary-size constraints to move these toward delivery.
-*   **#11332:** An S2 bug concerning the failure of skill review/creation loops in non-CLI channels has remained open since Oct 1st, representing a significant gap in the agent's autonomous learning capability.
+*   [#11705](https://github.com/zeroclaw-labs/zeroclaw/issues/11705): Proposal for Plazmi MCP demonstration. This is an important educational asset that hasn't received significant traction yet.
+*   [#11680](https://github.com/zeroclaw-labs/zeroclaw/pull/11680): Firecrawl provider integration. This needs a maintainer security review given the `risk:high` label applied to new web search tool integrations.
 
 </details>
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/jinming1345/agents-radar).*
