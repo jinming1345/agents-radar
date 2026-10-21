@@ -13,6 +13,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { NOTIFY_LABELS } from "./i18n.ts";
+import { hasNotificationContent } from "./notification-content.ts";
 import type { Highlights } from "./notify.ts";
 import type { TopPick } from "./prompts-data.ts";
 
@@ -164,6 +165,9 @@ export function buildFeishuCard(
   highlights?: Highlights | null,
   pagesUrl?: string,
 ): CardElement[] {
+  if (!hasNotificationContent(picks, highlights)) {
+    throw new Error("No top picks or highlights; refusing to send a link-only Feishu card");
+  }
   const PAGES_URL = (pagesUrl ?? process.env["PAGES_URL"] ?? PAGES_URL_DEFAULT).replace(/\/$/, "");
   const elements: CardElement[] = [];
   if (picks.length) {

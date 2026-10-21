@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach } from "vitest";
-import { assertFeishuSuccess, buildFeishuMessage } from "../feishu.ts";
+import { assertFeishuSuccess, buildFeishuCard, buildFeishuMessage } from "../feishu.ts";
 import type { Highlights } from "../notify.ts";
 
 const BASE_URL = "https://example.com/radar";
@@ -90,5 +90,13 @@ describe("assertFeishuSuccess", () => {
 
   it("rejects a non-JSON response", () => {
     expect(() => assertFeishuSuccess("gateway error")).toThrow("Feishu API returned invalid JSON");
+  });
+});
+
+describe("buildFeishuCard", () => {
+  it("refuses a link-only card when all generated notification content is empty", () => {
+    expect(() => buildFeishuCard("2026-03-09", ["ai-cli", "ai-cli-en"], [], { zh: {}, en: {} })).toThrow(
+      /no top picks or highlights/i,
+    );
   });
 });

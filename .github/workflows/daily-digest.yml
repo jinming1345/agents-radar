@@ -93,10 +93,16 @@ jobs:
         run: |
           DATE=$(TZ=Asia/Shanghai date +%Y-%m-%d)
           if [ -d "digests/$DATE" ]; then
-            echo "digests/$DATE already exists — retrying notification without regenerating it."
+            if pnpm check:notification "$DATE"; then
+              echo "digests/$DATE already exists — retrying notification without regenerating it."
+            else
+              echo "digests/$DATE exists but notification content is empty — regenerating without duplicate issues."
+              DIGEST_REPO="" pnpm start
+            fi
           else
             pnpm start
           fi
+          pnpm check:notification "$DATE"
 
       - name: Commit digest files
         run: |

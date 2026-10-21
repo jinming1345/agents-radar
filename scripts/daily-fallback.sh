@@ -49,13 +49,20 @@ export PAGES_URL="$pages_url"
 if [ ! -d "digests/$today" ]; then
   : "${OPENAI_API_KEY:?OPENAI_API_KEY is not set}"
   pnpm start
-  git add digests/
+elif ! pnpm check:notification "$today"; then
+  echo "digests/$today exists but notification content is empty; regenerating without creating duplicate issues."
+  : "${OPENAI_API_KEY:?OPENAI_API_KEY is not set}"
+  DIGEST_REPO="" pnpm start
+else
+  echo "digests/$today already exists; retrying notification without regenerating it."
+fi
+
+pnpm check:notification "$today"
+git add digests/
+if ! git diff --cached --quiet; then
   git commit -m "digest: $today daily digest"
   git_with_retry pull --rebase
   git_with_retry push
-
-else
-  echo "digests/$today already exists; retrying notification without regenerating it."
 fi
 
 pnpm manifest
