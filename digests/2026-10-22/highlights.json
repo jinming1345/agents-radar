@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 获得技能生态系统",
+      "OpenAI Codex 发布 0.164.0-alpha",
+      "Gemini CLI 0.67.0-nightly 已发布",
+      "Qwen Code 0.26.0 现已启用",
+      "重点转向 Windows 基础设施",
+      "行业转向代理可靠性"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.10.10-beta.3 发布",
+      "OpenClaw 收到 500 个 PR",
+      "重构后的 Web-UI 使用 Solid 状态",
+      "IronClaw 和 Hermes 开发激增",
+      "修复工具得到改进",
+      "Gateway 竞态条件已修复"
+    ],
+    "ai-infra": [
+      "SGLang 优化多节点 GB300",
+      "llama.cpp b11802 新增 SenseNova U1",
+      "LiteLLM 在 v1.106.2 中修补",
+      "Ollama v0.40.8 提升工具调用稳定性",
+      "Unsloth 推进 DPO 和 GRPO 训练",
+      "指出快速供应链依赖风险"
+    ],
+    "ai-trending": [
+      "vllm 日增 439 颗星",
+      "Ponytail 以 17.1 万颗星趋势走红",
+      "Cloudflare 安全审计技能首发",
+      "对 mem0 内存方案需求增长",
+      "通用封装被专用工具取代",
+      "Ollama 维持 18.4 万总星数"
+    ],
+    "ai-web": [
+      "Anthropic 发布企业前沿保障措施",
+      "Anthropic 采用零数据保留政策",
+      "Christopher Stubbs 加入信任委员会",
+      "OpenAI 转向 Google Cloud 分发",
+      "Anthropic 发布网络漏洞利用研究",
+      "发布 17 篇新的官方 AI 内容"
+    ],
+    "ai-hn": [
+      "DeepSeek 的 DeepInfer 备受关注",
+      "Mistral 发布 Voxtral 3",
+      "Wiz 发现 AI 利用 PHP 的严重 RCE",
+      "社区辩论代理安全风险",
+      "Claude Duet 产品势头强劲",
+      "关于 DeepSeek 推理性能的 881 条评论"
+    ],
+    "ai-arxiv": [
+      "发布新的 Token-Energy Law 框架",
+      "发表自适应多 Token 预测论文",
+      "BitMTP 探索低比特 LLM 量化",
+      "研究转向具身智能代理系统",
+      "关注能效推理",
+      "新论文建模 GPU 每 Token 能耗"
+    ],
+    "ai-community": [
+      "开发者拒绝“氛围编码”转向形式逻辑",
+      "AI 代理幂等键新指南",
+      "关于 AI 代理自修改安全的辩论",
+      "严谨逻辑取代脆弱的代理工作流",
+      "对 AI 以 root 权限运行的担忧",
+      "对非 LLM 时间序列模型的兴趣增长"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains skills ecosystem",
+      "OpenAI Codex reaches 0.164.0-alpha",
+      "Gemini CLI 0.67.0-nightly released",
+      "Qwen Code 0.26.0 now active",
+      "Focus shifts to Windows infrastructure",
+      "Industry pivots to agentic reliability"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.10.10-beta.3 released",
+      "500 PRs submitted for OpenClaw",
+      "Refactored Web-UI uses Solid state",
+      "IronClaw and Hermes see development surge",
+      "Doctor utilities improved for repair",
+      "Race conditions fixed in Gateway"
+    ],
+    "ai-infra": [
+      "SGLang optimizes multi-node GB300",
+      "llama.cpp b11802 adds SenseNova U1",
+      "LiteLLM patched in v1.106.2",
+      "Ollama v0.40.8 improves tool-call stability",
+      "Unsloth pushes DPO and GRPO training",
+      "Rapid supply-chain dependency risks noted"
+    ],
+    "ai-trending": [
+      "vllm hits 439 daily stars",
+      "Ponytail trending with 171k stars",
+      "Cloudflare security audit skill debuts",
+      "Demand grows for mem0 memory solutions",
+      "General wrappers losing to specialized tools",
+      "Ollama maintains 184k total stars"
+    ],
+    "ai-web": [
+      "Anthropic launches Enterprise Frontier Safeguards",
+      "Anthropic adopts Zero Data Retention policy",
+      "Christopher Stubbs joins Trust board",
+      "OpenAI pivots to Google Cloud distribution",
+      "Anthropic publishes cyber-exploitation research",
+      "17 new official AI content pieces released"
+    ],
+    "ai-hn": [
+      "DeepInfer for DeepSeek gains massive interest",
+      "Mistral releases Voxtral 3",
+      "Wiz finds critical RCE in PHP via AI",
+      "Community debates agentic security risks",
+      "Claude Duet gains product momentum",
+      "881 comments on DeepSeek inference performance"
+    ],
+    "ai-arxiv": [
+      "New Token-Energy Law framework released",
+      "Adaptive Multi-Token Prediction paper published",
+      "BitMTP explores low-bit LLM quantization",
+      "Research moves toward embodied agent systems",
+      "Focus grows on energy-efficient inference",
+      "New paper models GPU energy usage per token"
+    ],
+    "ai-community": [
+      "Developers reject vibe coding for formal logic",
+      "New guide on idempotency keys for AI agents",
+      "Debate on AI agent self-modification security",
+      "Rigorous logic replaces brittle agent workflows",
+      "Concerns over AI running with root privileges",
+      "Interest grows in non-LLM time-series models"
+    ]
+  }
+}
