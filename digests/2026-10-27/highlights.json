@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 发布 v0.26.2，改进 CI 代理",
+      "GH Copilot CLI v1.0.104-4 修复回归问题",
+      "OpenCode 开发者关注免费层级与用户体验",
+      "Pi 更新针对 Windows 和代理强化",
+      "生态系统向生产级可靠性转型",
+      "MCP 集成是开发者的首要任务"
+    ],
+    "ai-agents": [
+      "OpenClaw 因崩溃循环报告承受压力",
+      "Windows 启动可靠性是首要问题",
+      "PR #185293 修复了关键网关挂起错误",
+      "网关重构旨在改善所有权管理",
+      "正在进行大规模测试夹具清理",
+      "性能调优优先于新功能开发"
+    ],
+    "ai-infra": [
+      "Llama.cpp 活跃发布 b11905-b11913",
+      "Ollama v0.40.12-rc0 带来稳定性修复",
+      "Unsloth v0.1.911-beta 增加内存优化",
+      "SGLang 领跑 DeepSeek-V4.1 深度集成",
+      "基础设施向代理工作流转型",
+      "项目为下一代芯片强化 API"
+    ],
+    "ai-trending": [
+      "SkillSpector 检测代理技能漏洞",
+      "Impeccable 框架定义代理优先设计",
+      "ECC 套件因代理安全斩获 289k 星",
+      "行业转向“代理即服务”模式",
+      "Cindy 成为新型开箱即用代理",
+      "模块化代理技能主导开源趋势"
+    ],
+    "ai-web": [
+      "Anthropic 提交 IPO 申请，代码 ANT",
+      "OpenAI 暗示即将发布 GPT-6 1 Terra",
+      "Anthropic 为科学研究提供免费 Claude",
+      "官方重心转向代理自主性",
+      "Anthropic 新研究强调网络防御",
+      "公司元数据预示规模大幅增长"
+    ],
+    "ai-arxiv": [
+      "BriLLM-MetaPred 构建 AGI 原语理论",
+      "Steering the Teacher 优化策略内蒸馏",
+      "深度科学推理改善材料发现",
+      "研究将物理约束与 LLM 相结合",
+      "联邦系统鲁棒性成为新研究热点",
+      "DNTK 对称性探索架构新边界"
+    ],
+    "ai-community": [
+      "Thinkrail IDE 将代理与项目 git 隔离",
+      "开发者讨论代理终端访问风险",
+      "上下文工程比提示词工程更受关注",
+      "AI 密钥泄露引发安全担忧",
+      "开发者为 AI 代理构建本地防病毒层",
+      "基于图的项目真值保护代码库"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Qwen Code releases v0.26.2 for improved CI agents",
+      "GH Copilot CLI v1.0.104-4 addresses regressions",
+      "OpenCode developers focus on free-tier and UX",
+      "Pi updates target Windows and agent hardening",
+      "Ecosystem shifts toward production-grade reliability",
+      "MCP integration is the top priority for developers"
+    ],
+    "ai-agents": [
+      "OpenClaw under strain from crash-loop reports",
+      "Windows startup reliability is the top issue",
+      "PR #185293 fixes critical Gateway hang bug",
+      "Gateway refactoring aims to improve ownership",
+      "Large-scale cleanup of test fixtures is underway",
+      "Performance tuning prioritized over new features"
+    ],
+    "ai-infra": [
+      "Llama.cpp active with b11905-b11913 releases",
+      "Ollama v0.40.12-rc0 brings stability fixes",
+      "Unsloth v0.1.911-beta adds memory improvements",
+      "SGLang leads deep DeepSeek-V4.1 integration",
+      "Infrastructure moves toward agentic workflows",
+      "Projects harden APIs for next-gen silicon"
+    ],
+    "ai-trending": [
+      "SkillSpector detects agent skill vulnerabilities",
+      "Impeccable framework defines agent-first design",
+      "ECC harness hits 289k stars for agent security",
+      "Industry shifts to Agent-as-a-Service model",
+      "Cindy emerges as a new out-of-the-box agent",
+      "Modular agent skills dominate open source trends"
+    ],
+    "ai-web": [
+      "Anthropic files S-1 for IPO under ticker ANT",
+      "OpenAI hints at imminent GPT-6 1 Terra release",
+      "Anthropic offers free Claude access for science",
+      "Official focus shifts to agentic autonomy",
+      "New Anthropic research emphasizes cyber-defense",
+      "Company metadata signals massive scale increase"
+    ],
+    "ai-arxiv": [
+      "BriLLM-MetaPred theorizes AGI primitives",
+      "Steering the Teacher refines on-policy distillation",
+      "Deep Scientific Reasoning improves material discovery",
+      "Research bridges physics constraints with LLMs",
+      "New focus on robustness in federated systems",
+      "Symmetry of DNTK explores new architecture bounds"
+    ],
+    "ai-community": [
+      "Thinkrail IDE isolates agents from project git",
+      "Developers discuss risks of agent terminal access",
+      "Context Engineering gains traction over prompting",
+      "Security concerns rise over secret leaks to AI",
+      "Devs build local antivirus layers for AI agents",
+      "Graph-based project truth protects codebases"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic 启动 IPO 进程",
+    "impact": 5,
+    "why": "作为顶尖 AI 模型厂商，上市将深刻改变行业竞争格局、资本投入和模型生态的发展路线。",
+    "audience": "全体科技从业者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Agent 安全扫描工具 SkillSpector",
+    "impact": 4,
+    "why": "首款专注于检测 Agent 技能与 Prompt 注入的安全扫描器，是 Agent 落地生产环境的必备安全防线。",
+    "audience": "Agent 开发者与安全工程师",
+    "report": "ai-trending"
+  },
+  {
+    "title": "OpenAI 疑似筹备 GPT-6 1 Terra",
+    "impact": 4,
+    "why": "暗示模型架构或参数规模出现重大跨越，直接影响未来算力需求与模型应用选型。",
+    "audience": "AI 架构师与研究员",
+    "report": "ai-web"
+  },
+  {
+    "title": "ECC：Agent 开发标准中间件",
+    "impact": 4,
+    "why": "作为 Agent 协作的 harness 系统，在开源社区引起爆发式增长，正在成为 Agent 生态的重要底层支撑。",
+    "audience": "Agent 框架开发者",
+    "report": "ai-trending"
+  },
+  {
+    "title": "vLLM 领先模型架构支持",
+    "impact": 3,
+    "why": "通过对 DeepSeek-V4.1 和 GLM-5.3-Flash 等新架构的快速跟进，巩固了其在推理引擎市场的基准地位。",
+    "audience": "基础设施工程师",
+    "report": "ai-infra"
+  }
+]
