@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic递交IPO申请(ANT)",
+    "impact": 5,
+    "why": "AI领军企业正式开启上市进程，标志着AI行业从纯科研向资本市场成熟化转型，将重塑行业格局。",
+    "audience": "全体科技从业者",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenAI发布GPT-6.1 Terra",
+    "impact": 5,
+    "why": "作为行业基准模型的最新迭代，其逻辑推理能力的跃升直接影响下游应用的选型标准。",
+    "audience": "AI应用开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic发布Cyber AI漏洞挖掘成果",
+    "impact": 4,
+    "why": "模型具备自主发现复杂软件漏洞的能力，标志着Cyber AI从理论进入实战，引发行业安全观重大变革。",
+    "audience": "安全与研发人员",
+    "report": "ai-web"
+  },
+  {
+    "title": "OpenClaw进入LTS稳定化阶段",
+    "impact": 4,
+    "why": "作为核心Agent基础设施，集中修复大量核心故障和性能瓶颈，对生产环境Agent部署至关重要。",
+    "audience": "Agent基础设施开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "vLLM与SGLang优化Blackwell架构",
+    "impact": 3,
+    "why": "针对最新Blackwell硬件进行推理优化，决定了高性能算力的落地效率与大规模模型部署成本。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-infra"
+  }
+]

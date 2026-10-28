@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.312 新增子代理控制",
+      "生态系统转向自主智能体编排",
+      "Qwen Code v0.26.3-preview 追踪 8 个热门问题",
+      "Copilot CLI 保持 v1.0.105 稳定状态",
+      "开发者优先考虑安全本地工作流",
+      "GitHub/VS Code 集成依然至关重要"
+    ],
+    "ai-agents": [
+      "OpenClaw 迎来 500 个 PR 大规模更新",
+      "v2026.10.10-beta.4 增强自动化安全性",
+      "OpenClaw LTS v2026.9.35 提升稳定性",
+      "Hermes Agent 专注于可扩展自动化",
+      "基础设施加固是当前首要任务",
+      "工程团队解决网关崩溃循环问题"
+    ],
+    "ai-infra": [
+      "vLLM 增加 Blackwell/ROCm 内核稳定性",
+      "llama.cpp 采用 LiquidAI LFM3 架构",
+      "LiteLLM 聚焦企业成本跟踪",
+      "SGLang 优化 Hopper 和 PD 分离",
+      "Ollama RC 0.40.12 改善 Apple Silicon 支持",
+      "内存效率优先于功能扩展"
+    ],
+    "ai-trending": [
+      "Openbot 新增 777 颗星跻身热门",
+      "Cindy AI 智能体今日新增 1465 颗星",
+      "ECC 智能体架构总星数达 29 万",
+      "Thinkrail 将氛围编程引入 JetBrains",
+      "智能体间协作成为趋势",
+      "重心转向持久化本地环境"
+    ],
+    "ai-web": [
+      "Anthropic 提交纳斯达克 IPO S-1 文件",
+      "Anthropic 为政府提供 40% GSA 折扣",
+      "Anthropic 研究揭示软件漏洞风险",
+      "OpenAI 加深与 Oracle 企业集成",
+      "Anthropic 网站地图总文章数达 491 篇",
+      "GSA 对 Anthropic 工具的使用量增长 20 倍"
+    ],
+    "ai-hn": [
+      "OpenAI 发布 GPT-6.1 Terra",
+      "LiquidAI LFM3 首次亮相用于专用任务",
+      "HN 辩论 AI 驱动交通执法的可靠性",
+      "生存型 LLM 在紧急用途中获得关注",
+      "社区批评 Anthropic 的训练实践",
+      "GPT-6.1 Terra 推理能力面临严格审查"
+    ],
+    "ai-arxiv": [
+      "DCKV 编码器优化长提示 KV 缓存",
+      "Select-TTT 实现快速上下文权重更新",
+      "Mamba-2 状态压缩效率提升",
+      "新论文显示演进的智能体团队优势",
+      "反射循环增强 AI 推理能力",
+      "研究聚焦 AI 的可审计性"
+    ],
+    "ai-community": [
+      "开发者优先校验而非盲目信任 LLM",
+      "新插件强制要求通过测试以修正 AI 代码",
+      "生产环境智能体常面临成本损耗问题",
+      "仪器揭示真实的资源瓶颈",
+      "开发者对 AI 生成的日志持怀疑态度",
+      "MCP 工具安全性日益受到关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.312 adds sub-agent controls",
+      "Ecosystem shifts to autonomous agent orchestration",
+      "Qwen Code v0.26.3-preview tracks 8 hot issues",
+      "Copilot CLI maintains stable v1.0.105 status",
+      "Developers prioritize secure local workflows",
+      "GitHub/VS Code integration remains critical"
+    ],
+    "ai-agents": [
+      "OpenClaw sees massive 500 PR update volume",
+      "v2026.10.10-beta.4 enhances automation safety",
+      "OpenClaw LTS v2026.9.35 addresses stability",
+      "Hermes Agent focuses on scalable automation",
+      "Infrastructure hardening is the current priority",
+      "Engineering teams tackle Gateway crash-loops"
+    ],
+    "ai-infra": [
+      "vLLM adds Blackwell/ROCm kernel stability",
+      "llama.cpp adopts LiquidAI LFM3 architecture",
+      "LiteLLM targets enterprise cost-tracking",
+      "SGLang optimizes Hopper and PD-disaggregation",
+      "Ollama RC 0.40.12 improves Apple Silicon support",
+      "Memory efficiency outweighs feature expansion"
+    ],
+    "ai-trending": [
+      "Openbot joins trending with 777 new stars",
+      "Cindy AI agent gains 1465 stars today",
+      "ECC agent harness reaches 290k total stars",
+      "Thinkrail brings vibe coding to JetBrains",
+      "Agent-to-agent collaboration is trending",
+      "Focus shifts to persistent local environments"
+    ],
+    "ai-web": [
+      "Anthropic files S-1 for Nasdaq IPO",
+      "Anthropic offers 40% GSA discount to government",
+      "Anthropic research reveals software exploit risks",
+      "OpenAI deepens Oracle enterprise integration",
+      "Anthropic sitemap reaches 491 total articles",
+      "GSA usage of Anthropic tools grows 20-fold"
+    ],
+    "ai-hn": [
+      "OpenAI introduces GPT-6.1 Terra",
+      "LiquidAI LFM3 debuts for specialized tasks",
+      "HN debates AI-driven police stop reliability",
+      "Survival LLM gains traction for emergency use",
+      "Community critiques Anthropic training practices",
+      "GPT-6.1 Terra reasoning faces intense scrutiny"
+    ],
+    "ai-arxiv": [
+      "DCKV codec optimizes long-prompt KV cache",
+      "Select-TTT enables fast context weight updates",
+      "Mamba-2 state compression gains efficiency",
+      "New paper shows evolving agent team benefits",
+      "Reflective loops boost AI reasoning power",
+      "Research centers on auditability in AI"
+    ],
+    "ai-community": [
+      "Devs prioritize validation over blind LLM trust",
+      "New plugin enforces passing tests for AI fixes",
+      "Production agents often suffer cost-drain issues",
+      "Instrumentation reveals real resource bottlenecks",
+      "AI-generated logs face developer skepticism",
+      "MCP tool security is a rising concern"
+    ]
+  }
+}
