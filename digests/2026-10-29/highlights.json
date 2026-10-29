@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 集成新技能功能",
+      "OpenAI Codex 发布 alpha v0.166.0-alpha.5.1",
+      "Gemini CLI 达到 v0.67.0-nightly",
+      "OpenCode 稳定性提升至 v1.19.5",
+      "Qwen Code 更新至 v0.26.3",
+      "CLI 工具优先考虑 MCP 互操作性"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目 24 小时内获得 500 个 PR",
+      "OpenClaw 集成新的 Particle 模型",
+      "OpenClaw 修复网关事件循环阻塞问题",
+      "OpenClaw 优化 iOS 侧边栏及键盘逻辑",
+      "内存索引优化，提升检索准确度",
+      "OpenClaw 聚焦关键性维护"
+    ],
+    "ai-infra": [
+      "vLLM 凭借新 MRV2 架构领先",
+      "llama.cpp 发布里程碑版本 v0.8.0",
+      "SGLang 优化 PD 分离与缓存",
+      "Unsloth 推出 Ulysses 上下文并行功能",
+      "LiquidAI LFM3 原生支持 llama.cpp",
+      "LiteLLM 转向 Rust 目录迁移"
+    ],
+    "ai-trending": [
+      "Thinkrail IDE 新增 1068 颗星",
+      "Impeccable 工具发布，用于 AI 代码评估",
+      "CopilotKit 总星数达到 38,335",
+      "Ollama 以 185,141 颗星保持领先",
+      "Superpowers 智能体工具今日新增 1095 颗星",
+      "编程智能体优先考量输出质量"
+    ],
+    "ai-web": [
+      "Anthropic 探索零日漏洞发现",
+      "Claude 模型助力药物开发研究",
+      "OpenAI 扩大与 ServiceNow 企业合作",
+      "Anthropic 转向内部科学研究",
+      "研究显示 Claude 可利用软件缺陷",
+      "OpenAI 聚焦 B2B 集成而非科研"
+    ],
+    "ai-hn": [
+      "Gemini 4 Carbon 在 HN 引发辩论",
+      "OpenAI 研究论文遭社区质疑",
+      "HN 用户抵制强制 AI 功能",
+      "新数学研究论文引发高度关注",
+      "社区关注本地优先的 AI 模型",
+      "用户辩论 AI 突破的可重复性"
+    ],
+    "ai-arxiv": [
+      "Heads of Security 提出基于注意力的防御",
+      "MuonGS 稳定大规模模型训练",
+      "SimpleLoRIF 识别安全侵蚀根源",
+      "ThinkWorld 使用世界模型进行 VLA 推理",
+      "研究人员聚焦预防模型崩溃",
+      "新架构目标直指现实部署"
+    ],
+    "ai-community": [
+      "开发者转向鲁棒 AI 系统工程",
+      "发布降低智能体 Token 成本的实用指南",
+      "文章警示不要盲目信任 AI 测试",
+      "生产成本主导开发者讨论",
+      "工程师优先采用持久执行模式",
+      "测试框架成为智能体的必需品"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code integrates new skills functionality",
+      "OpenAI Codex releases alpha v0.166.0-alpha.5.1",
+      "Gemini CLI reaches v0.67.0-nightly",
+      "OpenCode gains stability at v1.19.5",
+      "Qwen Code updates to version v0.26.3",
+      "CLI tools prioritize MCP interoperability"
+    ],
+    "ai-agents": [
+      "OpenClaw project sees 500 PRs in 24 hours",
+      "New Particle model integration added to OpenClaw",
+      "OpenClaw fixes Gateway event loop blocking",
+      "OpenClaw improves iOS sidebar and keyboard logic",
+      "Memory indexing improved for better recall accuracy",
+      "OpenClaw focuses on critical maintenance"
+    ],
+    "ai-infra": [
+      "vLLM leads with new MRV2 architecture",
+      "llama.cpp hits landmark v0.8.0 release",
+      "SGLang optimizes PD disaggregation and caching",
+      "Unsloth debuts Ulysses context-parallel features",
+      "LiquidAI LFM3 gains native support in llama.cpp",
+      "LiteLLM shifts focus toward Rust-catalog migration"
+    ],
+    "ai-trending": [
+      "Thinkrail IDE trends with 1068 new stars",
+      "Impeccable tool launches for AI code critique",
+      "CopilotKit reaches 38,335 total stars",
+      "Ollama maintains lead with 185,141 stars",
+      "Superpowers agent tool gains 1095 stars today",
+      "Coding agents prioritize output quality"
+    ],
+    "ai-web": [
+      "Anthropic explores zero-day vulnerability discovery",
+      "Claude models now aid in drug development research",
+      "OpenAI expands enterprise partnership with ServiceNow",
+      "Anthropic pivots to internal scientific research",
+      "Research shows Claude can exploit software flaws",
+      "OpenAI focuses on B2B integration over research"
+    ],
+    "ai-hn": [
+      "Gemini 4 Carbon sparks debate on HN",
+      "OpenAI research papers face community skepticism",
+      "HN users push back against mandatory AI features",
+      "New math research papers generate high engagement",
+      "Community shows interest in local-first AI models",
+      "Users debate reproducibility of AI breakthroughs"
+    ],
+    "ai-arxiv": [
+      "Heads of Security proposes attention-based defenses",
+      "MuonGS stabilizes large-scale model training",
+      "SimpleLoRIF identifies source of safety erosion",
+      "ThinkWorld uses world models for VLA reasoning",
+      "Researchers focus on preventing model collapse",
+      "New architectures target real-world deployment"
+    ],
+    "ai-community": [
+      "Devs shift focus to robust AI system engineering",
+      "Practical guide released to cut agent token costs",
+      "Article warns against blindly trusting AI tests",
+      "Production costs dominate developer discussions",
+      "Engineers prioritize durable execution patterns",
+      "Testing frameworks become essential for agents"
+    ]
+  }
+}

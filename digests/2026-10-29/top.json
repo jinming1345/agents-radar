@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布漏洞发现模型",
+    "impact": 5,
+    "why": "AI模型首次实现针对Chrome/Linux等核心架构的零日漏洞自主发现，标志着AI攻防进入新阶段。",
+    "audience": "安全研究员、开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Gemini 4 Carbon发布",
+    "impact": 5,
+    "why": "作为行业头部模型的新版本，其架构更新和性能表现直接重塑了开发者和企业侧的选型标准。",
+    "audience": "AI从业者、企业架构师",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenAI发表基础科学发现",
+    "impact": 4,
+    "why": "证明AI在复杂数学与物理理论发现中的价值，不仅是生产力工具，更成为科研的核心参与者。",
+    "audience": "科研人员、算法工程师",
+    "report": "ai-hn"
+  },
+  {
+    "title": "vLLM进入MRV2架构阶段",
+    "impact": 4,
+    "why": "作为主流推理框架，MRV2及MoE优化将显著降低大模型在生产环境的落地成本与延时。",
+    "audience": "后端工程师、Infra工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "MCP协议成CLI工具标配",
+    "impact": 4,
+    "why": "Model Context Protocol的广泛采纳统一了Agent工具交互标准，解决了多工具间协作的碎片化问题。",
+    "audience": "Agent开发者",
+    "report": "ai-cli"
+  }
+]
