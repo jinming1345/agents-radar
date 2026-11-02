@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Mistral Large 4 权重开源",
+    "impact": 5,
+    "why": "Mistral开源高性能模型是行业基准，直接影响开发者对闭源模型的选型与私有化部署策略。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Claude Code出现严重供应链漏洞",
+    "impact": 5,
+    "why": "主流AI编码插件遭攻击，警示开发者Agent环境下的安全防范成为当前生产环境的首要任务。",
+    "audience": "Agent开发者/运维",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Anthropic发布自主漏洞研究成果",
+    "impact": 4,
+    "why": "模型具备跨步骤网络攻击能力，标志着AI从辅助编码向自主安全攻防研究的范式转移。",
+    "audience": "安全研究员/AI架构师",
+    "report": "ai-web"
+  },
+  {
+    "title": "Gemini 4 Carbon发布",
+    "impact": 4,
+    "why": "作为谷歌新一代模型，其计算效率与架构透明度引发行业关于大模型扩展效率的激烈辩论。",
+    "audience": "全行业从业者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw 陷入重大架构稳定性危机",
+    "impact": 3,
+    "why": "作为主要Agent框架，其高频崩溃和消息丢失问题严重阻碍了生产环境的部署与稳定性。",
+    "audience": "Agent应用开发者",
+    "report": "ai-agents"
+  }
+]

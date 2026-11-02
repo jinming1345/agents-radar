@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 重点关注代理持久性",
+      "OpenAI Codex 发布 v0.167.0-alpha",
+      "Gemini CLI 每日构建版达到 v0.67.0",
+      "开发者推动改进代理会话后台处理",
+      "Copilot CLI 专注于多平台一致性",
+      "OpenCode 解决代理循环问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 面临严重崩溃循环回归",
+      "OpenClaw 24小时内收到500个PR",
+      "OpenClaw 专注于移动端 UI 标准化",
+      "基础设施更新旨在防止 CI 任务挂起",
+      "用户反馈 OpenClaw 的 WhatsApp TTS 失败",
+      "内存核心评分重构以提升性能"
+    ],
+    "ai-infra": [
+      "vLLM 优先开发 Rust 前端与 MoE 稳定性",
+      "SGLang 针对 Blackwell SM120 硬件优化",
+      "llama.cpp 发布 b12030-b12032，含 GQA 缓存",
+      "Ollama 扩展对思维模型的支持",
+      "LiteLLM 核心迁移至 Rust",
+      "Unsloth 扩展 FP8 LoRA 训练规模"
+    ],
+    "ai-trending": [
+      "claude-mem 凭借持久上下文获 109,327 星",
+      "lightpanda-io 浏览器今日获 825 星",
+      "CopilotKit 以 38,454 总星数领先",
+      "FlashML FreeToken 实现本地数据中心级服务",
+      "开源转向自托管代理框架",
+      "高性能代理基础设施中 Rust 应用增加"
+    ],
+    "ai-web": [
+      "Anthropic 模型执行多步网络攻击",
+      "Anthropic 正式推出托管代理服务",
+      "OpenAI 优先考虑训练与法律框架",
+      "研究显示代理可执行攻击性操作",
+      "OpenAI 将重点转向模型规范标准",
+      "公共研究强调 AI 安全加固"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 权重发布并广受好评",
+      "Gemini 4 Carbon 引发效率讨论",
+      "Sleep 框架旨在解决灾难性遗忘",
+      "社区对代理集群投资回报率感到疲惫",
+      "供应链安全仍是核心关注点",
+      "工程师对 AI 实用性持怀疑态度"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 成为推理测试新基准",
+      "Liquid Foundation Models (LFM3) 增长迅猛",
+      "LTX-2.5 领跑视频生成趋势",
+      "Nanbeige4.3-33B 下载量达 15,795 次",
+      "Spark-X2.6-4B 提供高效率文本生成",
+      "Any-to-any 架构在统一流水线中流行"
+    ],
+    "ai-community": [
+      "代理工作流的安全风险引发争议",
+      "Dev.to 揭露 AI 信任受污染文件的风险",
+      "报告：75% 的谷歌新代码由 AI 编写",
+      "工程师探讨缺失的 AI 执行层",
+      "社区质疑自主集群的可靠性",
+      "转向本地且可验证的 AI 解决方案"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains focus on agentic persistence",
+      "OpenAI Codex reaches v0.167.0-alpha milestone",
+      "Gemini CLI nightly builds hit v0.67.0",
+      "Developers push for better agent session backgrounding",
+      "Copilot CLI sees intense multi-platform parity focus",
+      "OpenCode struggles with agentic loop issues"
+    ],
+    "ai-agents": [
+      "OpenClaw faces major crash-loop regressions",
+      "500 PRs submitted for OpenClaw in 24 hours",
+      "OpenClaw focuses on mobile UI standardization",
+      "Infrastructure updates aim to prevent CI job hangs",
+      "Users report WhatsApp TTS audio failures in OpenClaw",
+      "Memory-core scoring refactored for performance"
+    ],
+    "ai-infra": [
+      "vLLM prioritizes Rust frontend and MoE stability",
+      "SGLang optimizes for Blackwell SM120 hardware",
+      "llama.cpp releases b12030-b12032 with GQA caching",
+      "Ollama expands support for thinking models",
+      "LiteLLM undergoes core migration to Rust",
+      "Unsloth scales up FP8 LoRA training"
+    ],
+    "ai-trending": [
+      "claude-mem hits 109,327 stars for persistent context",
+      "lightpanda-io browser reaches 825 stars today",
+      "CopilotKit leads with 38,454 total stars",
+      "FlashML FreeToken enables local datacenter-scale serving",
+      "Open-source shifts toward self-hosted agent harnesses",
+      "Rust adoption grows in high-performance agent infra"
+    ],
+    "ai-web": [
+      "Anthropic models execute multi-step cyber exploits",
+      "Anthropic formalizes Managed Agents service",
+      "OpenAI prioritizes training and legal frameworks",
+      "Research shows agents performing offensive operations",
+      "OpenAI shifts focus to Model Spec standards",
+      "Public research emphasizes AI security hardening"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 weights released to high acclaim",
+      "Gemini 4 Carbon sparks debate on efficiency",
+      "Sleep framework targets catastrophic forgetting",
+      "Community signals fatigue over agent swarm ROI",
+      "Supply chain security remains a top concern",
+      "Engineering skepticism grows regarding AI utility"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B becomes a new reasoning benchmark",
+      "Liquid Foundation Models (LFM3) dominate growth",
+      "LTX-2.5 leads in trending video generation",
+      "Nanbeige4.3-33B hits 15,795 downloads",
+      "Spark-X2.6-4B offers high-efficiency text generation",
+      "Any-to-any architectures trend in unified pipelines"
+    ],
+    "ai-community": [
+      "Security risks in agentic workflows spark debate",
+      "Dev.to exposes risks of AI trusting poisoned files",
+      "Report: 75% of new Google code is AI-written",
+      "Engineers discuss the missing AI execution layer",
+      "Community questions reliability of autonomous swarms",
+      "Shift toward local and verifiable AI solutions"
+    ]
+  }
+}
