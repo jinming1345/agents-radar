@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.317 发布",
+      "生态转向生产可靠性",
+      "ACP 与 MCP 协议获行业支持",
+      "Qwen Code v0.26.6 活跃度高",
+      "Pi v1.5.0 强调工具互操作性",
+      "GitHub Copilot CLI 采用标准化协议"
+    ],
+    "ai-agents": [
+      "OpenClaw 优先修复会话完整性",
+      "通过 SVG 图标改进插件导航",
+      "新增记忆调用阶段归因",
+      "Telegram 轮询效率显著提升",
+      "关键崩溃恢复错误被列为 P0 级",
+      "重心转向稳定性而非新功能"
+    ],
+    "ai-infra": [
+      "vLLM 和 SGLang 领跑 DeepSeek-V4.1 支持",
+      "llama.cpp 集成 Clover MoE",
+      "LiteLLM 趋向 OpenAI 兼容架构",
+      "SGLang v0.5.23 推动高并发",
+      "vLLM 保持极高的 PR 更新速度",
+      "基础设施向代理稳定性转型"
+    ],
+    "ai-trending": [
+      "vercel-labs/agent-desktop 获 2,275 星",
+      "FreeToken 将数据中心级算力引入桌面",
+      "Rust 语言 AI 工具渐受青睐",
+      "Ollama 仍是本地推理的首选标准",
+      "HuggingFace Transformers 突破 16.8 万星",
+      "趋势转移：代理基础设施优于聊天机器人"
+    ],
+    "ai-web": [
+      "Claude Opus 4.8 变革科学研究",
+      "Anthropic 发布 BootLoops 研究工具包",
+      "OpenAI 重点转向 Lifeval 评估",
+      "AI 原生物理研究周期缩短至数周",
+      "Anthropic 聚焦领域感知代理合作伙伴",
+      "OpenAI 探索新型电网安全框架"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 权重模型公开发布",
+      "社区审视 Anthropic IPO 准备情况",
+      "LongCat-2.5 提供原生多模态代理",
+      "Momentic 发布 AI 查错代理",
+      "关于 AI 引发科研经费短缺的讨论激增",
+      "对 Mistral 开源权重模型兴趣高涨"
+    ],
+    "ai-community": [
+      "AI 扩展市场安全风险增加",
+      "开发者警告切勿仅依赖 AI 进行代码审查",
+      "Cursor 市场遭遇 SSH 供应链攻击",
+      "代理需具备确定性的安全准入机制",
+      "对“感觉编程”的幻想逐渐破灭",
+      "生产级测试仍是重中之重"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.317 released",
+      "Ecosystem pivots to production reliability",
+      "ACP and MCP protocols gaining industry support",
+      "Qwen Code v0.26.6 sees high activity",
+      "Pi v1.5.0 emphasizes tool interoperability",
+      "GitHub Copilot CLI adopts standardized protocols"
+    ],
+    "ai-agents": [
+      "OpenClaw prioritizing session integrity fixes",
+      "Plugin navigation improved via SVG icons",
+      "Memory recall stage attribution added",
+      "Telegram polling efficiency significantly improved",
+      "Critical crash recovery bug reported as P0",
+      "Focus shifting to stability over new features"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang lead DeepSeek-V4.1 support",
+      "llama.cpp gains Clover MoE integration",
+      "LiteLLM converges on OpenAI-compatible schemas",
+      "SGLang v0.5.23 pushing high-concurrency",
+      "vLLM maintains extreme PR velocity",
+      "Infrastructure shifting toward agentic stability"
+    ],
+    "ai-trending": [
+      "vercel-labs/agent-desktop trends with 2,275 stars",
+      "FreeToken brings datacenter scale to desktops",
+      "Rust-based AI tooling gaining traction",
+      "Ollama remains essential local inference standard",
+      "HuggingFace Transformers hits 168k+ stars",
+      "Trend shift: Agentic infrastructure over chatbots"
+    ],
+    "ai-web": [
+      "Claude Opus 4.8 transforms scientific research",
+      "Anthropic releases BootLoops research toolkit",
+      "OpenAI shifts focus to Lifeval evaluations",
+      "AI-native physics research cycles cut to weeks",
+      "Anthropic focuses on domain-aware agent partners",
+      "OpenAI explores new grid security frameworks"
+    ],
+    "ai-hn": [
+      "Mistral Large 4 weights released to public",
+      "Community scrutinizes Anthropic IPO readiness",
+      "LongCat-2.5 offers native multimodal agents",
+      "Momentic launches AI bug-catching agents",
+      "Discussion spikes on AI-induced grant shortages",
+      "High interest in Mistral open-weights model"
+    ],
+    "ai-community": [
+      "Security risks grow in AI extension marketplaces",
+      "Developers warn against AI-only code reviews",
+      "Cursor marketplace suffers SSH supply chain attack",
+      "Need for deterministic safety gates for agents",
+      "Growing disillusionment with vibe-coding",
+      "Production-grade testing remains a priority"
+    ]
+  }
+}
