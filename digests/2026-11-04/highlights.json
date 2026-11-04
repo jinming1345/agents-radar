@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.318 保持活跃发布周期",
+      "生态系统正转向代理基础设施",
+      "行业聚焦长期运行任务的可靠性",
+      "可观测性成为通用工具需求",
+      "OpenAI Codex 达到 rust-v0.167 alpha",
+      "Gemini CLI v0.67 持续夜间更新"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10 迎来 500 个 PR 更新",
+      "全力推动发布后的稳定性",
+      "24小时内关闭 169 个 OpenClaw PR",
+      "已修复 MS Teams 的 Unicode 问题",
+      "基础设施聚焦网关持久化",
+      "侧边栏会话启用新的自动加载"
+    ],
+    "ai-infra": [
+      "llama.cpp 发布 b12088 版本",
+      "Ollama 达到 v0.40.15-rc0",
+      "Unsloth v0.1.914-beta 改进用户体验",
+      "vLLM 优先支持 DeepSeek-V4",
+      "llama.cpp 增加 drama-3 TTS 模型支持",
+      "SGLang 聚焦解耦推理的稳定性"
+    ],
+    "ai-trending": [
+      "agent-desktop 日增 3791 颗星",
+      "claude-mem 总星数达到 111,922",
+      "colibri 在通用硬件上启用 MoE 模型",
+      "Rust 项目主导基础设施趋势",
+      "开发者兴趣转向智能体运维",
+      "hex 提供跨平台的本地语音听写"
+    ],
+    "ai-web": [
+      "Anthropic 发布模型完整性工具 FlashProve",
+      "FlashProve 实现加密验证",
+      "OpenAI 增设首席企业事务官",
+      "聚焦 AI 溯源与信任层",
+      "OpenAI 转向物理世界工程",
+      "信任层旨在防止模型被替换"
+    ],
+    "ai-hn": [
+      "HN 社区担忧隐藏的 AI 技术债",
+      "OpenAI 的 Git 扩展引发强烈关注",
+      "用户对强制 AI 功能感到疲惫",
+      "发布生成式 AI 基础新指南",
+      "社区质疑企业级 AI 的隐私保护",
+      "对种子下载开放权重模型兴趣上升"
+    ],
+    "ai-arxiv": [
+      "Sonar-MoE 降低专家模型内存占用",
+      "预训练规模改变优化器行为",
+      "多轮预训练新框架",
+      "研究转向具身机器人控制",
+      "Strategist 框架增强智能体自主性",
+      "vfNN 方法论优化计算瓶颈"
+    ],
+    "ai-community": [
+      "开发者要求 AI 智能体具有确定性",
+      "RAG 法律边界审查日益严苛",
+      "文章揭示 RAG 流水线安全漏洞",
+      "社区辩论人类与模型的不可预测性",
+      "重点转向生产级智能体设计",
+      "工程师解决 MoE 扩展中的延迟问题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.318 maintains active release cycle",
+      "Ecosystem pivoting to agentic infrastructure",
+      "Industry focuses on long-running task reliability",
+      "Observability is now a universal tool demand",
+      "OpenAI Codex reaches rust-v0.167 alpha",
+      "Gemini CLI v0.67 continues nightly updates"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.10.10 sees 500 PR updates",
+      "Massive push for post-release stability",
+      "169 OpenClaw PRs closed in 24 hours",
+      "Fixes for MS Teams Unicode issues deployed",
+      "Infrastructure focus on Gateway persistence",
+      "New automated loading for sidebar sessions"
+    ],
+    "ai-infra": [
+      "llama.cpp hits version b12088",
+      "Ollama reaches v0.40.15-rc0",
+      "Unsloth v0.1.914-beta brings UX improvements",
+      "vLLM prioritizes DeepSeek-V4 readiness",
+      "llama.cpp adds support for drama-3 TTS models",
+      "SGLang focuses on disaggregated serving stability"
+    ],
+    "ai-trending": [
+      "agent-desktop surges with 3791 daily stars",
+      "claude-mem hits 111,922 total stars",
+      "colibri enables MoE models on commodity hardware",
+      "Rust projects dominate infrastructure trends",
+      "Developer interest shifting to Agentic Ops",
+      "hex provides cross-OS local voice dictation"
+    ],
+    "ai-web": [
+      "Anthropic unveils FlashProve for model integrity",
+      "FlashProve enables cryptographic verification",
+      "OpenAI adds Chief Corporate Affairs Officer",
+      "New focus on AI provenance and trust layers",
+      "OpenAI shifts to physical world engineering",
+      "Trust layer aims to prevent model swapping"
+    ],
+    "ai-hn": [
+      "HN community concerned over hidden AI debt",
+      "Scaling Git at OpenAI draws intense interest",
+      "Users show fatigue with forced AI features",
+      "New primer on generative AI foundations released",
+      "Community skeptical of corporate AI privacy",
+      "Rising interest in torrenting open-weight models"
+    ],
+    "ai-arxiv": [
+      "Sonar-MoE reduces memory for expert models",
+      "Pretraining scale shifts optimizer behavior",
+      "New framework for multi-epoch pretraining",
+      "Research moves toward embodied robot control",
+      "Strategist framework enhances agentic autonomy",
+      "vfNN methodology optimizes compute bottlenecks"
+    ],
+    "ai-community": [
+      "Developers demand determinism in AI agents",
+      "Scrutiny grows over legal limits of RAG",
+      "Article highlights RAG pipeline security flaws",
+      "Community debates human vs. model unpredictability",
+      "Focus turns to production-grade agent design",
+      "Engineers address latency in MoE scaling"
+    ]
+  }
+}

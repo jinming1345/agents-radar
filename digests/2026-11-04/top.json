@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布FlashProve加密验证系统",
+    "impact": 5,
+    "why": "通过密码学手段确保模型推理的真实性，从根本上解决大模型的模型替换与信任溯源问题，是企业级AI合规的里程碑。",
+    "audience": "企业架构师、安全专家",
+    "report": "ai-web"
+  },
+  {
+    "title": "Postman因静默强制安装AI插件遭抵制",
+    "impact": 4,
+    "why": "因涉及API敏感数据泄露风险且强制推送，引发大规模用户不满与迁移潮，影响广泛的后端开发生态。",
+    "audience": "后端开发工程师",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Agentic Infrastructure成为开发重心",
+    "impact": 4,
+    "why": "社区已从简单的LLM封装转向解决长时任务编排、状态管理及资源成本，是AI工具链从实验走向工程化的标志。",
+    "audience": "Agent开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "Sonar-MoE提升MoE模型训练效率",
+    "impact": 3,
+    "why": "通过在反向传播中更新专家梯度，大幅降低内存开销，使大规模MoE模型的训练突破现有显存瓶颈。",
+    "audience": "AI模型训练工程师",
+    "report": "ai-arxiv"
+  },
+  {
+    "title": "OpenClaw v2026.10.10发布引发稳定性危机",
+    "impact": 3,
+    "why": "短时间内激增500个PR说明其核心基础设施在生产环境遇到重大回归，Agent开发者的部署和数据完整性受直接影响。",
+    "audience": "Agent开发者",
+    "report": "ai-agents"
+  }
+]
