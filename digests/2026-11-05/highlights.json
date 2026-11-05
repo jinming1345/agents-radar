@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 达到生产级可靠性",
+      "OpenAI Codex 发布 v0.168.0-alpha",
+      "Gemini CLI v0.68.0-preview 新增功能",
+      "Copilot CLI 更新至 v1.0.106-9",
+      "Qwen Code 更新至 v0.26.7",
+      "项目转向状态机架构"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5-beta.1 新增知识记录器",
+      "OpenClaw 现支持 PostgreSQL 状态存储",
+      "24小时内更新了 500 个拉取请求",
+      "优先修复高并发内存问题",
+      "优化 CI/CD 流水线以支持 Markdown 测试",
+      "优化 UI，支持居中显示置顶 Agent"
+    ],
+    "ai-infra": [
+      "vLLM 增加对 NVFP4 和 Marlin 的支持",
+      "llama.cpp 发布 v0.9.0",
+      "LiteLLM 发布 v1.109.0-rc.1",
+      "Unsloth 更新至 v0.1.915-beta",
+      "引擎聚焦 B200/MI350 内核优化",
+      "多序列推理受关注"
+    ],
+    "ai-trending": [
+      "auto-ontology 新增 2,050 颗星",
+      "agent-desktop 达到 2,470 颗星",
+      "kimi-k3-in-c 提供 C99 实现的 2.78T 模型",
+      "claude-mem 达到 112,878 颗星",
+      "人机协同开发热度高涨",
+      "转向本地低延迟执行"
+    ],
+    "ai-web": [
+      "Anthropic 解决保险库粒子结构问题",
+      "Claude 演变为科学协作助手",
+      "OpenAI 发布 Images 2.6",
+      "OpenAI 通过收购 Pierre 扩展软件栈",
+      "OpenAI 优先考虑 GovCloud 企业安全",
+      "Anthropic 瞄准自主生物发现"
+    ],
+    "ai-hn": [
+      "OpenAI 发布 Images 2.6",
+      "Anthropic 详述可证明推理研究",
+      "Nvidia RTX Spark 固件使推理速度下降 35%",
+      "用户抵制 AI 数据隐私问题",
+      "PCB 短缺威胁 AI 硬件供应",
+      "社区显示出 AI 疲劳感"
+    ],
+    "ai-arxiv": [
+      "新论文：抑制未对齐的行为",
+      "明知故错：调查模型信念",
+      "“无知的几何”框架首次亮相",
+      "研究转向智能体机器人技术",
+      "新焦点：长视域规划",
+      "鲁棒性研究进入几何检测阶段"
+    ],
+    "ai-community": [
+      "文章抨击 10 倍速独立 AI 开发者神话",
+      "关于 AI Agent 取代工程师的辩论",
+      "团队难以应对日益增长的 AI 推理成本",
+      "复杂流水线引发成本可观测性危机",
+      "Lobste.rs 探讨权重空间编程",
+      "向确定性 AI 工作流的技术转型"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code moves to production-grade reliability",
+      "OpenAI Codex releases v0.168.0-alpha",
+      "Gemini CLI v0.68.0-preview adds new features",
+      "Copilot CLI reaches v1.0.106-9",
+      "Qwen Code updates to v0.26.7",
+      "Projects shift to state machine architectures"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.5-beta.1 adds Knowledge Scribes",
+      "OpenClaw now supports PostgreSQL-backed state",
+      "500 pull requests updated in 24 hours",
+      "High-concurrency memory fixes prioritized",
+      "CI/CD pipelines optimized for Markdown tests",
+      "UI refined to center pinned agents"
+    ],
+    "ai-infra": [
+      "vLLM adds support for NVFP4 and Marlin",
+      "llama.cpp hits v0.9.0 release",
+      "LiteLLM debuts v1.109.0-rc.1",
+      "Unsloth updates to v0.1.915-beta",
+      "Engines focus on B200/MI350 kernel optimization",
+      "Multi-sequence inference gains momentum"
+    ],
+    "ai-trending": [
+      "auto-ontology trends with 2,050 new stars",
+      "agent-desktop reaches 2,470 stars",
+      "kimi-k3-in-c offers 2.78T model in C99",
+      "claude-mem hits 112,878 stars",
+      "Agent-in-the-loop development surges",
+      "Focus shifts to local, low-latency execution"
+    ],
+    "ai-web": [
+      "Anthropic solves vault particle structure",
+      "Claude evolves into scientific collaborator",
+      "OpenAI releases Images 2.6",
+      "OpenAI expands software stack via Pierre acquisition",
+      "OpenAI prioritizes GovCloud enterprise security",
+      "Anthropic targets autonomous biological discovery"
+    ],
+    "ai-hn": [
+      "OpenAI debuts Images 2.6",
+      "Anthropic details provable inference research",
+      "Nvidia RTX Spark firmware slows inference to 35%",
+      "Users push back on AI data privacy",
+      "PCB shortages threaten AI hardware supply",
+      "Community signals growing AI fatigue"
+    ],
+    "ai-arxiv": [
+      "New paper: Suppressing Misaligned Behaviors",
+      "Knowingly Wrong: Investigating model belief",
+      "The Geometry of Ignorance framework debuts",
+      "Research shifts toward agentic robotics",
+      "New focus on long-horizon planning",
+      "Robustness research enters geometric detection phase"
+    ],
+    "ai-community": [
+      "Article critiques the 10x solo AI developer myth",
+      "Debate on AI agents replacing engineers",
+      "Teams struggle with rising AI inference costs",
+      "Complex pipelines trigger cost observability crisis",
+      "Lobste.rs explores weight-space programming",
+      "Technical shift toward deterministic AI workflows"
+    ]
+  }
+}

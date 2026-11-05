@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Postman违规自动集成AI功能",
+    "impact": 5,
+    "why": "未经授权处理用户API数据引发巨大隐私争议，迫使开发者重新评估IDE与工具链的安全性。",
+    "audience": "全体开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "Claude Code等面临GC Death Spiral",
+    "impact": 4,
+    "why": "AI CLI工具普遍出现内存泄漏与上下文膨胀问题，标志着行业从实验性阶段转向严苛的工程生产化阶段。",
+    "audience": "Agent开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "NVIDIA RTX Spark驱动性能降级",
+    "impact": 4,
+    "why": "固件级加密导致推理速度暴跌至35%，严重打击了Linux环境下个人AI硬件的使用体验。",
+    "audience": "AI基础设施开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw引入Knowledge Scribes",
+    "impact": 3,
+    "why": "通过PostgreSQL持久化状态解决Agent跨会话记忆问题，是多智能体协同开发的关键性架构演进。",
+    "audience": "Agent/系统开发者",
+    "report": "ai-agents"
+  },
+  {
+    "title": "vLLM与llama.cpp进入OCP FP8时代",
+    "impact": 3,
+    "why": "以E4M3格式为基准的量化标准确立，成为未来低延迟生产环境部署的行业新基准。",
+    "audience": "模型推理工程师",
+    "report": "ai-infra"
+  }
+]
