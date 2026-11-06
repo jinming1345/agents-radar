@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 开发停滞不前",
+      "OpenAI Codex 社区活跃度极高",
+      "Qwen Code 在近期 PR 和 Issue 中领先",
+      "大多数 CLI 工具仍面临 OAuth 难题",
+      "用户频繁遇到 Windows 和 macOS 回归问题",
+      "生态系统正从演示转向基础设施"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.1 发布以提升稳定性",
+      "OpenClaw 生态系统涌现 500 个 PR",
+      "Mac 安全更新防止密钥被覆盖",
+      "近期提交优化了 UI 响应速度",
+      "Windows 启动崩溃是社区首要问题",
+      "SQLite 工作线程稳定性仍是重点"
+    ],
+    "ai-infra": [
+      "llama.cpp 达到新构建版本 b12140",
+      "LiteLLM 达到稳定版 v1.108.1",
+      "vLLM 在高端部署支持中占据主导",
+      "重心转向 MoE 和混合架构",
+      "Blackwell 和 H200 芯片性能不稳定",
+      "SGLang 优先实现 Rust 运行时对齐"
+    ],
+    "ai-trending": [
+      "NVIDIA auto-ontology 获得 2679 颗星",
+      "agent-desktop 发布，获得 2173 颗星",
+      "Scrapling 成为顶级 AI 优化爬虫",
+      "worktrunk 助力并发开发代理任务",
+      "floci 作为新的本地 AWS 模拟器发布",
+      "行业转向确定性代理技能"
+    ],
+    "ai-web": [
+      "Anthropic 启动 AI 客座研究员计划",
+      "Claude 助力 3D 金库粒子发现",
+      "Anthropic 与六家生命科学公司合作",
+      "OpenAI 暗示推出新 GPT-6 Cyber 模型",
+      "OpenAI 转向教育行业合作伙伴关系",
+      "研究证实生物发现领域的现实成功"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra 安全故障引发强烈抵制",
+      "Images 2.6 发布引发多模态辩论",
+      "腾讯推出 Hy4 开源模型",
+      "用户抱怨硬件固件锁定问题",
+      "财务担忧困扰 AI 核心股票",
+      "社区对 AI 代理炒作持怀疑态度"
+    ],
+    "ai-arxiv": [
+      "Persona Perspectives 挑战 LLM 潜在空间",
+      "Alignment Myopia 警告长期外部性",
+      "新元模型可提前预测 LLM 回应",
+      "BEAKER 基准测试瞄准代理推理轨迹",
+      "研究转向长程任务代理",
+      "物理限制影响基于 LLM 的机器人技术"
+    ],
+    "ai-community": [
+      "WebMCP 标准存在代理劫持风险",
+      "开发者警告不要依赖 AGENTS.md 文件",
+      "脚本比 Markdown 更适合代理控制",
+      "间接提示注入的安全风险上升",
+      "对权重空间编程的兴趣日益增长",
+      "重心转向容器化出口过滤"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code development remains stagnant",
+      "OpenAI Codex sees very high community activity",
+      "Qwen Code leads in recent PRs and issues",
+      "OAuth remains a struggle for most CLI tools",
+      "Users face frequent Windows and macOS regressions",
+      "Ecosystem moving from demo to infrastructure"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.11.1 released for stability",
+      "Massive surge of 500 PRs in OpenClaw ecosystem",
+      "Mac security updates prevent secret overwriting",
+      "UI responsiveness optimized in recent commits",
+      "Windows startup crashes are the top community issue",
+      "SQLite worker stability remains a priority"
+    ],
+    "ai-infra": [
+      "llama.cpp hits new build b12140",
+      "LiteLLM reaches stable v1.108.1 release",
+      "vLLM dominates high-end deployment support",
+      "Focus shifting to MoE and hybrid architectures",
+      "Blackwell and H200 silicon performance is volatile",
+      "SGLang prioritizes Rust runtime parity"
+    ],
+    "ai-trending": [
+      "NVIDIA auto-ontology gains 2679 stars",
+      "agent-desktop debuts with 2173 stars",
+      "Scrapling emerges as top AI-optimized scraper",
+      "worktrunk aids concurrent dev-agent tasks",
+      "floci serves as new local AWS emulator",
+      "Industry shifts to deterministic agent skills"
+    ],
+    "ai-web": [
+      "Anthropic launches AI guest investigator program",
+      "Claude aids 3D vault particle discovery",
+      "Anthropic partners with six life science firms",
+      "OpenAI hints at new GPT-6 Cyber model",
+      "OpenAI pivots to education sector partnerships",
+      "Research confirms real-world bio-discovery success"
+    ],
+    "ai-hn": [
+      "GPT-6 Astra safety failures spark backlash",
+      "Images 2.6 release stirs multimodal debate",
+      "Tencent launches Hy4 open-source model",
+      "Users vent over hardware firmware locking",
+      "Financial concerns plague AI-focused stocks",
+      "Community skepticism regarding agent-hype grows"
+    ],
+    "ai-arxiv": [
+      "Persona Perspectives challenges LLM latent spaces",
+      "Alignment Myopia warns of long-term externalities",
+      "New metamodels forecast LLM responses early",
+      "BEAKER benchmark targets agent reasoning traces",
+      "Research shifts toward long-horizon task agents",
+      "Physical constraints impact LLM-based robotics"
+    ],
+    "ai-community": [
+      "WebMCP standard poses agent hijacking risks",
+      "Developers warn against relying on AGENTS.md files",
+      "Scripts preferred over Markdown for agent control",
+      "Security risks of indirect prompt injection rise",
+      "Interest grows in weight-space programming",
+      "Focus shifts to containerized egress filtering"
+    ]
+  }
+}

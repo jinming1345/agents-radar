@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布科研AI，深入生物科学",
+    "impact": 5,
+    "why": "标志着AI从聊天机器人转型为实验室科研伙伴，将改变生命科学研发的范式。",
+    "audience": "AI科研应用开发者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Claude Code出现隐私泄露风险",
+    "impact": 5,
+    "why": "开发者广泛使用的 coding agent 存在敏感信息泄露，引发对AI工具安全性的深度信任危机。",
+    "audience": "所有AI编程用户",
+    "report": "ai-hn"
+  },
+  {
+    "title": "NVIDIA推出auto-ontology，重塑Agent推理",
+    "impact": 4,
+    "why": "图谱驱动的推理框架是Agent从概率生成向确定性逻辑演进的关键技术，影响Agent开发选型。",
+    "audience": "Agent架构师",
+    "report": "ai-trending"
+  },
+  {
+    "title": "NVIDIA RTX Spark驱动导致性能骤降",
+    "impact": 4,
+    "why": "硬件级加密锁导致推理性能仅剩35%，严重影响本地部署和高性能计算环境的选型。",
+    "audience": "AI基础设施工程师",
+    "report": "ai-hn"
+  },
+  {
+    "title": "vLLM及llama.cpp强化MoE架构支持",
+    "impact": 3,
+    "why": "作为行业核心基础设施，对MTP和MoE模型的优化直接决定了生产环境的部署性能上限。",
+    "audience": "模型部署工程师",
+    "report": "ai-infra"
+  }
+]
