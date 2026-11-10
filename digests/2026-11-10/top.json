@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布Claude Fable/Mythos 5.2",
+    "impact": 5,
+    "why": "旗舰模型发布引发基准测试与现实工程能力的大规模讨论，是目前模型能力评估的风向标。",
+    "audience": "AI研发者与企业决策者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "AI Agent开发工具泄露敏感密钥风险",
+    "impact": 5,
+    "why": "Claude Code等工具因过度权限导致大量密钥泄露，迫使开发者重新审视Agent的安全边界与权限模型。",
+    "audience": "Agent开发者与DevOps",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenAI进军物理世界及科学实验",
+    "impact": 4,
+    "why": "AI从数字编码扩展到湿实验室（Wet Lab）自动化，标志着AI Agent正式跨入实体科学研究范式。",
+    "audience": "AI科学家与实验室自动化人员",
+    "report": "ai-web"
+  },
+  {
+    "title": "SGLang与vLLM全力布局Blackwell架构",
+    "impact": 4,
+    "why": "底层推理引擎对新硬件（Blackwell/VR）的激进优化，直接决定了企业未来高算力场景的选型路径。",
+    "audience": "基础设施工程师",
+    "report": "ai-infra"
+  },
+  {
+    "title": "开发者实测使用AI编码效率不升反降",
+    "impact": 3,
+    "why": "社区量化数据显示盲目使用AI工具导致生产力下降19%，引发了对现有辅助编码范式的反思。",
+    "audience": "软件工程师",
+    "report": "ai-community"
+  }
+]

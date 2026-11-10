@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.321 引领 CLI 更新",
+      "生态重点转向 Windows 稳定性",
+      "Copilot CLI v1.0.109 持续开发中",
+      "开发者优先考虑智能体可靠性",
+      "Qwen Code v0.27.1 迭代效率高",
+      "Pi v1.5.1 优化会话状态管理"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内处理 649 次更新",
+      "PR #196363 提升控制 UI 输出速度",
+      "网关同步更新修复 NVM 部署问题",
+      "PR #196297 增加关键自动化保护",
+      "Hermes Agent 引领多智能体工作流",
+      "IronClaw 持续迭代 2026.11.x 测试版"
+    ],
+    "ai-infra": [
+      "SGLang 针对 Blackwell 和 VR 架构优化",
+      "vLLM 优先考虑多租户扩展",
+      "llama.cpp b122xx 增强多模态支持",
+      "Ollama 0.40.16 优化 Apple Silicon 性能",
+      "LiteLLM 扩展稳健的网关路由",
+      "Unsloth 推动基于 Triton 的内核加速"
+    ],
+    "ai-trending": [
+      "Anthropic Skills 库今日新增 1,038 星",
+      "Meta 的 Astryx 设计系统增加 3,278 星",
+      "Agent-browser 因 Rust 自动化获 916 星",
+      "Garry Tan 的 gbrain 发布即获 212 星",
+      "OpenMausBot 扩展虚拟机集成",
+      "市场转向自主执行智能体"
+    ],
+    "ai-web": [
+      "OpenAI 发布新控制室基础设施",
+      "ChatGPT Enterprise 上架 AWS Marketplace",
+      "OpenAI 进入自动化湿实验室研究",
+      "Claude 生态保持稳定且高质量发展",
+      "新基础设施层旨在提升编排能力",
+      "自动化实验室测试预示 AI 触达物理世界"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 引发激烈基准测试争论",
+      "Mythos 5.2 随 Fable 旗舰版发布",
+      "Artificial Analysis 将 Fable 5.2 排在 65 位",
+      "Meta 发布高效 Muse Ember 小模型",
+      "开发者争论编程智能体的安全性",
+      "对 AI 生成泄露的隐私担忧加剧"
+    ],
+    "ai-community": [
+      "Dev.to 研究称 AI 工具使编码速度下降 19%",
+      "作者主张 AI 安全应采取授权优先策略",
+      "关于长期架构健康的争论不断增加",
+      "社区抵制 AI 生产力炒作",
+      "本地优先 AI 因可预测性受到关注",
+      "提示词注入被视为授权机制的失败"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.321 leads active CLI updates",
+      "Ecosystem focus shifts to Windows stability",
+      "Copilot CLI v1.0.109 maintains active development",
+      "Developers prioritize agentic reliability",
+      "Qwen Code v0.27.1 shows efficient iteration",
+      "Pi v1.5.1 stabilizes session state management"
+    ],
+    "ai-agents": [
+      "OpenClaw handles 649 updates in 24 hours",
+      "PR #196363 improves Control UI output speed",
+      "Gateway sync updates target NVM deployment issues",
+      "PR #196297 adds critical automation protection",
+      "Hermes Agent leads multi-agent workflow focus",
+      "IronClaw iterates on 2026.11.x beta series"
+    ],
+    "ai-infra": [
+      "SGLang optimizes for Blackwell and VR architectures",
+      "vLLM prioritizes multi-tenant scaling",
+      "llama.cpp b122xx enhances multi-modal support",
+      "Ollama 0.40.16 refines Apple Silicon performance",
+      "LiteLLM scales robust gateway routing",
+      "Unsloth pushes Triton-based kernel acceleration"
+    ],
+    "ai-trending": [
+      "Anthropic Skills repo hits 1,038 stars today",
+      "Meta's Astryx design system gains 3,278 stars",
+      "Agent-browser hits 916 stars for Rust automation",
+      "Garry Tan’s gbrain gains 212 stars on launch",
+      "OpenMausBot scales with virtual machine integration",
+      "Market shifts toward autonomous execution agents"
+    ],
+    "ai-web": [
+      "OpenAI unveils new Control Room infrastructure",
+      "ChatGPT Enterprise arrives on AWS Marketplace",
+      "OpenAI shifts into automated wet lab research",
+      "Claude ecosystem maintains steady, high-signal pace",
+      "New infrastructure layer aims to boost orchestration",
+      "Automated lab testing signals AI physical reach"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 triggers intense benchmark debate",
+      "Mythos 5.2 released alongside Fable flagship",
+      "Artificial Analysis ranks Fable 5.2 at 65",
+      "Meta launches efficient Muse Ember small model",
+      "Developers debate security of coding agents",
+      "Privacy concerns grow over AI-generated leaks"
+    ],
+    "ai-community": [
+      "Dev.to study claims AI tools slow coders by 19%",
+      "Authors argue for authorization-first AI security",
+      "Debate grows on long-term architectural health",
+      "Community pushes back against AI productivity hype",
+      "Local-first AI gains traction for predictability",
+      "Prompt injection viewed as a failure of auth"
+    ]
+  }
+}
