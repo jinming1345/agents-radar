@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic发布Claude Fable 5.2与Mythos 5.2",
+    "impact": 5,
+    "why": "新一代旗舰模型上线，不仅大幅拉高性能门槛，也引发了关于模型边际效用与复杂性的激烈行业争论。",
+    "audience": "AI研发与从业者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenAI发布企业级AI落地系列指南",
+    "impact": 5,
+    "why": "标志着AI产业重心从模型能力转向业务落地，为企业AI应用集成设定了行业标准流程。",
+    "audience": "企业架构师",
+    "report": "ai-web"
+  },
+  {
+    "title": "Agentic-OPD：恢复被RL丢弃的智能体能力",
+    "impact": 4,
+    "why": "揭示了RL训练会丢失重要智能体能力，该方法能有效找回这些能力，对Agent性能调优至关重要。",
+    "audience": "Agent开发者",
+    "report": "ai-arxiv"
+  },
+  {
+    "title": "AI CLI工具转向多智能体协同与治理",
+    "impact": 4,
+    "why": "工具重心从单点Prompt代码生成转向具备状态持久化和安全沙箱的复杂多智能体协同架构。",
+    "audience": "DevOps工程师",
+    "report": "ai-cli"
+  },
+  {
+    "title": "vLLM优化AMD MI355X/MI450加速支持",
+    "impact": 3,
+    "why": "大模型推理基础设施正大规模转向特定硬件优化，直接影响高算力集群的选型与部署策略。",
+    "audience": "AI架构师",
+    "report": "ai-infra"
+  }
+]

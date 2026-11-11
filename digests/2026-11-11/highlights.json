@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 在智能体工作流中势头强劲",
+      "OpenAI Codex 活跃度持续走高",
+      "Qwen Code 发布节奏非常快",
+      "Windows 稳定性仍是采用的主要障碍",
+      "行业转向持久化状态管理",
+      "重心从提示词转向智能体沙箱"
+    ],
+    "ai-agents": [
+      "OpenClaw 专注于稳定性和错误修复",
+      "v2026.11.3 改进子智能体隐私",
+      "v2026.9.37 回溯关键安全修复",
+      "网关同步仍是重中之重",
+      "子任务取消逻辑得到优化",
+      "诊断工具提升 agent-dir 可见性"
+    ],
+    "ai-infra": [
+      "vLLM 和 SGLang 追求硬件专用速度",
+      "llama.cpp 在 b12250+ 版本趋于稳定",
+      "Ollama 仍是本地 AI 的核心支柱",
+      "LiteLLM 旨在改进流式处理逻辑",
+      "Unsloth 采用 Kimi 和 MiniMax 新架构",
+      "从纯速度转向生产可靠性"
+    ],
+    "ai-trending": [
+      "agent-browser 今日增加 780 颗星",
+      "anthropics/skills 首发获得 1679 颗星",
+      "browser-use 总星数达 120,613",
+      "mujoco 物理模拟增加 456 颗星",
+      "趋势转向节省 Token 的策略",
+      "智能体工程是首要开发重点"
+    ],
+    "ai-web": [
+      "OpenAI 发布 8 篇企业级文章",
+      "OpenAI 强调业务特定 AI 采用",
+      "内容针对自由职业和教育领域",
+      "Anthropic 保持对核心模型信任的关注",
+      "OpenAI 推动数据驱动员工网络研讨会",
+      "Anthropic 本轮发布保持沉默"
+    ],
+    "ai-hn": [
+      "Anthropic IPO 引发社区极大关注",
+      "Claude Fable 5.2 和 Mythos 5.2 发布",
+      "Gemini 4 Carbon 引发性能激辩",
+      "Meta 发布高效的 Muse Ember 模型",
+      "开发者讨论 AI 代码脆弱性问题",
+      "人类数据标注引发隐私担忧"
+    ],
+    "ai-arxiv": [
+      "FP4 预训练与事实获取变慢有关",
+      "KiteNorm 改进 Post-LN Transformer 稳定性",
+      "研究调查柏拉图式表征",
+      "框架解决 LLM 欺骗行为",
+      "物理学被整合进生成式架构",
+      "聚焦可验证的 AI 可靠性"
+    ],
+    "ai-community": [
+      "利用智能体调试不稳定的测试套件",
+      "开发者辩论 AI 审核的风险",
+      "Bifrost 与 LiteLLM 的 Rust 性能之争",
+      "开发者寻求本地测试风洞",
+      "隐藏的企业 AI 成本引发担忧",
+      "现代网站开始封锁 AI 智能体"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code gains momentum in agentic workflows",
+      "OpenAI Codex sees high activity levels",
+      "Qwen Code shows high release velocity",
+      "Windows stability remains a key adoption barrier",
+      "Industry shifts to persistent state management",
+      "Focus moves from prompting to agentic sandboxing"
+    ],
+    "ai-agents": [
+      "OpenClaw focuses on stability and bug fixes",
+      "v2026.11.3 improves subagent privacy",
+      "v2026.9.37 backports critical security fixes",
+      "Gateway sync remains a top priority",
+      "Child-task cancellation logic refined",
+      "Diagnostic tools improve agent-dir visibility"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang push for hardware-specific speed",
+      "llama.cpp stabilizes with version b12250+",
+      "Ollama remains the backbone for local AI",
+      "LiteLLM targets improved streaming logic",
+      "Unsloth adopts new Kimi and MiniMax architectures",
+      "Shift from raw speed to production reliability"
+    ],
+    "ai-trending": [
+      "agent-browser hits 780 stars today",
+      "anthropics/skills debuts with 1679 stars",
+      "browser-use hits 120,613 total stars",
+      "mujoco gains 456 stars for physics simulation",
+      "Trend shifts toward token-saving strategies",
+      "Agentic engineering is the top development focus"
+    ],
+    "ai-web": [
+      "OpenAI releases 8 new enterprise-focused articles",
+      "OpenAI highlights business-specific AI adoption",
+      "Content targets freelancing and education sectors",
+      "Anthropic maintains a focus on core model trust",
+      "OpenAI pushes new data-driven workforce webinars",
+      "Anthropic remains silent in this release cycle"
+    ],
+    "ai-hn": [
+      "Anthropic IPO creates massive community interest",
+      "Claude Fable 5.2 and Mythos 5.2 models launch",
+      "Gemini 4 Carbon triggers intense performance debate",
+      "Meta releases efficient Muse Ember model",
+      "Developers discuss AI code fragility issues",
+      "Privacy concerns raised over human data annotation"
+    ],
+    "ai-arxiv": [
+      "FP4 pretraining linked to slower fact acquisition",
+      "KiteNorm improves Post-LN transformer stability",
+      "Research investigates Platonic representation",
+      "Frameworks tackle deceptive LLM behavior",
+      "Physics integrated into generative architectures",
+      "New focus on verifiable AI reliability"
+    ],
+    "ai-community": [
+      "Agents used to debug flaky test suites",
+      "Devs debate the risk of rubber-stamping AI gates",
+      "Bifrost vs LiteLLM performance debate in Rust",
+      "Developers seek local testing wind tunnels",
+      "Hidden enterprise AI costs spark concern",
+      "Modern web sites are blocking AI agents"
+    ]
+  }
+}
