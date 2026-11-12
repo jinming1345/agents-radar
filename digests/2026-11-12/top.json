@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Anthropic启动IPO路演",
+    "impact": 5,
+    "why": "作为行业顶尖模型厂商的公开上市，将直接决定未来AI基础设施的资本投入与行业竞争格局。",
+    "audience": "AI行业从业者",
+    "report": "ai-web"
+  },
+  {
+    "title": "Claude Fable/Mythos 5.2发布",
+    "impact": 4,
+    "why": "新一代模型在推理能力和硬件设计上的突破，改变了开发者对AI Agent工程化能力的预期。",
+    "audience": "AI开发者",
+    "report": "ai-hn"
+  },
+  {
+    "title": "OpenClaw进入稳定收敛期",
+    "impact": 4,
+    "why": "该项目在Agent基础设施中占核心地位，其从功能交付向稳定性与内存管理的转向影响所有依赖项目。",
+    "audience": "Agent架构师",
+    "report": "ai-agents"
+  },
+  {
+    "title": "AI Agent生态全面MCP标准化",
+    "impact": 4,
+    "why": "通过Model Context Protocol统一工具注入与上下文，正成为解决Agent互操作性与资源竞争的标准范式。",
+    "audience": "CLI工具开发者",
+    "report": "ai-cli"
+  },
+  {
+    "title": "Apple开发本地AI运行工具",
+    "impact": 3,
+    "why": "Apple进入本地模型运行赛道，将加速隐私计算与端侧AI的普及，简化本地推理的落地门槛。",
+    "audience": "本地AI应用开发者",
+    "report": "ai-hn"
+  }
+]

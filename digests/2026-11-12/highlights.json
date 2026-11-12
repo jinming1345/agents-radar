@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 开发目前处于停滞状态",
+      "OpenAI Codex 进入 Alpha 阶段，PR 活跃度高",
+      "生态系统转向 Model Context Protocol 标准",
+      "Qwen Code 预览版增加持久化智能体记忆功能",
+      "Copilot CLI 发布紧急热修复补丁",
+      "OpenCode 重点转向有状态智能体工作流"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.11.5 修复关键内存错误",
+      "OpenClaw 正在进行高强度稳定性优化",
+      "分页历史记录读取优化了归档浏览",
+      "Hermes Agent 报告活跃贡献者众多",
+      "补丁解决了子智能体生命周期的可靠性",
+      "macOS 安装的密钥保存问题已修复"
+    ],
+    "ai-infra": [
+      "vLLM 跟踪 v0.32.0-dev 发布周期",
+      "SGLang 优化了 Blackwell 硬件性能",
+      "llama.cpp 发布势头达到 b12292",
+      "LiteLLM v1.108.6 修复关键安全漏洞",
+      "Unsloth beta v0.1.917 瞄准本地效率",
+      "行业转向 FP8 和 MXFP4 量化"
+    ],
+    "ai-trending": [
+      "Vercel agent-browser 日增 708 颗星",
+      "Addy Osmani agent-skills 日增 787 颗星",
+      "Home Assistant MCP 集成新增 645 颗星",
+      "CowAgent 总星数维持在 47,882",
+      "股票分析工具总星数达到 70,293",
+      "AI 智能体正向后台工具层迁移"
+    ],
+    "ai-web": [
+      "Anthropic 启动 IPO 路演，定价 70-78 美元",
+      "Anthropic 计划发行 8.25 亿股流通股",
+      "Claude 演变为端到端科学实验室",
+      "客座研究员加入生命科学驻留计划",
+      "OpenAI 产出转向小众资深项目",
+      "Anthropic 强调生物研究实用性"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 引发社区大规模辩论",
+      "新剪枝论文提升推理性能",
+      "美联航禁止 AI 驱动的预订智能体",
+      "苹果正在开发新的本地 AI Mac 应用",
+      "用户探讨 AI 智能体在生产环境的脆弱性",
+      "社区讨论 AI 生产力与现实的差距"
+    ],
+    "ai-arxiv": [
+      "训练后阶段的新策略优化理论",
+      "人类期望驱动感知到的 AI 衰减",
+      "按需精度实现高效本地 LLM",
+      "研究探索记忆感知型智能体架构",
+      "动态精度限制资源密集型解码",
+      "科学发现基准论文涌现"
+    ],
+    "ai-community": [
+      "QA 团队报告 AI 集成工作流存在摩擦",
+      "定义“不知道”状态可防止幻觉",
+      "调查显示 Anthropic 漏洞修复存在差距",
+      "AI 审计工具发现 38,000 个漏洞",
+      "开发者对 AI 生产力的怀疑日益增加",
+      "社区呼吁采用模式驱动的智能体设计"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code development remains currently stagnant",
+      "OpenAI Codex reaches Alpha with high PR activity",
+      "Ecosystem moving to Model Context Protocol standard",
+      "Qwen Code preview adds durable agent memory features",
+      "Copilot CLI pushes emergency hotfix updates",
+      "OpenCode focus shifts to stateful agent workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.11.5 fixes critical memory bugs",
+      "High-intensity stabilization for OpenClaw underway",
+      "New paged history reads improve archive browsing",
+      "Hermes Agent reports high contributor activity",
+      "Patches address subagent lifecycle reliability",
+      "Secret preservation fixed for macOS installations"
+    ],
+    "ai-infra": [
+      "vLLM tracks new v0.32.0-dev release cycle",
+      "SGLang optimizes performance for Blackwell hardware",
+      "llama.cpp release momentum hits b12292",
+      "LiteLLM v1.108.6 addresses critical security patch",
+      "Unsloth beta v0.1.917 targets local efficiency",
+      "Industry shifts toward FP8 and MXFP4 quantization"
+    ],
+    "ai-trending": [
+      "Vercel agent-browser trends with 708 daily stars",
+      "Addy Osmani agent-skills hits 787 daily stars",
+      "Home Assistant MCP integration gains 645 stars",
+      "CowAgent maintains 47,882 total project stars",
+      "Stock analysis tool reaches 70,293 total stars",
+      "AI agents moving into background utility layers"
+    ],
+    "ai-web": [
+      "Anthropic initiates IPO roadshow for $70-78 price",
+      "Anthropic plans 825 million shares for public float",
+      "Claude evolves into end-to-end science laboratory",
+      "Guest researchers join life science residency",
+      "OpenAI output shifts toward niche veteran programs",
+      "Anthropic highlights biological research utility"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 triggers massive community debate",
+      "New pruning paper improves inference performance",
+      "United Airlines bans AI-powered booking agents",
+      "Apple developing new local AI Mac application",
+      "Users debate AI agent fragility in production",
+      "Community discusses AI productivity versus reality"
+    ],
+    "ai-arxiv": [
+      "New policy optimization theory for post-training",
+      "Human expectations drive perceived AI decay",
+      "Precision on Demand enables efficient local LLMs",
+      "Research explores memory-aware agent architectures",
+      "Dynamic precision limits resource-heavy decoding",
+      "Scientific discovery benchmark papers emerge"
+    ],
+    "ai-community": [
+      "QA teams report friction in AI-integrated workflows",
+      "Defining I don't know state prevents hallucinations",
+      "Investigation shows gap in Anthropic bug fixes",
+      "38,000 vulnerabilities found via AI audit tool",
+      "Developer skepticism grows regarding AI productivity",
+      "Community calls for schema-driven agent design"
+    ]
+  }
+}
